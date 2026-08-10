@@ -18,11 +18,12 @@ jobs:
           PEMS_USER: ${{ secrets.PEMS_USER }}
           PEMS_PASS: ${{ secrets.PEMS_PASS }}
         run: python3 pems_daily.py
+          python3 render_site.py
       - name: Commit
         run: |
           git config user.name "truckee-i80 daily job"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/pems data/chp || git add data/pems
+          git add docs/data.html; git add data/pems data/chp || git add data/pems
           git pull --rebase --autostash -q || true
           git diff --cached --quiet || git commit -m "PeMS daily: $(date -u +%F)"
           git push
