@@ -81,15 +81,20 @@ def pull_chp(op, day):
 def main():
     day = (datetime.datetime.now(TZ) - datetime.timedelta(days=1)).date()
     out_path = f"data/pems/hourly/{day.isoformat()}.csv"
-    if os.path.exists(out_path):
-        print(f"{out_path} already exists; nothing to do")
+    chp_path = f"data/chp/{day.isoformat()}.csv"
+    if os.path.exists(out_path) and os.path.exists(chp_path):
+        print("both datasets already present for", day)
         return
     ids = set(open("config/truckee_stations.txt").read().split())
     op = opener_with_login()
-    try:
-        pull_chp(op, day)
-    except Exception as e:
-        print(f"CHP pull skipped: {e}")
+    if not os.path.exists(chp_path):
+        try:
+            pull_chp(op, day)
+        except Exception as e:
+            print(f"CHP pull skipped: {e}")
+    if os.path.exists(out_path):
+        print(f"{out_path} already exists; skipping detector pull")
+        return
     want = f"d03_text_station_5min_{day.strftime('%Y_%m_%d')}.txt.gz"
     href = find_file(op, "3", "station_5min", want)
     if not href:
