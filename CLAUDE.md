@@ -1,4 +1,4 @@
-# CLAUDE.md — truckee-i80
+# CLAUDE.md: truckee-i80
 
 Public record of Interstate 80 over Donner Pass at Truckee: traffic volumes, chain control and
 closures, incidents, governance, funding, history. Site: https://micrui.github.io/truckee-i80
@@ -15,20 +15,22 @@ Same rules as truckee-flights:
   statements. Political questions (what the corridor should carry, who should pay) stay open;
   the site supplies the record.
 - No self-referential neutrality statements, no apologetic framing, no editorializing labels.
+- No em-dashes anywhere, in site prose or repo docs. Use commas, colons, semicolons,
+  parentheses, or a new sentence.
 - Every number traces to a linked source. Corrections are dated addenda, never silent.
 
 ## Data collection
 
 All jobs are stdlib-only Python run by GitHub Actions:
 
-- `pems_daily.py` (workflow `pems-daily.yml`, daily 19:00 UTC) — pulls yesterday's Caltrans PeMS
+- `pems_daily.py` (workflow `pems-daily.yml`, daily 19:00 UTC) pulls yesterday's Caltrans PeMS
   5-minute detector file for District 3, filters to the 55 stations in `config/truckee_stations.txt`,
   aggregates to hourly rows in `data/pems/hourly/`. Also pulls the statewide daily CHP incident
   file and filters to the corridor box in `data/chp/`.
-- `conditions_poll.py` (workflow `conditions-poll.yml`) — polls Caltrans' public cwwp2 feeds for
+- `conditions_poll.py` (workflow `conditions-poll.yml`) polls Caltrans' public cwwp2 feeds for
   chain-control status and lane closures on I-80 in Nevada/Placer counties; appends changes to
   `data/conditions/log.jsonl`. Winter cadence every 30 min, summer every 3 h.
-- **Corridor box**: lat 39.2–39.6, lon −120.9 to −119.99 — Baxter to the Nevada state line,
+- **Corridor box**: lat 39.2–39.6, lon −120.9 to −119.99, Baxter to the Nevada state line,
   matching the corridor's chain-control territory.
 
 ## Credentials policy
