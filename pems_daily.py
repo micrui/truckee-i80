@@ -27,9 +27,9 @@ def opener_with_login():
         sys.exit("PeMS login failed")
     return op
 
-def find_file(op, district, ftype, want):
+def find_file(op, district, ftype, year, want):
     url = (f"{BASE}/?srq=clearinghouse&district_id={district}&geotag=null"
-           f"&yy={want[-14:-10]}&type={ftype}&returnformat=text")
+           f"&yy={year}&type={ftype}&returnformat=text")
     with op.open(url, timeout=60) as r:
         listing = json.load(r)
     for month in (listing.get("data") or {}).values():
@@ -52,7 +52,7 @@ def pull_chp(op, day):
     """CHP incidents are statewide; filter to the Truckee I-80 box."""
     import zipfile, gzip, csv as _csv
     want = f"all_text_chp_incidents_day_{day.strftime('%Y_%m_%d')}.txt.zip"
-    href = find_file(op, "all", "chp_incidents_day", want)
+    href = find_file(op, "all", "chp_incidents_day", day.year, want)
     if not href:
         print("CHP file not posted yet")
         return
@@ -96,7 +96,7 @@ def main():
         print(f"{out_path} already exists; skipping detector pull")
         return
     want = f"d03_text_station_5min_{day.strftime('%Y_%m_%d')}.txt.gz"
-    href = find_file(op, "3", "station_5min", want)
+    href = find_file(op, "3", "station_5min", day.year, want)
     if not href:
         print(f"5-min file for {day} not posted yet; exiting cleanly")
         return
