@@ -1,0 +1,34 @@
+Caltrans / State of California eServices Use Policy, as presented at PeMS account
+signup (pems.dot.ca.gov), archived 2026-08-09. Policy self-dated December 7, 2000,
+and "subject to change without notice."
+
+Key passages, verbatim:
+
+OWNERSHIP
+"In general, information presented on this web site, unless otherwise indicated, is
+considered in the public domain. It may be distributed or copied as permitted by law.
+However, the State does make use of copyrighted data (e.g., photographs) which may
+require additional permissions prior to your use. In order to use any information on
+this web site not owned or created by the State, you must seek permission directly
+from the owning (or holding) sources. The State shall have the unlimited right to use
+for any purpose, free of any charge, all information submitted via this site except
+those submissions made under separate legal contract. The State shall be free to use,
+for any purpose, any ideas, concepts, or techniques contained in information provided
+through this site."
+
+LINKS TO OTHER SITES (monitoring and prohibited-use clause)
+"This web site and the information it contains are provided as a public service by the
+eServices Office. This system is monitored to ensure proper operation, to verify the
+functioning of applicable security features, and for comparable purposes. Anyone using
+this system expressly consents to such monitoring. Unauthorized attempts to modify any
+information stored on this system, to defeat or circumvent security features, or to
+utilize this system for other than its intended purposes are prohibited and may result
+in criminal prosecution."
+
+LIMITATION OF LIABILITY
+"The State makes no claims, promises, or guarantees about the absolute accuracy,
+completeness, or adequacy of the contents of this web site and expressly disclaims
+liability for errors and omissions in the contents of this web site."
+
+(Full policy text retained by the maintainer; the passages above are the ones bearing
+on this project's use of the data.)
