@@ -22,6 +22,13 @@
 - Current conditions text: roads.dot.ca.gov/roadinfo/i80
 - Annual AADT and truck AADT: Caltrans GIS REST layers (gisdata.dot.ca.gov)
 
+## CHP incidents
+
+- Live traffic incidents (collisions, hazards, fires) via the PeMS CHP Incidents Day
+  dataset, statewide, filtered to the I-80 Truckee/Donner box. Pulled by the same daily
+  job into `data/chp/`. This is the real-time incident feed; TIMS below is the
+  adjudicated historical crash record.
+
 ## Crash data
 
 - SWITRS via TIMS (tims.berkeley.edu, UC Berkeley SafeTREC), registered access,

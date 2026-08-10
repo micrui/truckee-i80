@@ -27,17 +27,56 @@ def opener_with_login():
         sys.exit("PeMS login failed")
     return op
 
-def find_file(op, day):
-    url = (f"{BASE}/?srq=clearinghouse&district_id=3&geotag=null"
-           f"&yy={day.year}&type=station_5min&returnformat=text")
+def find_file(op, district, ftype, want):
+    url = (f"{BASE}/?srq=clearinghouse&district_id={district}&geotag=null"
+           f"&yy={want[-14:-10]}&type={ftype}&returnformat=text")
     with op.open(url, timeout=60) as r:
         listing = json.load(r)
-    want = f"d03_text_station_5min_{day.strftime('%Y_%m_%d')}.txt.gz"
     for month in (listing.get("data") or {}).values():
         for e in month:
             if e.get("file_name") == want:
                 return e["url"]
     return None
+
+def download(op, href):
+    with op.open(BASE + href, timeout=300) as r:
+        return r.read()
+
+TRUCKEE_BOX = (39.2, 39.6, -120.6, -120.0)  # lat_min, lat_max, lon_min, lon_max
+
+def in_box(lat, lon):
+    a, b, c, d = TRUCKEE_BOX
+    return a <= lat <= b and c <= lon <= d
+
+def pull_chp(op, day):
+    """CHP incidents are statewide; filter to the Truckee I-80 box."""
+    import zipfile, gzip, csv as _csv
+    want = f"all_text_chp_incidents_day_{day.strftime('%Y_%m_%d')}.txt.zip"
+    href = find_file(op, "all", "chp_incidents_day", want)
+    if not href:
+        print("CHP file not posted yet")
+        return
+    z = zipfile.ZipFile(io.BytesIO(download(op, href)))
+    inner = z.read([n for n in z.namelist() if "det" not in n][0])
+    text = gzip.decompress(inner).decode(errors="replace") if inner[:2] == b"\x1f\x8b" else inner.decode(errors="replace")
+    rows = []
+    for r in _csv.reader(text.splitlines()):
+        try:
+            lat, lon, fwy = float(r[9]), float(r[10]), r[14]
+        except (ValueError, IndexError):
+            continue
+        if fwy == "80" and in_box(lat, lon):
+            rows.append([r[3], r[4], r[5], r[15] if len(r) > 15 else "", r[9], r[10]])
+    if not rows:
+        print("no I-80 Truckee-box incidents that day")
+        return
+    out = f"data/chp/{day.isoformat()}.csv"
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["datetime", "description", "location", "direction", "lat", "lon"])
+        w.writerows(rows)
+    print(f"wrote {out}: {len(rows)} incidents")
 
 def main():
     day = (datetime.datetime.now(TZ) - datetime.timedelta(days=1)).date()
@@ -47,12 +86,16 @@ def main():
         return
     ids = set(open("config/truckee_stations.txt").read().split())
     op = opener_with_login()
-    href = find_file(op, day)
+    try:
+        pull_chp(op, day)
+    except Exception as e:
+        print(f"CHP pull skipped: {e}")
+    want = f"d03_text_station_5min_{day.strftime('%Y_%m_%d')}.txt.gz"
+    href = find_file(op, "3", "station_5min", want)
     if not href:
-        print(f"day file for {day} not posted yet; exiting cleanly")
+        print(f"5-min file for {day} not posted yet; exiting cleanly")
         return
-    with op.open(BASE + href, timeout=300) as r:
-        raw = r.read()
+    raw = download(op, href)
     print(f"downloaded {len(raw):,} bytes")
     # aggregate: (station, direction, lane_type, hour) -> [veh, flow-weighted speed sum]
     agg = {}
