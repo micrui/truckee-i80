@@ -1,0 +1,13 @@
+year,route,county,postmile,location,leg,aadt_total,aadt_truck,truck_pct,axle5plus,axle5plus_pct_of_trucks
+2024,I-80,NEV,R59.54,Jct Rte 20 (Emigrant Gap area),ahead,30500,5743,18.83,3944,68.68
+2024,I-80,NEV,14.164,Truckee Jct SR-89 South,ahead,37000,6538,17.67,4590,70.20
+2024,I-80,NEV,14.164,Truckee Jct SR-89 South,back,36000,6451,17.92,4441,68.84
+2024,I-80,NEV,16.285,Jct SR-89 N / SR-267,ahead,35500,6205,17.48,4556,73.42
+2024,I-80,NEV,20.225,Union Hills Br (near CHP scales),back,29500,6086,20.63,4182,68.72
+2024,I-80,PLA,R23.429,Clipper Gap (Bowman WIM),ahead,44500,8130,18.27,5037,61.95
+2023,I-80,NEV,14.164,Truckee Jct SR-89 South,ahead,30000,5301,17.67,3721,70.20
+2023,I-80,NEV,14.164,Truckee Jct SR-89 South,back,27500,4928,17.92,3392,68.84
+2023,I-80,NEV,16.285,Jct SR-89 N / SR-267,ahead,29500,5157,17.48,3786,73.42
+2022,I-80,NEV,14.164,Truckee Jct SR-89 South,ahead,32000,5654,17.67,3969,70.20
+2022,I-80,NEV,14.164,Truckee Jct SR-89 South,back,29000,5197,17.92,3578,68.84
+2022,I-80,NEV,20.225,Union Hills Br (near CHP scales),back,34000,7014,20.63,4820,68.72

@@ -1,0 +1,167 @@
+<meta charset="utf-8">
+<title>truckee-i80: how the freeway is paid for</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f6f7f9; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10); --accent: #2a78d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0c0e11; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+      --muted: #898781; --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --accent: #3987e5;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0c0e11; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+    --muted: #898781; --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --accent: #3987e5;
+  }
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --page: #f6f7f9; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10); --accent: #2a78d6;
+  }
+  body { background: var(--page); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.6; margin: 0; padding: 48px 20px 72px; }
+  .wrap { max-width: 800px; margin: 0 auto; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+    margin: 0 0 10px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .eyebrow a { color: inherit; }
+  h1 { font-size: clamp(26px, 4vw, 38px); font-weight: 700; letter-spacing: -0.02em; margin: 0 0 14px; }
+  .standfirst { font-size: 15.5px; color: var(--ink-2); max-width: 66ch; margin: 0 0 30px; }
+  h2 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin: 40px 0 8px; }
+  p { max-width: 70ch; font-size: 15px; margin: 0 0 12px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; margin: 10px 0 6px; }
+  th { text-align: left; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
+    font-weight: 600; padding: 6px 12px 6px 0; border-bottom: 1px solid var(--axis); }
+  th.num, td.num { text-align: right; }
+  td { padding: 6px 12px 6px 0; border-bottom: 1px solid var(--grid); vertical-align: top; font-variant-numeric: tabular-nums; }
+  .src { font-size: 12px; color: var(--muted); margin: 4px 0 0; max-width: 70ch; }
+  .src a { color: var(--muted); }
+  .table-scroll { overflow-x: auto; }
+  a { color: var(--accent); }
+  .foot { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--grid); color: var(--muted); font-size: 12.5px; max-width: 74ch; }
+</style>
+<div class="wrap">
+  <p class="eyebrow"><a href="./">truckee-i80</a> · funding</p>
+  <h1>How the freeway is paid for</h1>
+  <p class="standfirst">
+    Who pays for the interstate over Donner Pass, what it costs to keep open, and how the wear
+    is distributed — from federal spending records, Caltrans project documents, and the federal
+    government's own cost studies.
+  </p>
+
+  <h2>What users pay at the pump</h2>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Charge</th><th class="num">Rate</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td>Federal gasoline tax</td><td class="num">18.4¢/gal</td><td>Unchanged since 1993, not indexed</td></tr>
+      <tr><td>Federal diesel tax</td><td class="num">24.4¢/gal</td><td>Unchanged since 1993, not indexed</td></tr>
+      <tr><td>California gasoline excise</td><td class="num">61.2¢/gal</td><td>Indexed annually; rate from July 2025</td></tr>
+      <tr><td>California diesel excise</td><td class="num">46.6¢/gal</td><td>Indexed annually; rate from July 2025</td></tr>
+      <tr><td>Federal heavy vehicle use tax</td><td class="num">≤ $550/yr</td><td>Trucks 55,000 lb and up; capped at 75,000 lb</td></tr>
+    </tbody>
+  </table></div>
+  <p>Because the federal rates have not moved since 1993, the federal Highway Trust Fund has
+  needed repeated transfers from general revenue — including $118 billion in the 2021
+  infrastructure act. A truck's federal annual use tax is capped at $550 regardless of weight
+  above 75,000 pounds or miles driven.</p>
+  <p class="src">Sources: <a href="https://www.fhwa.dot.gov/policy/olsp/fundingfederalaid/07.cfm">FHWA Highway Trust Fund primer</a> ·
+  <a href="https://cdtfa.ca.gov/taxes-and-fees/special-taxes-and-fees-tax-rates/fuel-taxes.htm">CDTFA fuel tax rates</a> ·
+  <a href="https://www.fhwa.dot.gov/policyinformation/hvut/mod1/whatishvut.cfm">FHWA heavy vehicle use tax</a> ·
+  <a href="https://www.congress.gov/crs-product/R48472">Congressional Research Service, R48472</a></p>
+
+  <h2>California's truck weight fees go to bond debt, not roads</h2>
+  <p>California collects roughly $1 billion a year in commercial vehicle weight fees. Since 2011,
+  state law has directed that revenue away from the highway account and toward debt service on
+  past transportation bonds.</p>
+  <p class="src">Sources: <a href="https://catc.ca.gov/-/media/ctc-media/documents/fs-trans-funding-overview-031017-a11y.pdf">California Transportation Commission funding overview</a> ·
+  <a href="https://lao.ca.gov/LAOEconTax/Article/Detail/798">Legislative Analyst's Office</a></p>
+
+  <h2>What this corridor costs</h2>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Project</th><th class="num">Cost</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td>Emergency pavement repairs, 2023–24</td><td class="num">$107.4M</td><td>Nine contracts; Caltrans attributed the rutting to heavy trucks and chain wear</td></tr>
+      <tr><td>Blue Canyon rehabilitation (underway)</td><td class="num">$116.7M</td><td>Includes an eastbound truck-climbing lane</td></tr>
+      <tr><td>Soda Springs rehabilitation</td><td class="num">$90.7M</td><td>Placer County line to east of Donner Pass Road; new truck-climbing lane</td></tr>
+      <tr><td>Truckee rehabilitation, 2022</td><td class="num">$30.6M</td><td>Auxiliary lanes, chain-up shoulder repave</td></tr>
+      <tr><td>Donner Summit pavement inlay, 2019</td><td class="num">$7.5M</td><td>Caltrans: rutting "caused by heavy trucks and chain usage during winter"</td></tr>
+    </tbody>
+  </table></div>
+  <p>Winter operations run on top of capital work: Caltrans stages 132 pieces of snow-removal
+  equipment on I-80 and roughly 237 winter staff for the Tahoe-Truckee area, against an average
+  of about thirty feet of snow a year at the summit.</p>
+  <p class="src">Sources: <a href="https://dot.ca.gov/caltrans-near-me/district-3/d3-news/d3-news-release-24-058">Caltrans release 24-058</a> ·
+  <a href="https://dot.ca.gov/caltrans-near-me/district-3/d3-news/d3-news-release-26-053">release 26-053</a> ·
+  <a href="https://dot.ca.gov/caltrans-near-me/district-3/d3-projects/d3-i80-soda-springs">Soda Springs project</a> ·
+  <a href="https://dot.ca.gov/caltrans-near-me/district-3/d3-news/d3-news-release-19-213">release 19-213</a> ·
+  <a href="https://www.sierrasun.com/news/local/caltrans-237-employees-ready-for-tahoe-truckee-area-snow-removal/">Sierra Sun</a></p>
+
+  <h2>Who causes the wear</h2>
+  <p>The federal government's pavement engineering rests on a finding from the AASHO Road Test:
+  pavement damage rises with roughly the fourth power of axle weight. Doubling the load on an
+  axle multiplies its pavement damage about sixteen times, which is why a loaded five-axle
+  tractor-trailer consumes pavement on the order of several thousand cars.</p>
+  <p>The federal Highway Cost Allocation Study compares what each vehicle class pays in federal
+  user fees against the costs it imposes:</p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Vehicle class</th><th class="num">Share of its costs paid</th></tr></thead>
+    <tbody>
+      <tr><td>Automobiles</td><td class="num">≈ 90%</td></tr>
+      <tr><td>Pickups and vans</td><td class="num">≈ 120%</td></tr>
+      <tr><td>Combination trucks, 75–80,000 lb</td><td class="num">≈ 90%</td></tr>
+      <tr><td>Combination trucks over 80,000 lb</td><td class="num">≈ 60%</td></tr>
+      <tr><td>Single-unit trucks over 50,000 lb</td><td class="num">≈ 50%</td></tr>
+    </tbody>
+  </table></div>
+  <p>In per-mile terms, the same study put an automobile's federal cost responsibility at about
+  0.65 cents per mile and the heaviest combinations' at 16.6 cents per mile — roughly
+  twenty-five times more.</p>
+  <p class="src">Sources: <a href="https://www.fhwa.dot.gov/policy/hcas/summary/sum4.cfm">FHWA Highway Cost Allocation Study, equity ratios</a> ·
+  <a href="https://www.fhwa.dot.gov/policy/hcas/summary/sum2.cfm">per-mile table</a> ·
+  <a href="https://www.fhwa.dot.gov/reports/tswstudy/vol3-chapter5.pdf">FHWA truck size and weight study, pavement chapter</a></p>
+
+  <h2>The trucks on this corridor</h2>
+  <p>The 2024 Caltrans truck census counts about 6,500 trucks a day through Truckee — roughly one
+  vehicle in six — and about seven in ten of them are five-axle combinations, the heaviest common
+  class. Caltrans describes 6,200 commercial vehicles a day crossing Donner Summit and values the
+  goods they carry at more than $4.7 million per hour. Applying the federal fourth-power finding
+  to those counts, the truck fleet accounts for effectively all of the corridor's pavement
+  consumption; Caltrans' own project documents attribute the corridor's rutting to heavy trucks
+  and chain wear.</p>
+  <p class="src">Sources: <a href="https://dot.ca.gov/programs/traffic-operations/census">Caltrans Traffic Census, truck AADT tables</a> ·
+  <a href="https://dot.ca.gov/caltrans-near-me/district-3/d3-news/d3-news-release-19-213">Caltrans release 19-213</a></p>
+
+  <h2>How other jurisdictions charge for road wear</h2>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Jurisdiction</th><th>Charge</th><th class="num">Example rate</th></tr></thead>
+    <tbody>
+      <tr><td>Oregon (since 1925)</td><td>Weight-mile tax, in lieu of diesel tax</td><td class="num">23.7¢/mi at 80,000 lb</td></tr>
+      <tr><td>New Mexico</td><td>Weight-distance tax</td><td class="num">≈ 4¢/mi at 80,000 lb</td></tr>
+      <tr><td>Kentucky</td><td>Weight-distance tax</td><td class="num">2.85¢/mi over 60,000 lb</td></tr>
+      <tr><td>New York</td><td>Highway use tax, graduated by weight</td><td class="num">varies by weight</td></tr>
+      <tr><td>Connecticut (since 2023)</td><td>Highway use fee</td><td class="num">graduated by weight</td></tr>
+      <tr><td>Germany</td><td>Per-kilometer truck toll by axle count, weight, and emissions</td><td class="num">≈ 15–25 ct/km</td></tr>
+      <tr><td>California</td><td>Diesel excise per gallon</td><td class="num">46.6¢/gal</td></tr>
+    </tbody>
+  </table></div>
+  <p>Federal law forbids tolling existing free interstate lanes but does not forbid a state tax
+  on truck miles graduated by weight; the states above levy one today. California's charge is per
+  gallon of diesel, which varies with fuel economy rather than with weight or distance.</p>
+  <p class="src">Sources: <a href="https://www.oregon.gov/odot/Forms/Motcarr/9928-2022.pdf">Oregon DOT weight-mile rate table</a> ·
+  <a href="https://drive.ky.gov/Motor-Carriers/Pages/KYU.aspx">Kentucky KYU</a> ·
+  <a href="https://www.tax.newmexico.gov/businesses/2020/10/21/weight-distance-tax/">New Mexico weight-distance tax</a> ·
+  <a href="https://www.tax.ny.gov/bus/hut/huidx.htm">New York highway use tax</a> ·
+  <a href="https://www.toll-collect.de/en/toll_collect/bezahlen/maut_tarife/p1745_mauttarife_07_2024.html">Toll Collect rates</a> ·
+  <a href="https://uscode.house.gov/view.xhtml?req=(title:23%20section:301%20edition:prelim)">23 U.S.C. § 301</a></p>
+
+  <div class="foot">
+    <p>The "several thousand cars" pavement comparison is a derivation from the fourth-power
+    relationship and varies by pavement type; the linked FHWA chapter gives the engineering basis.
+    All other figures are from the linked public documents. Corrections welcome via
+    <a href="https://github.com/micrui/truckee-i80">GitHub</a>.</p>
+  </div>
+</div>

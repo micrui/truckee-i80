@@ -1,0 +1,117 @@
+<meta charset="utf-8">
+<title>truckee-i80</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f6f7f9; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --border: rgba(11,11,11,0.10); --accent: #2a78d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0c0e11; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+      --muted: #898781; --grid: #2c2c2a; --border: rgba(255,255,255,0.10); --accent: #3987e5;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0c0e11; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+    --muted: #898781; --grid: #2c2c2a; --border: rgba(255,255,255,0.10); --accent: #3987e5;
+  }
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --page: #f6f7f9; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --border: rgba(11,11,11,0.10); --accent: #2a78d6;
+  }
+  body {
+    background: var(--page); color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.6; margin: 0; padding: 56px 20px 72px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  .eyebrow {
+    font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+    margin: 0 0 10px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  h1 { font-size: clamp(30px, 5vw, 42px); font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; margin: 0 0 18px; }
+  .mission { font-size: 17px; color: var(--ink-2); margin: 0 0 14px; max-width: 62ch; }
+  .mission strong { color: var(--ink); }
+  h2 { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; margin: 42px 0 12px; }
+  .card {
+    display: block; background: var(--surface); border: 1px solid var(--border); border-radius: 6px;
+    padding: 16px 18px; margin: 0 0 12px; text-decoration: none; color: var(--ink);
+  }
+  .card:hover { border-color: var(--accent); }
+  .card .t { font-weight: 650; font-size: 16px; }
+  .card .t .tag {
+    font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
+    font-weight: 600; margin-left: 8px; font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  .card .d { font-size: 14px; color: var(--ink-2); margin-top: 4px; }
+  p { max-width: 68ch; font-size: 15px; }
+  ul { max-width: 68ch; font-size: 15px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .foot { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--grid); color: var(--muted); font-size: 12.5px; max-width: 72ch; }
+</style>
+<div class="wrap">
+  <p class="eyebrow">truckee-i80 · a public record</p>
+  <h1>Interstate 80 through Truckee</h1>
+  <p class="mission">
+    An independent public record of the interstate over Donner Pass: how much traffic crosses it,
+    what it carries, what it costs, who governs it, and what happens on it. Built by a Truckee
+    resident from public data — Caltrans detectors, chain-control and closure feeds, and incident
+    records — with every number traceable to its source.
+  </p>
+  <p class="mission">
+    The corridor is one of the busiest mountain freight crossings in the country, and decisions
+    about it are made far from town. This site collects the record in one legible place so local
+    conversations can start from the same facts.
+  </p>
+
+  <h2>Pages</h2>
+  <a class="card" href="history.html">
+    <div class="t">How the road got here</div>
+    <div class="d">Wagon road, Lincoln Highway, US 40, and the 1964 interstate — a sourced timeline of the pass.</div>
+  </a>
+  <a class="card" href="governance.html">
+    <div class="t">Who governs the freeway</div>
+    <div class="d">What Caltrans, the CHP, and federal law each control — and what the Town of Truckee can and cannot decide.</div>
+  </a>
+  <a class="card" href="funding.html">
+    <div class="t">How the freeway is paid for</div>
+    <div class="d">Fuel taxes, truck fees, and maintenance costs — who pays for the corridor and what it costs to keep open.</div>
+  </a>
+  <a class="card" href="safety.html">
+    <div class="t">Accidents and incidents</div>
+    <div class="d">The corridor's crash record, from official data, including recent major closures.</div>
+  </a>
+
+  <h2>Data this site collects</h2>
+  <p>Collection runs automatically and accumulates in the open in the
+  <a href="https://github.com/micrui/truckee-i80">repository</a>:</p>
+  <ul>
+    <li><strong>Traffic volumes and speeds</strong> — hourly counts by direction from the 55 Caltrans
+    detector stations on the Truckee–Donner segment, pulled daily from the state's performance
+    measurement system under a registered account.</li>
+    <li><strong>Chain control and closures</strong> — every change in chain requirements and lane
+    closures on the corridor, logged as it happens from Caltrans' public feeds.</li>
+    <li><strong>Incidents</strong> — collisions, hazards, and vehicle fires on the Truckee–Donner
+    segment, from the daily CHP incident record.</li>
+  </ul>
+  <p>Provenance for every source is documented in
+  <a href="https://github.com/micrui/truckee-i80/blob/main/DATA-SOURCES.md">DATA-SOURCES.md</a>.</p>
+
+  <h2>Live conditions (official sources)</h2>
+  <ul>
+    <li><a href="https://quickmap.dot.ca.gov/">Caltrans QuickMap</a> — chain controls, closures, cameras, plows, live.</li>
+    <li><a href="https://roads.dot.ca.gov/">Caltrans road information</a> — highway conditions by route number.</li>
+    <li><a href="https://cwwp2.dot.ca.gov/vm/iframemap.htm">Caltrans cameras</a> — the Donner Pass camera set.</li>
+    <li><a href="https://www.weather.gov/rev/">National Weather Service Reno</a> — forecasts for the Sierra crest.</li>
+  </ul>
+
+  <div class="foot">
+    <p>Maintained by a Truckee resident. Not affiliated with Caltrans, the CHP, or the Town of
+    Truckee. Corrections welcome via <a href="https://github.com/micrui/truckee-i80">GitHub</a>.</p>
+  </div>
+</div>

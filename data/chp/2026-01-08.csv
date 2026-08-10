@@ -1,0 +1,14 @@
+datetime,description,location,direction,lat,lon
+01/08/2026 00:04:00,1125-Traffic Hazard,0 I80 E,E,39.311303,-120.546982
+01/08/2026 00:45:00,1125-Traffic Hazard,I80 E / EAGLE LAKES RD OFR,E,39.322186,-120.567698
+01/08/2026 02:47:00,1125-Traffic Hazard,I80 E / Rainbow Rd Onr,E,39.311615,-120.495585
+01/08/2026 05:19:00,1125-Traffic Hazard,I80 E / Rainbow Rd Onr,E,39.311615,-120.495585
+01/08/2026 06:04:00,SNOW Information,I80 E / Kingvale Ofr,E,39.313691,-120.448574
+01/08/2026 06:09:00,1125-Traffic Hazard,I80 W / Central Truckee Onr,W,39.323528,-120.199538
+01/08/2026 06:17:00,1125-Traffic Hazard,0 I80 W,W,39.342934,-120.324879
+01/08/2026 09:46:00,1125-Traffic Hazard,I80 E / Baxter Rd Ofr,E,39.212758,-120.779991
+01/08/2026 10:32:00,1125-Traffic Hazard,I80 W / Central Truckee Ofr,W,39.328123,-120.189828
+01/08/2026 15:39:00,20002-Hit and Run No Injuries,I80 W / Kingvale Ofr,W,39.315282,-120.441787
+01/08/2026 15:48:00,1182-Trfc Collision-No Inj,I80 W / Cisco Grove Ofr,W,39.308485,-120.54154
+01/08/2026 18:54:00,1125-Traffic Hazard,I80 E / Soda Springs Ofr,E,39.32409,-120.395365
+01/08/2026 19:36:00,1125-Traffic Hazard,I80 E / Donner Lake Ofr,E,39.328067,-120.301406

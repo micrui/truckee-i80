@@ -1,0 +1,138 @@
+<meta charset="utf-8">
+<title>truckee-i80: who governs the freeway</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f6f7f9; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10); --accent: #2a78d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0c0e11; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+      --muted: #898781; --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --accent: #3987e5;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0c0e11; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+    --muted: #898781; --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --accent: #3987e5;
+  }
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --page: #f6f7f9; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10); --accent: #2a78d6;
+  }
+  body { background: var(--page); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.6; margin: 0; padding: 48px 20px 72px; }
+  .wrap { max-width: 800px; margin: 0 auto; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+    margin: 0 0 10px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .eyebrow a { color: inherit; }
+  h1 { font-size: clamp(26px, 4vw, 38px); font-weight: 700; letter-spacing: -0.02em; margin: 0 0 14px; }
+  .standfirst { font-size: 15.5px; color: var(--ink-2); max-width: 66ch; margin: 0 0 30px; }
+  h2 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin: 40px 0 8px; }
+  p { max-width: 70ch; font-size: 15px; margin: 0 0 12px; }
+  ul { max-width: 70ch; font-size: 15px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  .src { font-size: 12px; color: var(--muted); margin: 4px 0 0; max-width: 70ch; }
+  .src a { color: var(--muted); }
+  a { color: var(--accent); }
+  .foot { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--grid); color: var(--muted); font-size: 12.5px; max-width: 74ch; }
+</style>
+<div class="wrap">
+  <p class="eyebrow"><a href="./">truckee-i80</a> · governance</p>
+  <h1>Who governs the freeway</h1>
+  <p class="standfirst">
+    The interstate runs through town, but almost none of the decisions about it are made in town.
+    This page maps who actually holds each lever — with the statute or regulation that says so.
+  </p>
+
+  <h2>The state owns and runs it</h2>
+  <p>Interstate 80 is a California state highway. State law gives Caltrans "full possession and
+  control of all state highways" and the duty to improve and maintain them; the federal
+  government's role is money, not ownership — federal highway law describes itself as
+  "a federally assisted State program." Caltrans District 3, headquartered in Marysville,
+  operates the Donner corridor: paving, plowing, chain-control staging, and closures for
+  construction or safety.</p>
+  <p class="src">Sources: <a href="https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=SHC&division=1.&title=&part=&chapter=1.&article=3.">Streets &amp; Highways Code §§ 90–91</a> ·
+  <a href="https://uscode.house.gov/view.xhtml?req=(title:23%20section:145%20edition:prelim)">23 U.S.C. § 145</a></p>
+
+  <h2>The Highway Patrol enforces and closes it</h2>
+  <p>The CHP enforces traffic law on the corridor, commands incident scenes, staffs chain
+  checkpoints, and escorts traffic over the summit during storm reopenings. State law lets the
+  CHP close any highway when conditions "create a menace to public health or safety." East of
+  Truckee, the CHP's Donner Pass commercial vehicle facility operates around the clock as a
+  port of entry, weighing and inspecting trucks.</p>
+  <p class="src">Sources: <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=2812.">Vehicle Code § 2812</a> ·
+  <a href="https://www.chp.ca.gov/find-an-office/valley-division/223-donner-pass">CHP Donner Pass facility</a></p>
+
+  <h2>Chain control</h2>
+  <p>State law makes it a citable violation to drive a signed stretch of highway without traction
+  devices. Caltrans posts the requirement level — R-1 (chains or snow tires), R-2 (chains unless
+  four-wheel drive with snow tires), R-3 (chains on everything) — and the CHP cites drivers who
+  ignore it. On this corridor, controls typically run eastbound from Kingvale and westbound from
+  the Donner Lake Interchange. Trucks chain their drive axles; vehicles over 6,500 pounds must
+  chain under any control level.</p>
+  <p class="src">Sources: <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=27459.">Vehicle Code § 27459</a> ·
+  <a href="https://dot.ca.gov/travel/winter-driving-tips/chain-controls">Caltrans chain controls</a></p>
+
+  <h2>Trucks cannot be kept off it</h2>
+  <p>Federal regulation places every interstate on the National Network for large trucks: a state
+  cannot exclude standard tractor-trailers from it, and a town cannot ban them. California sets a
+  55 mph limit for trucks with three or more axles, enforced by the CHP. Diesel trucks over
+  10,000 pounds are barred by state air rules from idling more than five minutes anywhere in the
+  state, including alongside this corridor.</p>
+  <p class="src">Sources: <a href="https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658">23 CFR Part 658</a> ·
+  <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22406.&lawCode=VEH">Vehicle Code § 22406</a> ·
+  <a href="https://ww2.arb.ca.gov/our-work/programs/atcm-to-limit-vehicle-idling">CARB idling rule</a></p>
+
+  <h2>What the Town of Truckee can decide: almost nothing</h2>
+  <p>The Vehicle Code is "applicable and uniform throughout the state," and local governments may
+  not regulate what it covers unless expressly authorized. The Town cannot set speed limits on
+  the freeway, restrict trucks, meter traffic, or charge for passage. Its transportation role is
+  local: town streets, and funding participation in the TART bus system.</p>
+  <p class="src">Sources: <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=21.">Vehicle Code § 21</a> ·
+  <a href="https://www.townoftruckee.gov/278/Public-Transportation">Town of Truckee public transportation</a></p>
+
+  <h2>Nobody can charge a toll — but some states charge by weight and distance</h2>
+  <p>Federal law requires federal-aid highways to be "free from tolls of all kinds," with narrow
+  exceptions. The one pilot program that would allow tolling an existing free interstate for
+  reconstruction is capped at three facilities nationwide and has never been successfully used.
+  What federal law does not prohibit is a state tax on trucks per mile driven, graduated by
+  weight: Oregon, New Mexico, Kentucky, and New York each levy one today, and Connecticut added
+  one in 2023. California instead taxes diesel by the gallon. How the corridor is actually paid
+  for is on the <a href="funding.html">funding page</a>.</p>
+  <p class="src">Sources: <a href="https://uscode.house.gov/view.xhtml?req=%28title%3A23+section%3A129+edition%3Aprelim%29">23 U.S.C. §§ 301, 129</a> ·
+  <a href="https://www.fhwa.dot.gov/ipd/tolling_and_pricing/tolling_pricing/interstate_rr.aspx">FHWA interstate tolling pilot</a> ·
+  <a href="https://www.congress.gov/crs-product/R44910">Congressional Research Service, R44910</a></p>
+
+  <h2>Freeway noise has no retrofit rule</h2>
+  <p>Federal noise regulation applies when a highway is built or substantially reconstructed —
+  new lanes, new alignment. For an existing highway there is no federal obligation to measure or
+  abate noise; retrofit sound walls exist only under voluntary state programs, and California
+  ranks candidates on a statewide list. Residents near the corridor live with the noise levels
+  the 1964 alignment produces, at whatever traffic the network delivers.</p>
+  <p class="src">Sources: <a href="https://www.ecfr.gov/current/title-23/chapter-I/subchapter-H/part-772">23 CFR Part 772</a> ·
+  <a href="https://www.fhwa.dot.gov/Environment/noise/regulations_and_guidance/faq_nois.cfm">FHWA noise FAQ</a></p>
+
+  <h2>Where decisions are actually made — and where the public can appear</h2>
+  <ul>
+    <li><strong>Caltrans District 3</strong> — project scoping and environmental review, with
+    formal public comment periods on corridor projects.
+    <a href="https://dot.ca.gov/caltrans-near-me/district-3/d3-programs/d3-environmental-planning/d3-environmental-docs">Environmental documents open for comment</a>.</li>
+    <li><strong>Nevada County Transportation Commission</strong> — Truckee is a member agency;
+    meetings are public, and the commission participates in corridor management planning with
+    Caltrans. <a href="https://www.nctc.ca.gov/">nctc.ca.gov</a>.</li>
+    <li><strong>Placer County Transportation Planning Agency</strong> — the west-slope
+    counterpart, same corridor planning role. <a href="https://www.pctpa.net/">pctpa.net</a>.</li>
+    <li><strong>The Legislature and Congress</strong> — the rules above (uniform state traffic
+    law, the toll prohibition, truck network access, fuel-tax structure) are statutes. Changing
+    them is legislative work, not local work.</li>
+  </ul>
+
+  <div class="foot">
+    <p>Statute and regulation citations link to the official text. Corrections welcome via
+    <a href="https://github.com/micrui/truckee-i80">GitHub</a>.</p>
+  </div>
+</div>

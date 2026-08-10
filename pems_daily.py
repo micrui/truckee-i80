@@ -42,14 +42,14 @@ def download(op, href):
     with op.open(BASE + href, timeout=300) as r:
         return r.read()
 
-TRUCKEE_BOX = (39.2, 39.6, -120.6, -120.0)  # lat_min, lat_max, lon_min, lon_max
+CORRIDOR_BOX = (39.2, 39.6, -120.9, -119.99)  # Baxter to the Nevada line: lat_min, lat_max, lon_min, lon_max
 
 def in_box(lat, lon):
-    a, b, c, d = TRUCKEE_BOX
+    a, b, c, d = CORRIDOR_BOX
     return a <= lat <= b and c <= lon <= d
 
 def pull_chp(op, day):
-    """CHP incidents are statewide; filter to the Truckee I-80 box."""
+    """CHP incidents are statewide; filter to the Baxter-to-stateline corridor box."""
     import zipfile, gzip, csv as _csv
     want = f"all_text_chp_incidents_day_{day.strftime('%Y_%m_%d')}.txt.zip"
     href = find_file(op, "all", "chp_incidents_day", day.year, want)

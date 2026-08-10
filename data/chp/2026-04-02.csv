@@ -1,0 +1,11 @@
+datetime,description,location,direction,lat,lon
+04/02/2026 01:01:00,1125-Traffic Hazard,0 I80 W,W,39.33588,-120.305853
+04/02/2026 01:31:00,1125-Traffic Hazard,I80 E / Donner Lake Onr,E,39.330352,-120.285584
+04/02/2026 03:04:00,1125-Traffic Hazard,I80 E / Rainbow Rd Ofr,E,39.311647,-120.499159
+04/02/2026 03:13:00,1125-Traffic Hazard,I80 E / Hirschdale Rd Ofr,E,39.379644,-120.099335
+04/02/2026 06:37:00,CZP-Assist with Construction,I80 W / Farad Rd Ofr,W,39.423046,-120.035705
+04/02/2026 10:38:00,1125-Traffic Hazard,0 I80 W,W,39.330796,-120.302727
+04/02/2026 10:39:00,SPINOUT,I80 W / Donner Lake Ofr,W,39.33112,-120.286115
+04/02/2026 11:14:00,1183-Trfc Collision-Unkn Inj,I80 W / FARAD RD OFR,W,39.438711,-120.020924
+04/02/2026 11:40:00,1182-Trfc Collision-No Inj,I80 E / Donner Lake Ofr,E,39.329487,-120.292543
+04/02/2026 13:20:00,1125-Traffic Hazard,I80 W / Drum Forebay Rd Onr,W,39.234313,-120.75512
