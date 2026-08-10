@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Poll Caltrans open District 3 feeds for I-80 Nevada County chain control and
-lane closures; append state CHANGES to data/conditions/log.jsonl. Caltrans
-publishes no history, so this log is the history. Standard library only."""
-import datetime, json, os, urllib.request
+"""Poll Caltrans open District 3 feeds for I-80 chain control (Nevada/Placer
+counties) and currently active closures; append state CHANGES to
+data/conditions/log.jsonl. Caltrans publishes no history of these feeds, so
+this log is the history. Standard library only."""
+import datetime, json, os, time, urllib.request
 
 UA = "truckee-i80 data project"
-FEEDS = {
-    "chain": "https://cwwp2.dot.ca.gov/data/d3/cc/ccStatusD03.json",
-    "closure": "https://cwwp2.dot.ca.gov/data/d3/lcs/lcsStatusD03.json",
-}
+CC_URL = "https://cwwp2.dot.ca.gov/data/d3/cc/ccStatusD03.json"
+LCS_URL = "https://cwwp2.dot.ca.gov/data/d3/lcs/lcsStatusD03.json"
 STATE = "data/conditions/state.json"
 LOG = "data/conditions/log.jsonl"
 
@@ -19,30 +18,35 @@ def fetch(url):
 
 def snapshot():
     snap = {}
-    cc = fetch(FEEDS["chain"])
-    for item in cc.get("data", []):
-        s = item.get("cc", {})
-        loc = s.get("location", {})
-        if s.get("route") != "SR-80" and "80" not in str(s.get("route", "")):
+    for rec in fetch(CC_URL).get("data", []):
+        c = rec["cc"]
+        loc = c["location"]
+        if loc.get("route") != "I-80" or loc.get("county") not in ("Nevada", "Placer"):
             continue
-        key = f"chain:{s.get('recordName') or loc.get('locationName', '?')}"
-        snap[key] = s.get("statusData", {}).get("status") or s.get("status") or "?"
-    lcs = fetch(FEEDS["closure"])
-    for item in lcs.get("data", []):
-        c = item.get("lcs", {})
-        loc = c.get("location", {}) or {}
-        begin = loc.get("begin", {}) or {}
-        route = begin.get("beginRoute") or ""
-        county = begin.get("beginCounty") or ""
-        if "80" not in str(route) or county not in ("NEV", "PLA", ""):
+        key = f'chain:{loc.get("locationName", "?")}:{loc.get("direction", "?")}'
+        snap[key] = c.get("statusData", {}).get("status", "?")
+    now = time.time()
+    for rec in fetch(LCS_URL).get("data", []):
+        c = rec["lcs"]
+        begin = c["location"]["begin"]
+        if begin.get("beginRoute") != "I-80" or begin.get("beginCounty") not in ("Nevada", "Placer"):
             continue
-        idx = c.get("closure", {}).get("index") or c.get("index") or begin.get("beginNearby") or "?"
-        typ = c.get("closure", {}).get("typeOfClosure") or "?"
-        snap[f"closure:{idx}"] = typ
+        ts = c.get("closure", {}).get("closureTimestamp", {})
+        try:
+            start = float(ts.get("closureStartEpoch", 0))
+            end = float(ts.get("closureEndEpoch", 0))
+        except ValueError:
+            continue
+        indefinite = ts.get("isClosureEndIndefinite") == "true"
+        if start <= now and (indefinite or now <= end):
+            cl = c["closure"]
+            key = f'closure:{c.get("index", "?")}'
+            snap[key] = (f'{cl.get("typeOfClosure", "?")}/{cl.get("typeOfWork", "?")}'
+                         f' {begin.get("beginDirection", "?")} PM{begin.get("beginPostmile", "?")}')
     return snap
 
 def main():
-    now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
     try:
         new = snapshot()
     except Exception as e:
@@ -53,16 +57,15 @@ def main():
     changes = []
     for k, v in new.items():
         if old.get(k) != v:
-            changes.append({"t": now, "key": k, "was": old.get(k), "now": v})
+            changes.append({"t": now_iso, "key": k, "was": old.get(k), "now": v})
     for k in old:
         if k not in new:
-            changes.append({"t": now, "key": k, "was": old[k], "now": None})
+            changes.append({"t": now_iso, "key": k, "was": old[k], "now": None})
     if changes:
-        os.makedirs(os.path.dirname(LOG), exist_ok=True)
         with open(LOG, "a") as f:
             for c in changes:
                 f.write(json.dumps(c) + "\n")
-    json.dump(new, open(STATE, "w"), indent=1)
+    json.dump(new, open(STATE, "w"), indent=1, sort_keys=True)
     print(f"{len(new)} tracked items, {len(changes)} changes")
 
 if __name__ == "__main__":
