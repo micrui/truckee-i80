@@ -48,6 +48,7 @@ def main():
     except Exception as e:
         print(f"fetch failed: {e}")
         return
+    os.makedirs(os.path.dirname(STATE), exist_ok=True)
     old = json.load(open(STATE)) if os.path.exists(STATE) else {}
     changes = []
     for k, v in new.items():
