@@ -1,0 +1,885 @@
+{
+  "updated": "2026-08-10",
+  "facts": [
+    {
+      "id": "busiest-mountain-freight-crossing",
+      "claim": "The Donner Pass corridor is one of the busiest mountain freight crossings in the country.",
+      "status": "held",
+      "sources": [],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/index.html"],
+      "notes": "Characterization without an attached citation on the page; needs a source (e.g., FHWA freight corridor rankings) before it can move to sourced."
+    },
+    {
+      "id": "pems-detector-stations-55",
+      "claim": "The site pulls hourly counts by direction from 55 Caltrans detector stations on the Truckee-Donner segment via the state's performance measurement system.",
+      "status": "sourced",
+      "sources": ["https://github.com/micrui/truckee-i80/blob/main/DATA-SOURCES.md"],
+      "method": "own-data",
+      "checked": "2026-08-10",
+      "pages": ["docs/index.html"],
+      "notes": "Station count reflects the site's own PeMS registration; documented in DATA-SOURCES.md."
+    },
+    {
+      "id": "wagon-road-1864",
+      "claim": "The Dutch Flat & Donner Lake Wagon Road, a toll road built by the owners of the Central Pacific Railroad, opened in June 1864 and ran from Dutch Flat over Donner Pass through Coburn Station, the settlement that became Truckee.",
+      "status": "verified",
+      "sources": ["http://cprr.org/Museum/DFDLWR_Duncan.html", "https://www.sierrasun.com/news/history-making-it-over-the-summit-dutch-flat-donner-lake-wagon-road/"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": ""
+    },
+    {
+      "id": "lincoln-highway-1913",
+      "claim": "The route was folded into the Lincoln Highway in 1913, and in 1914 an underpass was dug beneath the railroad snowsheds at the summit so cars no longer crossed the working track.",
+      "status": "verified",
+      "sources": ["https://www.lincolnhighwayassoc.org/info/ca/", "https://www.donnersummithistoricalsociety.org/PDFs/newsletters/news22/December22.pdf"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": ""
+    },
+    {
+      "id": "us40-rainbow-bridge-1926",
+      "claim": "A rebuilt climb from Donner Lake opened in 1926 crossing the summit on the 240-foot Rainbow Bridge, the road was designated US 40 in the first federal highway numbering, and the route over the pass was fully paved by the early 1930s.",
+      "status": "verified",
+      "sources": ["https://www.truckeehistory.org/rainbow-bridge.html", "https://www.aaroads.com/guides/us-040-ca"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": ""
+    },
+    {
+      "id": "interstate-construction-1956-64",
+      "claim": "The 1956 Interstate Highway Act funded the freeway crossing; engineers abandoned the historic pass for a gentler saddle below Castle Peak two miles north, and the ten-mile summit segment took five years to cut through rock.",
+      "status": "verified",
+      "sources": ["https://ejournals.sierracollege.edu/jsnhb/v2n2/I-80.html", "https://en.wikipedia.org/wiki/Interstate_80_in_California"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": ""
+    },
+    {
+      "id": "summit-elevations",
+      "claim": "The freeway summit is 7,239 feet westbound, higher than the old road's 7,056-foot Donner Pass.",
+      "status": "verified",
+      "sources": ["https://ejournals.sierracollege.edu/jsnhb/v2n2/I-80.html", "https://en.wikipedia.org/wiki/Interstate_80_in_California"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": ""
+    },
+    {
+      "id": "dedication-november-1964",
+      "claim": "Interstate 80 over Donner Summit was dedicated on November 1, 1964, in a blizzard that stranded officials in a seven-mile backup and moved the ceremony indoors, and the road fully opened to traffic later that month.",
+      "status": "verified",
+      "sources": ["https://donnersummithistoricalsociety.org/PDFs/newsletters/news25/December25.pdf", "https://www.sierrasun.com/news/the-old-road/"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": "Donner Summit Historical Society newsletter quotes 1964 newspaper coverage."
+    },
+    {
+      "id": "donner-pass-road-renamed-1961",
+      "claim": "The bypassed US 40 was renamed Donner Pass Road by Nevada County in 1961, and about twenty miles of it survive as a signed scenic route.",
+      "status": "sourced",
+      "sources": ["https://www.sierrasun.com/news/the-old-road/"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": ""
+    },
+    {
+      "id": "flood-closure-1997",
+      "claim": "The January 1997 New Year's flood closed the freeway in both directions at the state line when a landslide covered the roadway, part of the storm that destroyed the Floriston diversion dam on the Truckee River.",
+      "status": "verified",
+      "sources": ["https://pubs.usgs.gov/fs/1997/0123/report.pdf"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": "USGS Fact Sheet 123-97."
+    },
+    {
+      "id": "mudslide-closure-2017",
+      "claim": "A January 2017 atmospheric-river storm sent a mudslide across the freeway near the summit, closing it from Colfax to the state line for about twenty hours.",
+      "status": "verified",
+      "sources": ["https://www.washingtonpost.com/national/torrential-storms-bring-snow-mudslides-flooding-173-mph-winds-in-california/2017/01/09/8c75b076-d69a-11e6-9f9f-5cdb4b7f8dd7_story.html"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": ""
+    },
+    {
+      "id": "truckee-rehab-2022-cost",
+      "claim": "A $30.6 million rehabilitation through Truckee, completed 2022, added auxiliary lanes between Donner Pass Road and the SR 89/267 interchanges and repaved the eastbound chain-up shoulder.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/caltrans-near-me/district-3/d3-projects/d3-i80-truckee-rehab-03-1h18u"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html", "docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "march-2024-blizzard-closure",
+      "claim": "The March 2024 blizzard closed roughly one hundred miles of the freeway for about three days, with dozens of vehicles stranded, following repeated blizzard closures in February-March 2023.",
+      "status": "verified",
+      "sources": ["https://mynews4.com/news/local/blizzard-conditions-on-i-80-in-the-sierra-leaves-dozens-stranded-road-remains-closed", "https://www.accuweather.com/en/winter-weather/i-80-reopens-digging-out-underway-after-monster-snowstorm-buries-northern-california/1627433"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html", "docs/safety.html"],
+      "notes": ""
+    },
+    {
+      "id": "emergency-repairs-2023-24-cost",
+      "claim": "After the 2023-24 winters Caltrans found rutting damage it called unprecedented, attributed it in its own reviews to heavy trucks and chain wear, and let nine emergency repair contracts totaling $107.4 million on the corridor.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/caltrans-near-me/district-3/d3-news/d3-news-release-24-058"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html", "docs/funding.html"],
+      "notes": "Caltrans District 3 release 24-058; attribution of cause is Caltrans' own."
+    },
+    {
+      "id": "blue-canyon-rehab-cost",
+      "claim": "A $116.7 million rehabilitation at Blue Canyon, underway in 2026, includes a new eastbound truck-climbing lane.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/caltrans-near-me/district-3/d3-news/d3-news-release-26-053"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html", "docs/funding.html"],
+      "notes": "Caltrans District 3 release 26-053."
+    },
+    {
+      "id": "soda-springs-rehab-cost",
+      "claim": "A $90.7 million rehabilitation project at Soda Springs, covering the Placer County line to east of Donner Pass Road, includes a new truck-climbing lane.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/caltrans-near-me/district-3/d3-projects/d3-i80-soda-springs"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html", "docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "donner-inlay-2019-cost",
+      "claim": "A $7.5 million pavement inlay at Donner Summit in 2019 repaired rutting Caltrans said was \"caused by heavy trucks and chain usage during winter.\"",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/caltrans-near-me/district-3/d3-news/d3-news-release-19-213"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": "Quote from Caltrans District 3 release 19-213."
+    },
+    {
+      "id": "only-interstate-sierra-crossing",
+      "claim": "I-80 is the only interstate crossing of the Sierra Nevada in Northern California.",
+      "status": "sourced",
+      "sources": ["https://en.wikipedia.org/wiki/Interstate_80_in_California"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": ""
+    },
+    {
+      "id": "truckee-aadt-range",
+      "claim": "At Truckee the freeway carries roughly 30,000-37,000 vehicles a day.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/programs/traffic-operations/census"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html"],
+      "notes": "Caltrans Traffic Census AADT at Truckee-area count locations."
+    },
+    {
+      "id": "truck-census-2024",
+      "claim": "The 2024 Caltrans truck census counts 6,538 trucks a day (17.67 percent of AADT) at the Truckee count location 'NEV 14.164 ahead', roughly one vehicle in six, and 70.2 percent of them are five-or-more-axle combinations.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/programs/traffic-operations/census"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html", "docs/funding.html", "docs/noise.html"],
+      "notes": "Pages round to about 6,500 trucks, one in six, and seven in ten five-axle. Full 2013-2024 series archived in data/reference/truck-aadt.csv in the repository."
+    },
+    {
+      "id": "snow-removal-staging",
+      "claim": "Donner Summit averages about thirty feet of snow a year, and Caltrans stages 132 pieces of snow-removal equipment on I-80 with roughly 237 winter staff for the Tahoe-Truckee area.",
+      "status": "sourced",
+      "sources": ["https://www.sierrasun.com/news/local/caltrans-gets-10-6-million-bump-in-tahoe-truckee-snow-removal-budget/", "https://www.sierrasun.com/news/local/caltrans-237-employees-ready-for-tahoe-truckee-area-snow-removal/"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/history.html", "docs/funding.html"],
+      "notes": "Figures reported in Sierra Sun coverage of Caltrans winter-operations announcements."
+    },
+    {
+      "id": "shc-90-91-state-control",
+      "claim": "California Streets and Highways Code sections 90-91 give Caltrans \"full possession and control of all state highways\" and the duty to improve and maintain them.",
+      "status": "verified",
+      "sources": ["https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=SHC&division=1.&title=&part=&chapter=1.&article=3."],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "23-usc-145-state-program",
+      "claim": "Federal highway law, 23 U.S.C. section 145, describes the federal-aid highway program as \"a federally assisted State program\"; the federal role is funding, not ownership.",
+      "status": "verified",
+      "sources": ["https://uscode.house.gov/view.xhtml?req=(title:23%20section:145%20edition:prelim)"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "caltrans-district-3-operates",
+      "claim": "Caltrans District 3, headquartered in Marysville, operates the Donner corridor: paving, plowing, chain-control staging, and closures.",
+      "status": "sourced",
+      "sources": ["https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=SHC&division=1.&title=&part=&chapter=1.&article=3."],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "vc-2812-chp-closure-power",
+      "claim": "California Vehicle Code section 2812 lets the CHP close any highway when conditions \"create a menace to public health or safety.\"",
+      "status": "verified",
+      "sources": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=2812."],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "chp-donner-pass-facility",
+      "claim": "The CHP's Donner Pass commercial vehicle enforcement facility east of Truckee operates around the clock as a port of entry, weighing and inspecting trucks.",
+      "status": "sourced",
+      "sources": ["https://www.chp.ca.gov/find-an-office/valley-division/223-donner-pass"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html", "docs/safety.html"],
+      "notes": ""
+    },
+    {
+      "id": "vc-27459-chain-control",
+      "claim": "California Vehicle Code section 27459 makes it a citable violation to drive a signed stretch of highway without required traction devices.",
+      "status": "verified",
+      "sources": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=27459."],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "chain-control-levels-and-limits",
+      "claim": "Caltrans posts chain-control levels R-1 through R-3; on this corridor controls typically run eastbound from Kingvale and westbound from the Donner Lake Interchange, trucks chain their drive axles, and vehicles over 6,500 pounds must chain under any control level.",
+      "status": "sourced",
+      "sources": ["https://dot.ca.gov/travel/winter-driving-tips/chain-controls"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "23-cfr-658-national-network",
+      "claim": "Federal regulation 23 CFR Part 658 places every interstate on the National Network for large trucks, so neither a state nor a town can exclude standard tractor-trailers from I-80.",
+      "status": "verified",
+      "sources": ["https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "vc-22406-truck-speed-limit",
+      "claim": "California Vehicle Code section 22406 sets a 55 mph speed limit for trucks with three or more axles.",
+      "status": "verified",
+      "sources": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22406.&lawCode=VEH"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "carb-idling-rule",
+      "claim": "California's air rules (CARB idling ATCM, 13 CCR 2485) bar diesel trucks over 10,000 pounds from idling more than five minutes anywhere in the state.",
+      "status": "verified",
+      "sources": ["https://ww2.arb.ca.gov/our-work/programs/atcm-to-limit-vehicle-idling"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "vc-21-state-preemption",
+      "claim": "California Vehicle Code section 21 makes the Vehicle Code \"applicable and uniform throughout the state,\" so the Town of Truckee cannot set freeway speed limits, restrict trucks, meter traffic, or charge for passage.",
+      "status": "verified",
+      "sources": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=21."],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "town-transportation-role",
+      "claim": "The Town of Truckee's transportation role is limited to local streets and funding participation in the TART bus system.",
+      "status": "sourced",
+      "sources": ["https://www.townoftruckee.gov/278/Public-Transportation"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "23-usc-301-toll-prohibition",
+      "claim": "Federal law, 23 U.S.C. sections 301 and 129, requires federal-aid highways to be \"free from tolls of all kinds\" with narrow exceptions.",
+      "status": "verified",
+      "sources": ["https://uscode.house.gov/view.xhtml?req=%28title%3A23+section%3A129+edition%3Aprelim%29", "https://uscode.house.gov/view.xhtml?req=(title:23%20section:301%20edition:prelim)"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html", "docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "interstate-tolling-pilot",
+      "claim": "The federal Interstate System Reconstruction and Rehabilitation Pilot Program, which would allow tolling an existing free interstate for reconstruction, is capped at three facilities nationwide and has never been successfully used.",
+      "status": "sourced",
+      "sources": ["https://www.fhwa.dot.gov/ipd/tolling_and_pricing/tolling_pricing/interstate_rr.aspx", "https://www.congress.gov/crs-product/R44910"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "weight-distance-states",
+      "claim": "Oregon, New Mexico, Kentucky, and New York each levy a truck tax per mile graduated by weight today, and Connecticut added one in 2023; federal law does not prohibit such a tax.",
+      "status": "verified",
+      "sources": ["https://www.oregon.gov/odot/Forms/Motcarr/9928-2022.pdf", "https://www.tax.newmexico.gov/businesses/2020/10/21/weight-distance-tax/", "https://drive.ky.gov/Motor-Carriers/Pages/KYU.aspx", "https://www.tax.ny.gov/bus/hut/huidx.htm", "https://www.congress.gov/crs-product/R44910"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html", "docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "23-cfr-772-no-retrofit-rule",
+      "claim": "Federal noise regulation, 23 CFR Part 772, applies only when a highway is built or substantially reconstructed; there is no federal obligation to measure or abate noise on an existing highway.",
+      "status": "verified",
+      "sources": ["https://www.ecfr.gov/current/title-23/chapter-I/subchapter-H/part-772", "https://www.fhwa.dot.gov/Environment/noise/regulations_and_guidance/faq_nois.cfm"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html", "docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "retrofit-walls-voluntary",
+      "claim": "Retrofit sound walls exist only under voluntary state (Type II) programs, and California ranks candidates on a statewide priority list.",
+      "status": "sourced",
+      "sources": ["https://www.fhwa.dot.gov/Environment/noise/regulations_and_guidance/faq_nois.cfm", "https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/traffic-noise-protocol-april-2020-a11y.pdf"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "regional-planning-bodies",
+      "claim": "Truckee is a member agency of the Nevada County Transportation Commission, and the Placer County Transportation Planning Agency is the west-slope counterpart; both participate in corridor management planning with Caltrans and meet publicly.",
+      "status": "sourced",
+      "sources": ["https://www.nctc.ca.gov/", "https://www.pctpa.net/"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "federal-fuel-tax-rates",
+      "claim": "The federal gasoline tax is 18.4 cents per gallon and the federal diesel tax 24.4 cents per gallon, unchanged since 1993 and not indexed.",
+      "status": "verified",
+      "sources": ["https://www.fhwa.dot.gov/policy/olsp/fundingfederalaid/07.cfm", "https://www.congress.gov/crs-product/R48472"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "california-fuel-tax-rates",
+      "claim": "California's excise taxes as of July 2025 are 61.2 cents per gallon on gasoline and 46.6 cents per gallon on diesel, indexed annually.",
+      "status": "verified",
+      "sources": ["https://cdtfa.ca.gov/taxes-and-fees/special-taxes-and-fees-tax-rates/fuel-taxes.htm"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "hvut-550-cap",
+      "claim": "The federal heavy vehicle use tax applies to trucks of 55,000 pounds and up and is capped at $550 per year at 75,000 pounds, regardless of weight above that or miles driven.",
+      "status": "verified",
+      "sources": ["https://www.fhwa.dot.gov/policyinformation/hvut/mod1/whatishvut.cfm"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "highway-trust-fund-transfers",
+      "claim": "Because federal fuel-tax rates have not moved since 1993, the Highway Trust Fund has needed repeated general-revenue transfers, including $118 billion in the 2021 infrastructure act.",
+      "status": "sourced",
+      "sources": ["https://www.congress.gov/crs-product/R48472", "https://www.fhwa.dot.gov/policy/olsp/fundingfederalaid/07.cfm"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": "The $118 billion figure is the IIJA general fund transfer as reported by CRS."
+    },
+    {
+      "id": "weight-fees-diverted",
+      "claim": "California collects roughly $1 billion a year in commercial vehicle weight fees, and since 2011 state law has directed that revenue to debt service on past transportation bonds rather than the highway account.",
+      "status": "verified",
+      "sources": ["https://catc.ca.gov/-/media/ctc-media/documents/fs-trans-funding-overview-031017-a11y.pdf", "https://lao.ca.gov/LAOEconTax/Article/Detail/798"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "fourth-power-law",
+      "claim": "The AASHO Road Test found that pavement damage rises with roughly the fourth power of axle weight, so doubling the load on an axle multiplies its pavement damage about sixteen times.",
+      "status": "verified",
+      "sources": ["https://www.fhwa.dot.gov/reports/tswstudy/vol3-chapter5.pdf"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": "FHWA Comprehensive Truck Size and Weight Study, pavement chapter."
+    },
+    {
+      "id": "truck-equals-thousands-of-cars",
+      "claim": "By the fourth-power relationship, a loaded five-axle tractor-trailer consumes pavement on the order of several thousand cars.",
+      "status": "sourced",
+      "sources": ["https://www.fhwa.dot.gov/reports/tswstudy/vol3-chapter5.pdf"],
+      "method": "derived",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": "Derivation from the fourth-power relationship; the ratio varies by pavement type, as the page's footer states."
+    },
+    {
+      "id": "corridor-wear-shares",
+      "claim": "Applying per-pass equivalent-load factors to the 2024 census at Truckee, cars and light vehicles (82.3 percent of traffic) cause about 0.2 percent of pavement wear, two-axle trucks (4.5 percent) about 5 percent, three- and four-axle trucks (0.8 percent) about 3 percent, and five-or-more-axle combinations (12.4 percent) about 91 percent.",
+      "status": "sourced",
+      "sources": ["https://www.fhwa.dot.gov/reports/tswstudy/vol3-chapter5.pdf", "https://dot.ca.gov/programs/traffic-operations/census"],
+      "method": "derived",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": "This site's estimate. Assumed per-pass ESAL factors: roughly 0.0004 for a car, 0.2 for a two-axle truck, 1 to 1.6 for a loaded five-axle combination, multiplied by 2024 census class counts. Shares shift somewhat with factor choice; no published factor set moves the car share above one percent."
+    },
+    {
+      "id": "hcas-cost-and-fee-shares",
+      "claim": "The federal Highway Cost Allocation Study assigns automobiles 43.8 percent of federal costs against 42.6 percent of user fees paid, pickups and vans 15.4 against 21.4, single-unit trucks 10.7 against 9.6, and combination trucks 29.4 against 26.4.",
+      "status": "verified",
+      "sources": ["https://www.fhwa.dot.gov/policy/hcas/summary/sum2.cfm", "https://www.fhwa.dot.gov/policy/hcas/summary/sum3.cfm"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": "FHWA HCAS Tables 3 and 6. The cost assignment covers the whole federal program (capacity, enhancements, administration, pavement) and is a policy allocation, not a wear measurement."
+    },
+    {
+      "id": "national-wear-share-estimates",
+      "claim": "Applying the same per-pass wear factors to the cost allocation study's national travel data, automobiles and pickups each cause about 1 percent of pavement wear, single-unit trucks about 15-20 percent, and combination trucks about 80-85 percent.",
+      "status": "sourced",
+      "sources": ["https://www.fhwa.dot.gov/policy/hcas/summary/sum1.cfm", "https://www.fhwa.dot.gov/reports/tswstudy/vol3-chapter5.pdf"],
+      "method": "derived",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": "This site's estimate: per-pass ESAL factors (0.0004 car, 0.2 two-axle truck, 1-1.6 loaded five-axle combination) applied to travel by class from HCAS Table 1."
+    },
+    {
+      "id": "hcas-combination-preservation-share",
+      "claim": "The Highway Cost Allocation Study finds combination trucks responsible for over 40 percent of system preservation costs while making up about four percent of the nation's travel.",
+      "status": "verified",
+      "sources": ["https://www.fhwa.dot.gov/policy/hcas/summary/sum2.cfm", "https://www.fhwa.dot.gov/policy/hcas/summary/sum1.cfm"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "hcas-per-mile-costs",
+      "claim": "The Highway Cost Allocation Study puts an automobile's per-mile cost responsibility at 0.65 cents and the heaviest combination trucks' at 16.6 cents, about twenty-five times more.",
+      "status": "verified",
+      "sources": ["https://www.fhwa.dot.gov/policy/hcas/summary/sum2.cfm"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "donner-summit-freight-value",
+      "claim": "Caltrans describes 6,200 commercial vehicles a day crossing Donner Summit carrying goods valued at more than $4.7 million per hour.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/caltrans-near-me/district-3/d3-news/d3-news-release-19-213"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": "Caltrans District 3 release 19-213."
+    },
+    {
+      "id": "fuel-tax-per-mile-estimate",
+      "claim": "At typical fuel economy (around 25 mpg for cars and 6 mpg for loaded combinations), a car pays about 3 cents per mile in combined state and federal fuel tax and a combination truck about 12, so at Truckee's traffic mix trucks pay a little under half of the fuel tax collected on the segment against effectively all of the pavement wear.",
+      "status": "sourced",
+      "sources": ["https://www.epa.gov/automotive-trends", "https://afdc.energy.gov/data", "https://cdtfa.ca.gov/taxes-and-fees/special-taxes-and-fees-tax-rates/fuel-taxes.htm"],
+      "method": "derived",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": "This site's calculation from published fuel-economy and tax-rate figures; assumes fleet-average car economy from EPA Automotive Trends and loaded combination economy from DOE AFDC."
+    },
+    {
+      "id": "oregon-weight-mile",
+      "claim": "Oregon has levied a weight-mile tax on trucks since 1925, in lieu of a diesel tax, at 23.7 cents per mile at 80,000 pounds.",
+      "status": "verified",
+      "sources": ["https://www.oregon.gov/odot/Forms/Motcarr/9928-2022.pdf"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "new-mexico-weight-distance",
+      "claim": "New Mexico levies a weight-distance tax of roughly 4 cents per mile at 80,000 pounds.",
+      "status": "verified",
+      "sources": ["https://www.tax.newmexico.gov/businesses/2020/10/21/weight-distance-tax/"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "kentucky-weight-distance",
+      "claim": "Kentucky levies a weight-distance tax (KYU) of 2.85 cents per mile on trucks over 60,000 pounds.",
+      "status": "verified",
+      "sources": ["https://drive.ky.gov/Motor-Carriers/Pages/KYU.aspx"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "new-york-hut",
+      "claim": "New York levies a highway use tax on trucks, graduated by weight.",
+      "status": "verified",
+      "sources": ["https://www.tax.ny.gov/bus/hut/huidx.htm"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "connecticut-highway-use-fee",
+      "claim": "Connecticut added a highway use fee on trucks, graduated by weight, in 2023.",
+      "status": "verified",
+      "sources": ["https://www.congress.gov/crs-product/R44910"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html", "docs/governance.html"],
+      "notes": ""
+    },
+    {
+      "id": "german-lkw-maut",
+      "claim": "Germany charges trucks a per-kilometer toll (LKW-Maut) by axle count, weight, and emissions class, on the order of 15-25 euro cents per kilometer.",
+      "status": "verified",
+      "sources": ["https://www.toll-collect.de/en/toll_collect/bezahlen/maut_tarife/p1745_mauttarife_07_2024.html"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/funding.html"],
+      "notes": ""
+    },
+    {
+      "id": "chp-incidents-ytd-2026",
+      "claim": "From January 1 through August 8, 2026, the CHP logged 1,168 incidents on the I-80 segment from Baxter to the Nevada state line.",
+      "status": "verified",
+      "sources": ["https://github.com/micrui/truckee-i80/tree/main/data/chp"],
+      "method": "own-data",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": "This site's aggregation of CHP computer-aided dispatch incidents via the Caltrans performance measurement system; day-by-day files in data/chp/."
+    },
+    {
+      "id": "chp-incident-category-counts-2026",
+      "claim": "The 2026 year-to-date incident breakdown is 546 traffic hazards, 252 collisions (101 without injury, 80 with ambulance dispatched, 71 injuries unknown at dispatch), 121 construction and maintenance zone assists, 70 spinouts, 50 vehicle fires, 45 hit-and-run reports, 25 wrong-way driver reports, and 59 other.",
+      "status": "verified",
+      "sources": ["https://github.com/micrui/truckee-i80/tree/main/data/chp"],
+      "method": "own-data",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": "Category groupings follow the CHP's own incident codes."
+    },
+    {
+      "id": "chp-incident-seasonality-2026",
+      "claim": "February 2026 produced 233 incidents while typical summer months run around 140 to 160; every spinout was logged between January and May; and no 2026 incident was dispatch-coded as a fatality.",
+      "status": "verified",
+      "sources": ["https://github.com/micrui/truckee-i80/tree/main/data/chp"],
+      "method": "own-data",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": "Dispatch codes describe the initial call, not final outcomes; settled injury severity lives in SWITRS/TIMS."
+    },
+    {
+      "id": "july-20-crash-dispatch-entry",
+      "claim": "At 1:51 p.m. on July 20, 2026, the CHP logged a collision with ambulances dispatched at the Drum Forebay Road off-ramp, westbound, near Emigrant Gap.",
+      "status": "verified",
+      "sources": ["https://github.com/micrui/truckee-i80/tree/main/data/chp"],
+      "method": "own-data",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": "The dispatch entry appears in this site's data for July 20, 2026."
+    },
+    {
+      "id": "july-20-crash-cause-attributed",
+      "claim": "Placer County's supervisor for the area attributed the July 20, 2026 crash, in which a commercial truck struck multiple vehicles (around ten by the county's account) before going down an embankment and spilling diesel, to catastrophic brake failure on the truck.",
+      "status": "verified",
+      "sources": ["https://www.cbsnews.com/sacramento/news/interstate-80-placer-county-big-rig-crash/", "https://www.sierrasun.com/news/i-80-now-open-after-multi-vehicle-collision-monday-afternoon/", "https://www.sierrasun.com/news/supervisor-gustafson-to-convene-regional-leaders-to-address-escalating-safety-concerns-along-interstate-80/"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": "Cause is an attribution by the county supervisor, not an adjudicated finding."
+    },
+    {
+      "id": "july-20-crash-injury-count",
+      "claim": "Reported injury counts for the July 20, 2026 crash vary: seven per CBS Sacramento, ten (one airlifted) per the Placer County release; no deaths were reported.",
+      "status": "contested",
+      "sources": ["https://www.cbsnews.com/sacramento/news/interstate-80-placer-county-big-rig-crash/", "https://www.sierrasun.com/news/supervisor-gustafson-to-convene-regional-leaders-to-address-escalating-safety-concerns-along-interstate-80/"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": "CBS Sacramento reported seven injuries; the county release said ten with one airlifted. The conflict is stated openly on the page. Adjudicated count will eventually appear in SWITRS/TIMS."
+    },
+    {
+      "id": "july-20-crash-closure-duration",
+      "claim": "After the July 20, 2026 crash the westbound freeway closed fully for about six hours, with one lane closed overnight for hazardous-materials cleanup.",
+      "status": "verified",
+      "sources": ["https://www.sierrasun.com/news/i-80-now-open-after-multi-vehicle-collision-monday-afternoon/", "https://www.cbsnews.com/sacramento/news/interstate-80-placer-county-big-rig-crash/"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": ""
+    },
+    {
+      "id": "i80-corridor-safety-initiative",
+      "claim": "Three days after the July 20 crash, Placer County convened the Interstate 80 Corridor Safety Initiative with the CHP, Caltrans, fire agencies, the California Trucking Association, and four state legislators, citing truck brake failures, truck fires, and repeated corridor closures; the supervisor said \"These incidents are becoming far too common, and the impacts extend well beyond the crash itself.\"",
+      "status": "sourced",
+      "sources": ["https://www.sierrasun.com/news/supervisor-gustafson-to-convene-regional-leaders-to-address-escalating-safety-concerns-along-interstate-80/"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": ""
+    },
+    {
+      "id": "july-14-crash",
+      "claim": "At about 3:30 a.m. on July 14, 2026, a solo tractor-trailer crashed eastbound near the CHP commercial vehicle facility east of Truckee; eastbound traffic was turned around at Overland Trail and the first lane reopened about five hours later.",
+      "status": "verified",
+      "sources": ["https://www.cbsnews.com/sacramento/news/truckee-donner-pass-ebi80-big-rig-crash/", "https://mynews4.com/news/local/i-80-eastbound-traffic-turned-around-at-overland-trail-after-solo-big-rig-crash"],
+      "method": "secondary",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": "Injuries and cause were not detailed in public coverage."
+    },
+    {
+      "id": "adjudicated-crash-records",
+      "claim": "The settled crash record for the corridor (injuries, fatalities, fault, conditions) lives in the CHP's Statewide Integrated Traffic Records System and UC Berkeley's Transportation Injury Mapping System, both free to query.",
+      "status": "sourced",
+      "sources": ["https://www.chp.ca.gov/programs-services/services-information/switrs-internet-statewide-integrated-traffic-records-system", "https://tims.berkeley.edu/"],
+      "method": "agency-record",
+      "checked": "2026-08-10",
+      "pages": ["docs/safety.html"],
+      "notes": ""
+    },
+    {
+      "id": "town-plan-loudest-source-quote",
+      "claim": "The Town of Truckee's general plan calls Interstate 80 \"the loudest source of noise affecting the Town of Truckee.\"",
+      "status": "verified",
+      "sources": ["https://www.townoftruckee.gov/DocumentCenter/View/770/Appendix-B---Noise-Technical-Appendix-PDF"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "noise-100ft-2004",
+      "claim": "The Town's 2004 noise survey measured 78-82 CNEL at 100 feet from the freeway centerline through town.",
+      "status": "verified",
+      "sources": ["https://www.townoftruckee.gov/DocumentCenter/View/770/Appendix-B---Noise-Technical-Appendix-PDF"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "noise-coldstream-overnight-2004",
+      "claim": "The 2004 survey's long-term site near Coldstream (LT-7), 168 feet from the freeway, measured 69-74 dBA hourly overnight, with night hours running within a few decibels of daytime because overnight traffic is disproportionately trucks.",
+      "status": "verified",
+      "sources": ["https://www.townoftruckee.gov/DocumentCenter/View/770/Appendix-B---Noise-Technical-Appendix-PDF"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "noise-ag-station-2018",
+      "claim": "A 2018 measurement near the agricultural inspection station recorded 70.9 dBA over 15 minutes.",
+      "status": "verified",
+      "sources": ["https://ceqanet.lci.ca.gov/2022030190/2"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "2040 General Plan EIR noise section."
+    },
+    {
+      "id": "noise-downtown-2018",
+      "claim": "A 2018 24-hour measurement downtown at Jibboom and Spring streets recorded 63.5 CNEL.",
+      "status": "verified",
+      "sources": ["https://ceqanet.lci.ca.gov/2022030190/2"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "2040 General Plan EIR noise section."
+    },
+    {
+      "id": "noise-60db-contour",
+      "claim": "The Town's noise modeling puts the freeway's 60-decibel CNEL contour 2,700 feet from the roadway through central Truckee, extending several hundred feet further at buildout.",
+      "status": "verified",
+      "sources": ["https://www.townoftruckee.gov/DocumentCenter/View/770/Appendix-B---Noise-Technical-Appendix-PDF", "https://ceqanet.lci.ca.gov/2022030190/2"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "noise-criteria-benchmarks",
+      "claim": "The federal criterion that triggers noise abatement analysis for residences is 67 decibels, and the World Health Organization's health-based recommendation for road traffic noise is 53 decibels.",
+      "status": "sourced",
+      "sources": ["https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/traffic-noise-protocol-april-2020-a11y.pdf", "https://cdn.who.int/media/docs/default-source/who-compendium-on-health-and-environment/who_compendium_noise_01042022.pdf"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "67 dBA is the Caltrans/FHWA Noise Abatement Criterion for Activity Category B; 53 dB Lden is the WHO guideline."
+    },
+    {
+      "id": "tens-truck-car-equivalence",
+      "claim": "Caltrans' Technical Noise Supplement states that at 55 mph one heavy truck emits as much noise energy as about ten cars (10.4 by its REMEL values) and one medium truck about four.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/tens-sep2013-a11y.pdf"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "TeNS Tables 3-3 and 4-2."
+    },
+    {
+      "id": "acoustic-energy-shares",
+      "claim": "Applying Caltrans' published truck-to-car noise equivalences to the 2024 counts at Truckee, cars and light vehicles (82.3 percent of traffic) produce about 35 percent of the acoustic energy, two-axle trucks (4.5 percent) about 7 percent, and trucks with three or more axles (13.2 percent) about 58 percent.",
+      "status": "sourced",
+      "sources": ["https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/tens-sep2013-a11y.pdf", "https://dot.ca.gov/programs/traffic-operations/census"],
+      "method": "derived",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "This site's estimate. Assumes TeNS 55-mph equivalences (heavy truck = 10.4 cars, medium truck = 4) applied to 2024 census class counts; does not model grade or speed variation, which would shift energy further toward trucks on this corridor's sustained climbs."
+    },
+    {
+      "id": "fhwa-tnm-grade-effect",
+      "claim": "On sustained climbs the FHWA traffic noise model shifts heavy trucks toward full-throttle emission levels, and the Donner corridor is a sustained climb in each direction.",
+      "status": "sourced",
+      "sources": ["https://www.fhwa.dot.gov/environment/noise/traffic_noise_model/tnm_v25/tech_manual/part1.cfm"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "tens-annoyance-quotes",
+      "claim": "Caltrans' Technical Noise Supplement section 2.2.1 states that \"intermittent truck peak noise levels are more objectionable than the continuous level of fan noise,\" that an intruding noise considerably louder than ambient usually becomes objectionable, and that \"an automobile horn at 2:00 a.m. is more disturbing than the same noise in traffic at 5:00 p.m.\"",
+      "status": "sourced",
+      "sources": ["https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/tens-sep2013-a11y.pdf"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "Direct quotes from TeNS section 2.2.1 on human reaction to sound."
+    },
+    {
+      "id": "tire-pavement-noise-share",
+      "claim": "At freeway speed, tire-pavement noise can be three-quarters or more of a car's noise energy, a smaller share for trucks where exhaust stacks matter.",
+      "status": "sourced",
+      "sources": ["https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/tens-sep2013-a11y.pdf"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "TeNS section 7.3."
+    },
+    {
+      "id": "ogac-davis-quieter",
+      "claim": "Caltrans' long-running test on I-80 at Davis found open-graded asphalt 4 to 5 decibels quieter than the surface it replaced, still holding after thirteen years, a result Caltrans qualifies to lower elevations and snow-free highways.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/-/media/dot-media/programs/research-innovation-system-information/documents/preliminary-investigations/caltrans-pi-quieter-pavement-a11y.pdf"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "truckee-pavement-unmeasured",
+      "claim": "The pavement through Truckee is grooved concrete with ruts filled by polyester inlay, chosen for durability under chains; no published study characterizes its noise, and the rehabilitation through town was approved under a categorical exemption, so no noise analysis exists for the segment.",
+      "status": "sourced",
+      "sources": ["https://ceqanet.lci.ca.gov/2021020413", "https://dot.ca.gov/caltrans-near-me/district-3/d3-projects/d3-i80-truckee-rehab-03-1h18u"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "The CEQA Notice of Exemption documents the categorical exemption; the absence of a noise study is a negative claim, checked against the project record."
+    },
+    {
+      "id": "type-ii-program-ended-1998",
+      "claim": "Retrofit (Type II) sound walls stopped being Caltrans' responsibility in 1998; a local agency would have to sponsor one on this corridor, and none has.",
+      "status": "sourced",
+      "sources": ["https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/traffic-noise-protocol-april-2020-a11y.pdf"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "Caltrans noise protocol, Type II program history."
+    },
+    {
+      "id": "town-policy-sn-8-4-sound-walls",
+      "claim": "Town of Truckee general plan policy SN-8.4 prohibits sound walls, preferring berms and setbacks, while policy SN-8.10 formally encourages Caltrans toward quieter surfacing.",
+      "status": "verified",
+      "sources": ["https://townoftruckee.gov/DocumentCenter/View/663/Chapter-8---Safety-and-Noise-Element-PDF"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "vc-27150-muffler",
+      "claim": "California Vehicle Code section 27150 requires every vehicle to have an adequate muffler, and an unmuffled engine compression brake is enforced as a muffler violation by the CHP.",
+      "status": "verified",
+      "sources": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=27150"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "blue-canyon-noise-study",
+      "claim": "The nearest receiver-level noise study Caltrans has produced on this corridor is at Blue Canyon, about thirty miles west of Truckee, where one sound barrier of twenty-five evaluated met the cost-effectiveness test.",
+      "status": "verified",
+      "sources": ["https://dot.ca.gov/-/media/dot-media/district-3/documents/environmental/03-3h590_pla80_isnd_fed_ada.pdf"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": ""
+    },
+    {
+      "id": "no-truckee-measurement-since-2004",
+      "claim": "The last 24-hour noise measurement of the freeway through central Truckee was taken in 2004; the 2018 update touched the freeway only in passing, so no current measured level exists.",
+      "status": "sourced",
+      "sources": ["https://www.townoftruckee.gov/DocumentCenter/View/770/Appendix-B---Noise-Technical-Appendix-PDF", "https://ceqanet.lci.ca.gov/2022030190/2"],
+      "method": "primary-document",
+      "checked": "2026-08-10",
+      "pages": ["docs/noise.html"],
+      "notes": "A negative claim: no later published 24-hour measurement was found in Town or Caltrans records."
+    }
+  ]
+}

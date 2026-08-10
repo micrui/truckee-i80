@@ -50,6 +50,14 @@ All jobs are stdlib-only Python run by GitHub Actions:
 - Scheduled workflows `git pull --rebase --autostash` before pushing; commit steps must
   tolerate empty data days.
 
+## The fact registry
+
+`facts.json` is the canonical record of every factual claim on the site: status
+(verified | sourced | contested | held), sources, method, check date, and the pages that
+state it. Pages must never claim what the registry does not hold; corrections fix both,
+together, in one commit. `python3 factcheck.py` validates the registry and flags facts
+unchecked for 180 days. The `/fact-vet` skill runs the full verification ritual.
+
 ## Siblings
 
 truckee-flights (the airport) and truckee-trains (the railroad) follow the same pattern and rules.
