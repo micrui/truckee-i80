@@ -1,0 +1,144 @@
+<meta charset="utf-8">
+<title>truckee-i80: the noise</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f6f7f9; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10); --accent: #2a78d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0c0e11; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+      --muted: #898781; --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --accent: #3987e5;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0c0e11; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+    --muted: #898781; --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --accent: #3987e5;
+  }
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --page: #f6f7f9; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10); --accent: #2a78d6;
+  }
+  body { background: var(--page); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.6; margin: 0; padding: 48px 20px 72px; }
+  .wrap { max-width: 800px; margin: 0 auto; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+    margin: 0 0 10px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .eyebrow a { color: inherit; }
+  h1 { font-size: clamp(26px, 4vw, 38px); font-weight: 700; letter-spacing: -0.02em; margin: 0 0 14px; }
+  .standfirst { font-size: 15.5px; color: var(--ink-2); max-width: 66ch; margin: 0 0 30px; }
+  h2 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin: 40px 0 8px; }
+  p { max-width: 70ch; font-size: 15px; margin: 0 0 12px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; margin: 10px 0 6px; }
+  th { text-align: left; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
+    font-weight: 600; padding: 6px 12px 6px 0; border-bottom: 1px solid var(--axis); }
+  th.num, td.num { text-align: right; }
+  td { padding: 6px 12px 6px 0; border-bottom: 1px solid var(--grid); vertical-align: top; font-variant-numeric: tabular-nums; }
+  .src { font-size: 12px; color: var(--muted); margin: 4px 0 0; max-width: 70ch; }
+  .src a { color: var(--muted); }
+  .table-scroll { overflow-x: auto; }
+  a { color: var(--accent); }
+  .foot { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--grid); color: var(--muted); font-size: 12.5px; max-width: 74ch; }
+</style>
+<div class="wrap">
+  <p class="eyebrow"><a href="./">truckee-i80</a> · noise</p>
+  <h1>The noise</h1>
+  <p class="standfirst">
+    What the freeway sounds like in town, measured; who makes the sound, by the state's own
+    acoustics; and which rules govern it. The Town's general plan calls Interstate 80 "the
+    loudest source of noise affecting the Town of Truckee."
+  </p>
+
+  <h2>What has been measured</h2>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Place</th><th class="num">Level</th><th>Vintage</th></tr></thead>
+    <tbody>
+      <tr><td>100 feet from the freeway centerline, through town</td><td class="num">78–82 CNEL</td><td>Town noise survey, 2004</td></tr>
+      <tr><td>168 feet from the freeway near Coldstream, overnight hours</td><td class="num">69–74 dBA hourly</td><td>2004, measured</td></tr>
+      <tr><td>Near the agricultural inspection station</td><td class="num">70.9 dBA (15-minute)</td><td>2018, measured</td></tr>
+      <tr><td>Downtown, Jibboom and Spring streets, 24 hours</td><td class="num">63.5 CNEL</td><td>2018, measured</td></tr>
+    </tbody>
+  </table></div>
+  <p>The Town's modeling from those measurements puts the freeway's 60-decibel contour 2,700
+  feet from the roadway through central Truckee, and several hundred feet further at buildout.
+  For scale: the federal criterion that triggers noise abatement analysis for homes is 67
+  decibels; the World Health Organization's health-based recommendation for road traffic is
+  53. The overnight measurements matter too: at the Coldstream site, night hours ran within a
+  few decibels of daytime, because the traffic that runs all night is disproportionately
+  trucks.</p>
+  <p class="src">Sources: <a href="https://www.townoftruckee.gov/DocumentCenter/View/770/Appendix-B---Noise-Technical-Appendix-PDF">Town of Truckee noise technical appendix</a> ·
+  <a href="https://ceqanet.lci.ca.gov/2022030190/2">2040 General Plan EIR, noise section</a> ·
+  <a href="https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/traffic-noise-protocol-april-2020-a11y.pdf">Caltrans noise protocol (federal criteria)</a> ·
+  <a href="https://cdn.who.int/media/docs/default-source/who-compendium-on-health-and-environment/who_compendium_noise_01042022.pdf">WHO environmental noise guidelines</a></p>
+
+  <h2>Who makes the sound</h2>
+  <p>Caltrans' own acoustics manual states the equivalence plainly: at 55 miles per hour, one
+  heavy truck makes as much noise as about ten cars, and one medium truck about four. Applying
+  those published equivalences to the 2024 traffic counts at Truckee:</p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Daily traffic at Truckee, 2024</th><th class="num">Share of vehicles</th><th class="num">Estimated share of acoustic energy</th></tr></thead>
+    <tbody>
+      <tr><td>Cars and light vehicles (≈30,500)</td><td class="num">82.3%</td><td class="num">≈ 35%</td></tr>
+      <tr><td>Two-axle trucks (≈1,650)</td><td class="num">4.5%</td><td class="num">≈ 7%</td></tr>
+      <tr><td>Trucks with three or more axles (≈4,900)</td><td class="num">13.2%</td><td class="num">≈ 58%</td></tr>
+    </tbody>
+  </table></div>
+  <p>The pattern repeats from the <a href="funding.html">wear tables</a> in gentler form: less
+  than a fifth of the vehicles produce about two-thirds of the sound energy. Grades sharpen it.
+  On sustained climbs the federal noise model shifts heavy trucks toward full-throttle emission
+  levels, and this corridor is one long sustained climb in each direction.</p>
+  <p class="src">Sources: <a href="https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/tens-sep2013-a11y.pdf">Caltrans Technical Noise Supplement, Tables 3-3 and 4-2</a> ·
+  <a href="https://www.fhwa.dot.gov/environment/noise/traffic_noise_model/tnm_v25/tech_manual/part1.cfm">FHWA traffic noise model, grade treatment</a> ·
+  <a href="https://dot.ca.gov/programs/traffic-operations/census">Caltrans Traffic Census</a></p>
+
+  <h2>The pavement is most of a car's noise, and nobody has measured this pavement</h2>
+  <p>At freeway speed, tire-on-pavement contact can account for three-quarters or more of a
+  car's noise energy (less for trucks, where exhaust stacks matter). Pavement choice therefore
+  moves the number: Caltrans' own long-running test on I-80 at Davis found open-graded asphalt
+  running 4 to 5 decibels quieter than the pavement it replaced, still, after thirteen years.
+  Caltrans qualifies that result to lower elevations and snow-free highways; the pavement
+  through Truckee is grooved concrete with the ruts filled by polyester concrete inlay, chosen
+  for durability under chains, and no published study characterizes what it sounds like. The
+  recent rehabilitation through town was approved under a categorical exemption, so no noise
+  analysis of any kind was produced for the segment where the town lives.</p>
+  <p class="src">Sources: <a href="https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/tens-sep2013-a11y.pdf">Caltrans Technical Noise Supplement, §7.3</a> ·
+  <a href="https://dot.ca.gov/-/media/dot-media/programs/research-innovation-system-information/documents/preliminary-investigations/caltrans-pi-quieter-pavement-a11y.pdf">Caltrans quieter pavement investigation</a> ·
+  <a href="https://ceqanet.lci.ca.gov/2021020413">Notice of Exemption, Truckee rehabilitation</a></p>
+
+  <h2>The rules, and who holds them</h2>
+  <p>Federal noise regulation applies only when a highway is built or substantially expanded;
+  pavement rehabilitation does not qualify, so nothing obliges anyone to measure or abate the
+  existing noise. Retrofit sound walls stopped being Caltrans' responsibility in 1998; a local
+  transportation agency would have to sponsor one, none has here, and the Town's own general
+  plan prohibits sound walls anyway, preferring berms and setbacks, while formally encouraging
+  Caltrans toward noise-reducing features and quieter surfacing. Vehicle noise itself is state
+  law: every vehicle must have an adequate muffler, and an unmuffled engine compression brake is
+  enforced as a muffler violation by the CHP. The nearest receiver-level noise study Caltrans
+  has produced on this corridor sits at Blue Canyon, thirty miles west, where one sound barrier
+  out of twenty-five evaluated met the cost test.</p>
+  <p class="src">Sources: <a href="https://www.ecfr.gov/current/title-23/chapter-I/subchapter-H/part-772">23 CFR Part 772</a> ·
+  <a href="https://dot.ca.gov/-/media/dot-media/programs/environmental-analysis/documents/env/traffic-noise-protocol-april-2020-a11y.pdf">Caltrans noise protocol (Type II history)</a> ·
+  <a href="https://townoftruckee.gov/DocumentCenter/View/663/Chapter-8---Safety-and-Noise-Element-PDF">Town of Truckee Safety and Noise Element, policies SN-8.4 and SN-8.10</a> ·
+  <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=27150">Vehicle Code § 27150</a> ·
+  <a href="https://dot.ca.gov/-/media/dot-media/district-3/documents/environmental/03-3h590_pla80_isnd_fed_ada.pdf">Blue Canyon noise study</a></p>
+
+  <h2>What is not yet known</h2>
+  <p>The most recent 24-hour measurement of the freeway through Truckee was taken in 2004. The
+  2018 update measured other streets and touched the freeway only in passing. Whether traffic
+  growth, the new pavement, and two decades have moved the number is not publicly known,
+  because no one has measured it. A continuous, calibrated noise measurement near downtown,
+  published openly alongside the traffic data this site already collects, would close that gap;
+  this site intends to build one.</p>
+
+  <div class="foot">
+    <p>Acoustic-energy shares are this site's estimate from Caltrans' published truck-to-car
+    equivalences applied to the 2024 census counts; the equivalences themselves are in the
+    linked table. Decibel scales: +10 dB is ten times the acoustic energy. CNEL is a 24-hour
+    average that weights evening and night noise more heavily. Corrections welcome via
+    <a href="https://github.com/micrui/truckee-i80">GitHub</a>.</p>
+  </div>
+</div>
