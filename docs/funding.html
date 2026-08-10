@@ -38,6 +38,12 @@
     font-weight: 600; padding: 6px 12px 6px 0; border-bottom: 1px solid var(--axis); }
   th.num, td.num { text-align: right; }
   td { padding: 6px 12px 6px 0; border-bottom: 1px solid var(--grid); vertical-align: top; font-variant-numeric: tabular-nums; }
+  td.pos { color: #2f7d3b; } td.neg { color: #c04a3a; }
+  :root[data-theme="dark"] td.pos { color: #5fbf6f; } :root[data-theme="dark"] td.neg { color: #e07a6a; }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) td.pos { color: #5fbf6f; }
+    :root:where(:not([data-theme="light"])) td.neg { color: #e07a6a; }
+  }
   .src { font-size: 12px; color: var(--muted); margin: 4px 0 0; max-width: 70ch; }
   .src a { color: var(--muted); }
   .table-scroll { overflow-x: auto; }
@@ -105,21 +111,32 @@
   pavement damage rises with roughly the fourth power of axle weight. Doubling the load on an
   axle multiplies its pavement damage about sixteen times, which is why a loaded five-axle
   tractor-trailer consumes pavement on the order of several thousand cars.</p>
-  <p>The federal Highway Cost Allocation Study compares what each vehicle class pays in federal
-  user fees against the costs it imposes:</p>
+  <p>Applied to this corridor's own counts, that relationship is decisive. The 2024 census puts
+  roughly 30,000 cars and light vehicles and about 4,600 five-axle combinations a day through
+  Truckee. If each loaded combination wears pavement like several thousand cars, the car traffic
+  amounts to a rounding error: the truck fleet causes effectively all of the corridor's pavement
+  wear. Caltrans' own documents agree without the arithmetic: its 2023 field review called the
+  rutting damage unprecedented and attributed it to heavy trucks and chain wear, and the repair
+  bill in the table above followed.</p>
+  <p>Payment runs on a different scale than wear. The federal Highway Cost Allocation Study
+  assigns each vehicle class its share of highway costs, then compares what the class actually
+  pays in federal user fees:</p>
   <div class="table-scroll"><table>
-    <thead><tr><th>Vehicle class</th><th class="num">Share of its costs paid</th></tr></thead>
+    <thead><tr><th>Vehicle class</th><th class="num">Pays vs. its assigned costs</th></tr></thead>
     <tbody>
-      <tr><td>Automobiles</td><td class="num">≈ 90%</td></tr>
-      <tr><td>Pickups and vans</td><td class="num">≈ 120%</td></tr>
-      <tr><td>Combination trucks, 75–80,000 lb</td><td class="num">≈ 90%</td></tr>
-      <tr><td>Combination trucks over 80,000 lb</td><td class="num">≈ 60%</td></tr>
-      <tr><td>Single-unit trucks over 50,000 lb</td><td class="num">≈ 50%</td></tr>
+      <tr><td>Pickups and vans</td><td class="num pos">+20%</td></tr>
+      <tr><td>Automobiles</td><td class="num neg">−10%</td></tr>
+      <tr><td>Combination trucks, 75–80,000 lb</td><td class="num neg">−10%</td></tr>
+      <tr><td>Combination trucks over 80,000 lb</td><td class="num neg">−40%</td></tr>
+      <tr><td>Single-unit trucks over 50,000 lb</td><td class="num neg">−50%</td></tr>
     </tbody>
   </table></div>
-  <p>In per-mile terms, the same study put an automobile's federal cost responsibility at about
-  0.65 cents per mile and the heaviest combinations' at 16.6 cents per mile, roughly
-  twenty-five times more.</p>
+  <p>Read the percentage carefully: it compares each class only against its own assigned costs
+  and says nothing about how large those costs are. In the same study, an automobile's federal
+  cost responsibility is about 0.65 cents per mile; the heaviest combinations' is 16.6 cents,
+  twenty-five times larger. A car underpaying by a tenth underpays on pennies. The heaviest
+  trucks underpay on the largest cost responsibility on the road, and on this particular road
+  they are the class the repair contracts answer to.</p>
   <p class="src">Sources: <a href="https://www.fhwa.dot.gov/policy/hcas/summary/sum4.cfm">FHWA Highway Cost Allocation Study, equity ratios</a> ·
   <a href="https://www.fhwa.dot.gov/policy/hcas/summary/sum2.cfm">per-mile table</a> ·
   <a href="https://www.fhwa.dot.gov/reports/tswstudy/vol3-chapter5.pdf">FHWA truck size and weight study, pavement chapter</a></p>
