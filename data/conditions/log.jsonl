@@ -526,3 +526,9 @@
 {"t": "2026-08-14T19:01:20+00:00", "key": "closure:C80MA-0003-2026-08-10-06:01:00", "was": "Lane/Drainage Work  PM2.476", "now": null}
 {"t": "2026-08-14T19:01:20+00:00", "key": "closure:C80OA-0009-2026-08-13-15:01:00", "was": "Alternating Lanes/Highway Construction  PM49.000", "now": null}
 {"t": "2026-08-14T19:01:20+00:00", "key": "closure:C80OB-0042-2026-08-10-05:59:00", "was": "One-Way Traffic/Concrete Pour  PM53.356", "now": null}
+{"t": "2026-08-15T01:35:25+00:00", "key": "closure:C80XA-0008-2026-08-13-18:01:00", "was": "Full/Drainage Work East PM41.873", "now": null}
+{"t": "2026-08-15T01:35:25+00:00", "key": "closure:C80XA-0009-2026-08-13-18:01:00", "was": "Full/Drainage Work West PM41.705", "now": null}
+{"t": "2026-08-15T01:35:25+00:00", "key": "closure:P80RA-0030-2026-08-14-08:30:00", "was": "Lane/Miscellaneous Work East PM0.268", "now": null}
+{"t": "2026-08-15T01:35:25+00:00", "key": "closure:P80UA-0008-2026-08-14-08:01:00", "was": "Lane/Tree Work  PM31.371", "now": null}
+{"t": "2026-08-15T01:35:25+00:00", "key": "closure:P80UA-0013-2026-08-14-08:01:00", "was": "Lane/Tree Work  PM32.801", "now": null}
+{"t": "2026-08-15T01:35:25+00:00", "key": "closure:P80UA-0018-2026-08-14-08:01:00", "was": "Lane/Tree Work  PM36.497", "now": null}
