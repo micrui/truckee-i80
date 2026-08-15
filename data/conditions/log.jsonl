@@ -535,3 +535,14 @@
 {"t": "2026-08-15T03:44:05+00:00", "key": "closure:C80BB-0005-2026-08-14-07:01:00", "was": "Lane/Electrical Work  PM57.900", "now": null}
 {"t": "2026-08-15T03:44:05+00:00", "key": "closure:C80BB-0010-2026-08-14-07:01:00", "was": "Lane/Drainage Work  PM66.660", "now": null}
 {"t": "2026-08-15T03:44:05+00:00", "key": "closure:C80BB-0015-2026-08-14-07:01:00", "was": "Lane/Drainage Work  PM66.333", "now": null}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80OB-0002-2026-08-14-22:01:00", "was": null, "now": "Lane/Highway Construction  PM50.736"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80OB-0003-2026-08-14-22:01:00", "was": null, "now": "Lane/Highway Construction  PM54.812"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80QB-0001-2026-08-14-21:01:00", "was": null, "now": "Lane/Miscellaneous Work  PM41.372"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80QB-0002-2026-08-14-21:01:00", "was": null, "now": "Full/Miscellaneous Work West PM41.372"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80QB-0004-2026-08-14-21:01:00", "was": null, "now": "Lane/Miscellaneous Work  PM26.209"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80QB-0007-2026-08-14-21:01:00", "was": null, "now": "Full/Electrical Work East PM0.268"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80QB-0008-2026-08-14-21:01:00", "was": null, "now": "Lane/Electrical Work  PM17.289"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80QB-0009-2026-08-14-21:01:00", "was": null, "now": "Full/Electrical Work  PM17.289"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80QB-0010-2026-08-14-21:01:00", "was": null, "now": "Full/Electrical Work West PM16.846"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80QB-0011-2026-08-14-21:01:00", "was": null, "now": "Full/Miscellaneous Work West PM17.289"}
+{"t": "2026-08-15T06:47:39+00:00", "key": "closure:C80QB-0012-2026-08-14-21:01:00", "was": null, "now": "Full/Miscellaneous Work West PM26.209"}
