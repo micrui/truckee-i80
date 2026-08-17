@@ -584,3 +584,4 @@
 {"t": "2026-08-17T15:30:04+00:00", "key": "closure:C80OB-0076-2026-08-16-20:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM50.736", "now": null}
 {"t": "2026-08-17T15:30:04+00:00", "key": "closure:C80OB-0077-2026-08-16-22:01:00", "was": "Full/Miscellaneous Work West PM28.587", "now": null}
 {"t": "2026-08-17T15:30:04+00:00", "key": "closure:C80OB-0078-2026-08-16-22:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM29.323", "now": null}
+{"t": "2026-08-17T21:30:28+00:00", "key": "closure:C80OA-0002-2026-08-17-14:01:00", "was": null, "now": "Lane/Slab Replacement  PM49.000"}
