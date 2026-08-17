@@ -561,3 +561,6 @@
 {"t": "2026-08-17T03:54:52+00:00", "key": "closure:C80OB-0072-2026-08-16-20:01:00", "was": null, "now": "Full/Miscellaneous Work East PM26.209"}
 {"t": "2026-08-17T03:54:52+00:00", "key": "closure:C80OB-0074-2026-08-16-20:01:00", "was": null, "now": "Full/Miscellaneous Work East PM28.587"}
 {"t": "2026-08-17T03:54:52+00:00", "key": "closure:C80OB-0076-2026-08-16-20:01:00", "was": null, "now": "Alternating Lanes/Miscellaneous Work  PM50.736"}
+{"t": "2026-08-17T07:05:39+00:00", "key": "closure:C80MA-0031-2026-08-17-00:01:00", "was": null, "now": "Lane/Striping Operation  PM69.769"}
+{"t": "2026-08-17T07:05:39+00:00", "key": "closure:C80OB-0077-2026-08-16-22:01:00", "was": null, "now": "Full/Miscellaneous Work West PM28.587"}
+{"t": "2026-08-17T07:05:39+00:00", "key": "closure:C80OB-0078-2026-08-16-22:01:00", "was": null, "now": "Alternating Lanes/Miscellaneous Work  PM29.323"}
