@@ -614,3 +614,16 @@
 {"t": "2026-08-18T03:49:30+00:00", "key": "closure:C80WB-0052-2026-08-17-20:01:00", "was": null, "now": "One-Way Traffic/Bridge Work  PM23.429"}
 {"t": "2026-08-18T03:49:30+00:00", "key": "closure:C80BB-0001-2026-08-17-07:01:00", "was": "Lane/Electrical Work  PM57.700", "now": null}
 {"t": "2026-08-18T03:49:30+00:00", "key": "closure:C80BB-0006-2026-08-17-07:01:00", "was": "Lane/Drainage Work  PM67.500", "now": null}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0013-2026-08-17-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM26.209"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0017-2026-08-17-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM26.209"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0021-2026-08-17-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM41.705"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0025-2026-08-17-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM41.372"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0029-2026-08-17-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM16.846"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0033-2026-08-17-21:01:00", "was": null, "now": "Full/Fiber optic installation  PM17.289"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0037-2026-08-17-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM17.289"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0045-2026-08-17-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM11.392"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0049-2026-08-17-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.350"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0053-2026-08-17-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.387"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80QB-0065-2026-08-17-21:01:00", "was": null, "now": "Full/Fiber optic installation East PM0.268"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80WB-0037-2026-08-17-21:01:00", "was": null, "now": "Lane/Bridge Work East PM3.661"}
+{"t": "2026-08-18T06:53:00+00:00", "key": "closure:C80WB-0042-2026-08-17-21:01:00", "was": null, "now": "One-Way Traffic/Bridge Work  PM3.661"}
