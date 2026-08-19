@@ -756,3 +756,5 @@
 {"t": "2026-08-19T15:36:18+00:00", "key": "closure:C80WB-0048-2026-08-18-20:01:00", "was": "One-Way Traffic/Bridge Work  PM22.212", "now": null}
 {"t": "2026-08-19T15:36:18+00:00", "key": "closure:C80WB-0058-2026-08-18-18:01:00", "was": "Lane/Bridge Work  PM64.212", "now": null}
 {"t": "2026-08-19T15:36:18+00:00", "key": "closure:T80GB-0001-2026-08-18-07:15:00", "was": "Lane/Emergency Work  PM5.469", "now": null}
+{"t": "2026-08-19T21:30:08+00:00", "key": "closure:C80XA-0004-2026-08-19-05:01:00", "was": "Lane/Drainage Work  PM41.250", "now": null}
+{"t": "2026-08-19T21:30:08+00:00", "key": "closure:C80XA-0005-2026-08-19-05:01:00", "was": "Lane/Drainage Work  PM42.250", "now": null}
