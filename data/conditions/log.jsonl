@@ -793,3 +793,13 @@
 {"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0051-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.350"}
 {"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0055-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.387"}
 {"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0067-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation East PM0.268"}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0019-2026-08-19-21:01:00", "was": "Full/Fiber optic installation West PM26.209", "now": null}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0023-2026-08-19-21:01:00", "was": "Lane/Fiber optic installation  PM41.705", "now": null}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0027-2026-08-19-21:01:00", "was": "Full/Fiber optic installation West PM41.372", "now": null}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0031-2026-08-19-21:01:00", "was": "Full/Fiber optic installation West PM16.846", "now": null}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0035-2026-08-19-21:01:00", "was": "Full/Fiber optic installation  PM17.289", "now": null}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0039-2026-08-19-21:01:00", "was": "Lane/Fiber optic installation  PM17.289", "now": null}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0047-2026-08-19-21:01:00", "was": "Lane/Fiber optic installation  PM11.392", "now": null}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0051-2026-08-19-21:01:00", "was": "Full/Fiber optic installation West PM10.350", "now": null}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0055-2026-08-19-21:01:00", "was": "Full/Fiber optic installation West PM10.387", "now": null}
+{"t": "2026-08-20T12:58:46+00:00", "key": "closure:C80QB-0067-2026-08-19-21:01:00", "was": "Full/Fiber optic installation East PM0.268", "now": null}
