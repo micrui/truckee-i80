@@ -782,3 +782,14 @@
 {"t": "2026-08-20T03:50:48+00:00", "key": "closure:C80WB-0009-2026-08-19-19:01:00", "was": null, "now": "Lane/Bridge Work  PM66.333"}
 {"t": "2026-08-20T03:50:48+00:00", "key": "closure:C80BB-0003-2026-08-19-07:01:00", "was": "Lane/Electrical Work  PM57.700", "now": null}
 {"t": "2026-08-20T03:50:48+00:00", "key": "closure:C80BB-0008-2026-08-19-07:01:00", "was": "Lane/Drainage Work  PM67.500", "now": null}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0015-2026-08-19-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM26.209"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0019-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM26.209"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0023-2026-08-19-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM41.705"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0027-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM41.372"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0031-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM16.846"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0035-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation  PM17.289"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0039-2026-08-19-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM17.289"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0047-2026-08-19-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM11.392"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0051-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.350"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0055-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.387"}
+{"t": "2026-08-20T06:54:18+00:00", "key": "closure:C80QB-0067-2026-08-19-21:01:00", "was": null, "now": "Full/Fiber optic installation East PM0.268"}
