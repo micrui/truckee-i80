@@ -866,3 +866,15 @@
 {"t": "2026-08-21T06:55:36+00:00", "key": "closure:C80WB-0040-2026-08-20-21:01:00", "was": null, "now": "Lane/Bridge Work East PM3.661"}
 {"t": "2026-08-21T06:55:36+00:00", "key": "closure:C80WB-0045-2026-08-20-21:01:00", "was": null, "now": "One-Way Traffic/Bridge Work  PM3.661"}
 {"t": "2026-08-21T09:42:16+00:00", "key": "closure:C80XA-0003-2026-08-20-18:01:00", "was": "Lane/Paving Operation  PM35.100", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0020-2026-08-20-21:01:00", "was": "Full/Fiber optic installation West PM26.209", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0024-2026-08-20-21:01:00", "was": "Lane/Fiber optic installation  PM41.705", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0028-2026-08-20-21:01:00", "was": "Full/Fiber optic installation West PM41.372", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0032-2026-08-20-21:01:00", "was": "Full/Fiber optic installation West PM16.846", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0036-2026-08-20-21:01:00", "was": "Full/Fiber optic installation  PM17.289", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0040-2026-08-20-21:01:00", "was": "Lane/Fiber optic installation  PM17.289", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0048-2026-08-20-21:01:00", "was": "Lane/Fiber optic installation  PM11.392", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0052-2026-08-20-21:01:00", "was": "Full/Fiber optic installation West PM10.350", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0056-2026-08-20-21:01:00", "was": "Full/Fiber optic installation West PM10.387", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80QB-0068-2026-08-20-21:01:00", "was": "Full/Fiber optic installation East PM0.268", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80WB-0040-2026-08-20-21:01:00", "was": "Lane/Bridge Work East PM3.661", "now": null}
+{"t": "2026-08-21T12:57:46+00:00", "key": "closure:C80WB-0045-2026-08-20-21:01:00", "was": "One-Way Traffic/Bridge Work  PM3.661", "now": null}
