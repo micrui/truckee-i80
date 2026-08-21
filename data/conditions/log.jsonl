@@ -898,3 +898,5 @@
 {"t": "2026-08-21T15:38:33+00:00", "key": "closure:C80XA-0002-2026-08-20-18:01:00", "was": "Full/Paving Operation East PM43.167", "now": null}
 {"t": "2026-08-21T15:38:33+00:00", "key": "closure:C80XA-0006-2026-08-20-18:59:00", "was": "Lane/AC Paving  PM42.191", "now": null}
 {"t": "2026-08-21T15:38:33+00:00", "key": "closure:M80BC-0001-2026-08-20-19:01:00", "was": "Lane/Guardrail Repair  PM7.431", "now": null}
+{"t": "2026-08-21T18:44:10+00:00", "key": "closure:C80OA-0001-2026-08-16-20:01:00", "was": "Alternating Lanes/Slab Replacement  PM44.752", "now": null}
+{"t": "2026-08-21T18:44:10+00:00", "key": "closure:C80OA-0002-2026-08-17-14:01:00", "was": "Lane/Slab Replacement  PM49.000", "now": null}
