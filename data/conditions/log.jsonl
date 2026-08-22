@@ -903,3 +903,7 @@
 {"t": "2026-08-21T21:29:35+00:00", "key": "closure:C80MA-0001-2026-08-17-06:01:00", "was": "Lane/Striping Operation  PM68.600", "now": null}
 {"t": "2026-08-21T21:29:35+00:00", "key": "closure:C80MA-0030-2026-08-21-06:01:00", "was": "Lane/Drainage Work  PM2.476", "now": null}
 {"t": "2026-08-21T21:29:35+00:00", "key": "closure:C80OB-0004-2026-08-17-05:59:00", "was": "One-Way Traffic/Concrete Pour  PM53.356", "now": null}
+{"t": "2026-08-22T01:35:00+00:00", "key": "closure:C80NA-0001-2026-08-21-18:01:00", "was": null, "now": "Lane/Pavement Work  PM59.545"}
+{"t": "2026-08-22T01:35:00+00:00", "key": "closure:C80NA-0002-2026-08-21-18:01:00", "was": null, "now": "Full/Pavement Work West PM59.545"}
+{"t": "2026-08-22T01:35:00+00:00", "key": "closure:P80UA-0005-2026-08-21-08:01:00", "was": "Lane/Tree Work West PM31.794", "now": null}
+{"t": "2026-08-22T01:35:00+00:00", "key": "closure:T80JB-0003-2026-08-21-05:30:00", "was": "Lane/Emergency Work  PM41.705", "now": null}
