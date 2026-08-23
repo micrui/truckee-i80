@@ -931,3 +931,5 @@
 {"t": "2026-08-22T15:26:29+00:00", "key": "closure:C80NA-0001-2026-08-21-18:01:00", "was": "Lane/Pavement Work  PM59.545", "now": null}
 {"t": "2026-08-22T15:26:29+00:00", "key": "closure:C80NA-0002-2026-08-21-18:01:00", "was": "Full/Pavement Work West PM59.545", "now": null}
 {"t": "2026-08-22T21:27:02+00:00", "key": "closure:C80OB-0039-2026-08-22-04:01:00", "was": "Full/Concrete Pour  PM53.356", "now": null}
+{"t": "2026-08-23T15:27:33+00:00", "key": "closure:T80GB-0001-2026-08-23-07:01:00", "was": null, "now": "Lane/Emergency Work  PM6.700"}
+{"t": "2026-08-23T15:27:33+00:00", "key": "closure:C80OA-0113-2026-04-08-07:01:00", "was": "Full/Highway Construction East PM49.000", "now": null}
