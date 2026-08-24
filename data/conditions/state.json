@@ -42,7 +42,6 @@
  "closure:C80MA-0012-2026-08-24-07:01:00": "Full/Loop Installation West PM69.229",
  "closure:C80MA-0017-2026-08-24-06:01:00": "Full/Drainage Work  PM2.476",
  "closure:C80OA-0001-2026-08-24-06:01:00": "Alternating Lanes/Striping Operation  PM43.167",
- "closure:C80OA-0006-2026-08-23-18:01:00": "Alternating Lanes/Striping Operation  PM49.000",
  "closure:C80OA-0012-2026-08-24-07:01:00": "Alternating Lanes/Striping Operation  PM49.000",
  "closure:C80OA-0018-2026-08-24-06:01:00": "Full/Striping Operation East PM44.752",
  "closure:C80OA-0021-2026-08-24-06:01:00": "Full/Striping Operation West PM44.752",
@@ -60,6 +59,8 @@
  "closure:M80TB-0006-2026-08-24-07:01:00": "Full/Tree Work West PM14.970",
  "closure:M80TB-0007-2026-08-24-06:01:00": "Full/Tree Work West PM14.970",
  "closure:M80UA-0001-2026-08-24-07:30:00": "Lane/Bridge Work  PM9.300",
+ "closure:M80UA-0005-2026-08-24-07:30:00": "Full/Bridge Work  PM9.071",
+ "closure:P80RA-0001-2026-08-24-09:01:00": "Lane/Tree Work  PM11.392",
  "closure:P80UA-0001-2026-08-24-08:01:00": "Lane/Tree Work  PM52.891",
  "closure:T80GB-0001-2026-08-23-07:01:00": "Lane/Emergency Work  PM6.700"
 }

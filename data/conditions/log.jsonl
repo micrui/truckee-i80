@@ -993,3 +993,6 @@
 {"t": "2026-08-24T15:44:34+00:00", "key": "closure:M80BC-0001-2026-08-23-21:01:00", "was": "Lane/Guardrail Repair  PM23.569", "now": null}
 {"t": "2026-08-24T15:44:34+00:00", "key": "closure:M80TB-0001-2026-08-23-18:01:00", "was": "Lane/Guardrail Work  PM15.700", "now": null}
 {"t": "2026-08-24T15:44:34+00:00", "key": "closure:M80TB-0002-2026-08-23-18:01:00", "was": "Lane/Guardrail Work  PM19.357", "now": null}
+{"t": "2026-08-24T18:48:50+00:00", "key": "closure:M80UA-0005-2026-08-24-07:30:00", "was": null, "now": "Full/Bridge Work  PM9.071"}
+{"t": "2026-08-24T18:48:50+00:00", "key": "closure:P80RA-0001-2026-08-24-09:01:00", "was": null, "now": "Lane/Tree Work  PM11.392"}
+{"t": "2026-08-24T18:48:50+00:00", "key": "closure:C80OA-0006-2026-08-23-18:01:00", "was": "Alternating Lanes/Striping Operation  PM49.000", "now": null}
