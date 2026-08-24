@@ -32,10 +32,15 @@
  "chain:Truckee:West": "R-0",
  "chain:Whitmore:East": "R-0",
  "chain:Yuba Gap:East": "R-0",
+ "closure:C80OA-0006-2026-08-23-18:01:00": "Alternating Lanes/Striping Operation  PM49.000",
  "closure:C80OA-0034-2026-06-21-07:01:00": "Full/Highway Construction East PM49.000",
  "closure:C80OA-0035-2026-06-21-07:01:00": "Full/Highway Construction East PM49.000",
  "closure:C80OA-0036-2026-06-21-07:01:00": "Full/Highway Construction East PM46.310",
  "closure:C80OA-0037-2026-06-21-07:01:00": "Full/Highway Construction East PM46.310",
  "closure:C80OA-0111-2026-04-07-07:01:00": "Full/Highway Construction East PM46.310",
+ "closure:C80XA-0004-2026-08-23-18:01:00": "Lane/Paving Operation  PM35.100",
+ "closure:M80TB-0001-2026-08-23-18:01:00": "Lane/Guardrail Work  PM15.700",
+ "closure:M80TB-0002-2026-08-23-18:01:00": "Lane/Guardrail Work  PM19.357",
+ "closure:M80TB-0004-2026-08-23-18:01:00": "Lane/Guardrail Work  PM20.225",
  "closure:T80GB-0001-2026-08-23-07:01:00": "Lane/Emergency Work  PM6.700"
 }
