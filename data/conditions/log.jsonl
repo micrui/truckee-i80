@@ -1164,3 +1164,15 @@
 {"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80BB-0010-2026-08-25-07:01:00", "was": "Lane/Drainage Work  PM66.333", "now": null}
 {"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80BB-0012-2026-08-25-12:01:00", "was": "Alternating Lanes/Striping Operation  PM50.736", "now": null}
 {"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80OA-0013-2026-08-25-07:01:00", "was": "Alternating Lanes/Striping Operation  PM49.000", "now": null}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80OB-0003-2026-08-25-20:59:00", "was": null, "now": "Alternating Lanes/Bridge Work  PM29.323"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0021-2026-08-25-21:01:00", "was": null, "now": "Full/Fiber optic installation East PM0.268"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0025-2026-08-25-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM16.846"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0030-2026-08-25-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM16.846"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0034-2026-08-25-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM17.289"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0038-2026-08-25-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM11.392"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0042-2026-08-25-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.350"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0046-2026-08-25-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.350"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0050-2026-08-25-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM41.705"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0054-2026-08-25-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM42.191"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:C80QB-0062-2026-08-25-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM26.209"}
+{"t": "2026-08-26T06:57:27+00:00", "key": "closure:T80GB-0001-2026-08-23-07:01:00", "was": "Lane/Emergency Work  PM6.700", "now": null}
