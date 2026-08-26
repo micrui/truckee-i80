@@ -1152,3 +1152,15 @@
 {"t": "2026-08-26T01:42:03+00:00", "key": "closure:M80UA-0002-2026-08-25-07:30:00", "was": "Lane/Bridge Work  PM9.646", "now": null}
 {"t": "2026-08-26T01:42:03+00:00", "key": "closure:M80UA-0006-2026-08-25-07:30:00", "was": "Full/Bridge Work  PM9.071", "now": null}
 {"t": "2026-08-26T01:42:03+00:00", "key": "closure:P80UA-0002-2026-08-25-08:01:00", "was": "Lane/Tree Work  PM52.891", "now": null}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80OA-0008-2026-08-25-19:01:00", "was": null, "now": "Alternating Lanes/Striping Operation  PM49.000"}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80OB-0006-2026-08-25-20:01:00", "was": null, "now": "Full/Bridge Work West PM28.587"}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80OB-0010-2026-08-25-20:01:00", "was": null, "now": "Full/Drilling East PM26.209"}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80OB-0014-2026-08-25-20:01:00", "was": null, "now": "Alternating Lanes/Bridge Work  PM26.300"}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80OB-0018-2026-08-25-20:01:00", "was": null, "now": "Full/Bridge Work East PM28.587"}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80OB-0022-2026-08-25-20:01:00", "was": null, "now": "Full/Bridge Work East PM28.587"}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80OB-0026-2026-08-25-20:01:00", "was": null, "now": "Alternating Lanes/Bridge Work  PM50.736"}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80BB-0002-2026-08-25-07:01:00", "was": "Lane/Drainage Work  PM67.500", "now": null}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80BB-0007-2026-08-25-07:01:00", "was": "Lane/Drainage Work  PM51.250", "now": null}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80BB-0010-2026-08-25-07:01:00", "was": "Lane/Drainage Work  PM66.333", "now": null}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80BB-0012-2026-08-25-12:01:00", "was": "Alternating Lanes/Striping Operation  PM50.736", "now": null}
+{"t": "2026-08-26T03:56:46+00:00", "key": "closure:C80OA-0013-2026-08-25-07:01:00", "was": "Alternating Lanes/Striping Operation  PM49.000", "now": null}
