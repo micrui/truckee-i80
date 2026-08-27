@@ -1229,3 +1229,17 @@
 {"t": "2026-08-26T16:22:35+00:00", "key": "closure:C80WB-0028-2026-08-25-18:01:00", "was": "Lane/Bridge Work  PM66.333", "now": null}
 {"t": "2026-08-26T16:22:35+00:00", "key": "closure:M80TB-0014-2026-08-25-18:01:00", "was": "Lane/Guardrail Repair  PM29.150", "now": null}
 {"t": "2026-08-26T19:52:55+00:00", "key": "closure:T80TB-0001-2026-08-26-10:01:00", "was": null, "now": "Lane/Emergency Work  PM13.210"}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:T80TB-0002-2026-08-26-16:45:00", "was": null, "now": "Lane/Emergency Work  PM13.210"}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:C80BA-0003-2026-08-26-07:30:00", "was": "Lane/Emergency Work  PM27.115", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:C80MA-0004-2026-08-26-07:01:00", "was": "Alternating Lanes/Loop Installation  PM2.545", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:C80MA-0009-2026-08-26-07:01:00", "was": "Full/Loop Installation West PM69.229", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:C80MA-0014-2026-08-26-07:01:00", "was": "Full/Loop Installation West PM69.229", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:M80EC-0003-2026-08-26-07:01:00", "was": "Lane/Tree Work  PM38.347", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:M80JB-0002-2026-08-26-07:30:00", "was": "Moving/Sweeping Operation  PM41.372", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:M80JB-0005-2026-08-26-07:30:00", "was": "Moving/Sweeping Operation  PM58.644", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:M80JB-0008-2026-08-26-07:30:00", "was": "Moving/Sweeping Operation  PM41.372", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:M80JB-0011-2026-08-26-07:30:00", "was": "Moving/Sweeping Operation  PM58.644", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:M80TB-0009-2026-08-26-06:01:00", "was": "Full/Tree Work West PM14.970", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:M80UA-0003-2026-08-26-07:30:00", "was": "Lane/Bridge Work  PM9.646", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:M80UA-0007-2026-08-26-07:30:00", "was": "Full/Bridge Work  PM9.071", "now": null}
+{"t": "2026-08-27T00:35:50+00:00", "key": "closure:P80UA-0003-2026-08-26-08:01:00", "was": "Lane/Tree Work  PM52.891", "now": null}
