@@ -1316,3 +1316,5 @@
 {"t": "2026-08-29T16:32:26+00:00", "key": "closure:C80QB-0008-2026-08-28-21:01:00", "was": "Full/Fiber optic installation West PM10.350", "now": null}
 {"t": "2026-08-29T16:32:26+00:00", "key": "closure:M80TB-0003-2026-08-28-18:01:00", "was": "Lane/Guardrail Repair  PM20.225", "now": null}
 {"t": "2026-08-29T16:32:26+00:00", "key": "closure:T80TB-0001-2026-08-28-15:30:00", "was": "Lane/Emergency Work  PM27.292", "now": null}
+{"t": "2026-08-30T16:27:12+00:00", "key": "closure:C80NA-0001-2026-08-30-06:01:00", "was": null, "now": "Full/Falsework Installation East PM59.545"}
+{"t": "2026-08-30T16:27:12+00:00", "key": "closure:C80NA-0004-2026-08-25-06:01:00", "was": "Full/Falsework Installation East PM59.545", "now": null}
