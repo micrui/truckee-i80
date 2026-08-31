@@ -32,18 +32,15 @@
  "chain:Truckee:West": "R-0",
  "chain:Whitmore:East": "R-0",
  "chain:Yuba Gap:East": "R-0",
+ "closure:C80MA-0018-2026-08-31-06:01:00": "Lane/Miscellaneous Work  PM69.769",
+ "closure:C80MA-0019-2026-08-31-06:01:00": "Full/Miscellaneous Work  PM2.476",
  "closure:C80NA-0001-2026-08-30-06:01:00": "Full/Falsework Installation East PM59.545",
+ "closure:C80OA-0001-2026-08-31-06:01:00": "Alternating Lanes/Drainage Work  PM43.167",
  "closure:C80OA-0034-2026-06-21-07:01:00": "Full/Highway Construction East PM49.000",
  "closure:C80OA-0035-2026-06-21-07:01:00": "Full/Highway Construction East PM49.000",
  "closure:C80OA-0036-2026-06-21-07:01:00": "Full/Highway Construction East PM46.310",
  "closure:C80OA-0037-2026-06-21-07:01:00": "Full/Highway Construction East PM46.310",
  "closure:C80OA-0111-2026-04-07-07:01:00": "Full/Highway Construction East PM46.310",
- "closure:C80OB-0030-2026-08-30-20:01:00": "Full/Drilling East PM26.209",
- "closure:C80OB-0031-2026-08-30-20:01:00": "Alternating Lanes/Bridge Work  PM26.300",
- "closure:C80OB-0032-2026-08-30-20:01:00": "Full/Bridge Work East PM28.587",
- "closure:C80OB-0033-2026-08-30-20:01:00": "Full/Bridge Work East PM28.587",
- "closure:C80OB-0034-2026-08-30-20:01:00": "Alternating Lanes/Bridge Work  PM50.736",
- "closure:C80XA-0001-2026-08-30-20:01:00": "Lane/Paving Operation  PM43.000",
- "closure:C80XA-0002-2026-08-30-20:01:00": "Full/Paving Operation West PM42.191",
- "closure:C80XA-0003-2026-08-30-20:01:00": "Full/Paving Operation West PM41.705"
+ "closure:C80OB-0001-2026-08-31-05:59:00": "One-Way Traffic/Concrete Pour  PM53.356",
+ "closure:C80OB-0048-2026-08-31-06:01:00": "Lane/Electrical Work  PM53.356"
 }

@@ -1326,3 +1326,16 @@
 {"t": "2026-08-31T04:54:47+00:00", "key": "closure:C80XA-0001-2026-08-30-20:01:00", "was": null, "now": "Lane/Paving Operation  PM43.000"}
 {"t": "2026-08-31T04:54:47+00:00", "key": "closure:C80XA-0002-2026-08-30-20:01:00", "was": null, "now": "Full/Paving Operation West PM42.191"}
 {"t": "2026-08-31T04:54:47+00:00", "key": "closure:C80XA-0003-2026-08-30-20:01:00", "was": null, "now": "Full/Paving Operation West PM41.705"}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80MA-0018-2026-08-31-06:01:00", "was": null, "now": "Lane/Miscellaneous Work  PM69.769"}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80MA-0019-2026-08-31-06:01:00", "was": null, "now": "Full/Miscellaneous Work  PM2.476"}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80OA-0001-2026-08-31-06:01:00", "was": null, "now": "Alternating Lanes/Drainage Work  PM43.167"}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80OB-0001-2026-08-31-05:59:00", "was": null, "now": "One-Way Traffic/Concrete Pour  PM53.356"}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80OB-0048-2026-08-31-06:01:00", "was": null, "now": "Lane/Electrical Work  PM53.356"}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80OB-0030-2026-08-30-20:01:00", "was": "Full/Drilling East PM26.209", "now": null}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80OB-0031-2026-08-30-20:01:00", "was": "Alternating Lanes/Bridge Work  PM26.300", "now": null}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80OB-0032-2026-08-30-20:01:00", "was": "Full/Bridge Work East PM28.587", "now": null}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80OB-0033-2026-08-30-20:01:00", "was": "Full/Bridge Work East PM28.587", "now": null}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80OB-0034-2026-08-30-20:01:00", "was": "Alternating Lanes/Bridge Work  PM50.736", "now": null}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80XA-0001-2026-08-30-20:01:00", "was": "Lane/Paving Operation  PM43.000", "now": null}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80XA-0002-2026-08-30-20:01:00", "was": "Full/Paving Operation West PM42.191", "now": null}
+{"t": "2026-08-31T13:16:14+00:00", "key": "closure:C80XA-0003-2026-08-30-20:01:00", "was": "Full/Paving Operation West PM41.705", "now": null}
