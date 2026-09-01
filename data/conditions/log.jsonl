@@ -1435,3 +1435,6 @@
 {"t": "2026-09-01T18:17:06+00:00", "key": "closure:C80WB-0022-2026-08-31-18:01:00", "was": "Lane/Bridge Work  PM64.212", "now": null}
 {"t": "2026-09-01T18:17:06+00:00", "key": "closure:C80WB-0027-2026-08-31-18:01:00", "was": "Lane/Bridge Work  PM66.333", "now": null}
 {"t": "2026-09-01T18:17:06+00:00", "key": "closure:C80WB-0052-2026-08-31-18:01:00", "was": "Lane/Bridge Work  PM64.212", "now": null}
+{"t": "2026-09-01T23:11:36+00:00", "key": "closure:C80MA-0008-2026-09-01-06:01:00", "was": "Lane/Slope Clearing  PM2.545", "now": null}
+{"t": "2026-09-01T23:11:36+00:00", "key": "closure:M80FC-0002-2026-09-01-08:01:00", "was": "Moving/Spray Operation  PM50.780", "now": null}
+{"t": "2026-09-01T23:11:36+00:00", "key": "closure:M80UA-0001-2026-09-01-08:01:00", "was": "Lane/Bridge Work  PM66.333", "now": null}
