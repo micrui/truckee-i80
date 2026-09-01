@@ -32,6 +32,7 @@
  "chain:Truckee:West": "R-0",
  "chain:Whitmore:East": "R-0",
  "chain:Yuba Gap:East": "R-0",
+ "closure:C80BA-0002-2026-09-01-07:30:00": "Lane/Emergency Work  PM27.115",
  "closure:C80BB-0002-2026-09-01-07:01:00": "Alternating Lanes/Electrical Work  PM56.250",
  "closure:C80MA-0008-2026-09-01-06:01:00": "Lane/Slope Clearing  PM2.545",
  "closure:C80MA-0020-2026-09-01-06:01:00": "Alternating Lanes/Miscellaneous Work  PM68.600",
@@ -50,14 +51,12 @@
  "closure:C80OA-0111-2026-04-07-07:01:00": "Full/Highway Construction East PM46.310",
  "closure:C80OB-0001-2026-08-31-05:59:00": "One-Way Traffic/Concrete Pour  PM53.356",
  "closure:C80OB-0049-2026-09-01-06:01:00": "Lane/Electrical Work  PM53.356",
- "closure:C80WB-0012-2026-08-31-18:01:00": "Lane/Bridge Work  PM68.547",
- "closure:C80WB-0017-2026-08-31-18:01:00": "Lane/Bridge Work  PM69.229",
- "closure:C80WB-0022-2026-08-31-18:01:00": "Lane/Bridge Work  PM64.212",
- "closure:C80WB-0027-2026-08-31-18:01:00": "Lane/Bridge Work  PM66.333",
- "closure:C80WB-0052-2026-08-31-18:01:00": "Lane/Bridge Work  PM64.212",
  "closure:M80EC-0002-2026-09-01-07:01:00": "Lane/Tree Work  PM36.859",
  "closure:M80EC-0003-2026-09-01-07:01:00": "Lane/Tree Work  PM33.131",
+ "closure:M80FC-0002-2026-09-01-08:01:00": "Moving/Spray Operation  PM50.780",
  "closure:M80TB-0005-2026-09-01-07:01:00": "Full/Tree Work  PM14.970",
  "closure:M80TB-0008-2026-09-01-06:01:00": "Lane/Emergency Work  PM27.396",
- "closure:P80TA-0002-2026-09-01-07:01:00": "Lane/Utility Work  PM9.290"
+ "closure:M80UA-0001-2026-09-01-08:01:00": "Lane/Bridge Work  PM66.333",
+ "closure:P80TA-0002-2026-09-01-07:01:00": "Lane/Utility Work  PM9.290",
+ "closure:P80UA-0002-2026-09-01-08:01:00": "Lane/Tree Work  PM52.891"
 }
