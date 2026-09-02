@@ -60,5 +60,6 @@
  "closure:M80UA-0002-2026-09-02-08:01:00": "Lane/Bridge Work  PM66.333",
  "closure:P80TA-0003-2026-09-02-07:01:00": "Lane/Utility Work  PM9.290",
  "closure:P80UA-0003-2026-09-02-08:01:00": "Lane/Tree Work  PM52.891",
- "closure:T80EB-0001-2026-09-02-08:30:00": "Lane/Emergency Work  PM7.421"
+ "closure:T80EB-0001-2026-09-02-08:30:00": "Lane/Emergency Work  PM7.421",
+ "closure:T80ZA-0001-2026-09-02-12:01:00": "Lane/Emergency Work  PM7.421"
 }

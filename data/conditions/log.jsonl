@@ -1531,3 +1531,4 @@
 {"t": "2026-09-02T16:21:11+00:00", "key": "closure:C80WB-0028-2026-09-01-18:01:00", "was": "Lane/Bridge Work  PM66.333", "now": null}
 {"t": "2026-09-02T16:21:11+00:00", "key": "closure:C80WB-0033-2026-09-01-18:01:00", "was": "Lane/Bridge Work  PM62.747", "now": null}
 {"t": "2026-09-02T16:21:11+00:00", "key": "closure:C80WB-0053-2026-09-01-18:01:00", "was": "Lane/Bridge Work  PM64.212", "now": null}
+{"t": "2026-09-02T20:51:55+00:00", "key": "closure:T80ZA-0001-2026-09-02-12:01:00", "was": null, "now": "Lane/Emergency Work  PM7.421"}
