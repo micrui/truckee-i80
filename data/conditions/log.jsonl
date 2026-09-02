@@ -1468,3 +1468,15 @@
 {"t": "2026-09-02T03:56:12+00:00", "key": "closure:M80TB-0008-2026-09-01-06:01:00", "was": "Lane/Emergency Work  PM27.396", "now": null}
 {"t": "2026-09-02T03:56:12+00:00", "key": "closure:P80TA-0002-2026-09-01-07:01:00", "was": "Lane/Utility Work  PM9.290", "now": null}
 {"t": "2026-09-02T03:56:12+00:00", "key": "closure:P80UA-0002-2026-09-01-08:01:00", "was": "Lane/Tree Work  PM52.891", "now": null}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80QB-0023-2026-09-01-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM26.209"}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80QB-0031-2026-09-01-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM38.975"}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80QB-0035-2026-09-01-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM38.347"}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80QB-0039-2026-09-01-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM11.392"}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80QB-0043-2026-09-01-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.350"}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80QB-0047-2026-09-01-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.350"}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80QB-0051-2026-09-01-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM16.846"}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80QB-0066-2026-09-01-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM38.347"}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80BC-0001-2026-09-01-20:01:00", "was": "Full/Paving Operation East PM14.186", "now": null}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80BC-0004-2026-09-01-20:01:00", "was": "Full/Paving Operation West PM14.186", "now": null}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80BC-0007-2026-09-01-20:01:00", "was": "Full/Paving Operation East PM14.186", "now": null}
+{"t": "2026-09-02T10:59:48+00:00", "key": "closure:C80BC-0010-2026-09-01-20:01:00", "was": "Full/Paving Operation West PM14.186", "now": null}
