@@ -12,7 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Poll chain control and closures
-        run: python3 conditions_poll.py
+        run: |
+          python3 conditions_poll.py
           python3 render_site.py
       - name: Commit changes
         run: |

@@ -17,7 +17,8 @@ jobs:
         env:
           PEMS_USER: ${{ secrets.PEMS_USER }}
           PEMS_PASS: ${{ secrets.PEMS_PASS }}
-        run: python3 pems_daily.py
+        run: |
+          python3 pems_daily.py
           python3 render_site.py
       - name: Commit
         run: |
