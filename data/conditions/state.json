@@ -36,8 +36,6 @@
  "closure:C80MA-0002-2026-09-09-06:01:00": "Alternating Lanes/Crack Seal Operation  PM68.600",
  "closure:C80MA-0006-2026-09-09-06:01:00": "Lane/Slope Clearing  PM2.545",
  "closure:C80NA-0001-2026-09-08-20:01:00": "Full/Falsework Installation  PM59.545",
- "closure:C80NA-0002-2026-09-09-07:01:00": "Lane/Erosion Control  PM58.835",
- "closure:C80NA-0003-2026-09-09-07:01:00": "Lane/Erosion Control  PM62.147",
  "closure:C80OA-0001-2026-09-09-06:01:00": "Alternating Lanes/Electrical Work  PM49.000",
  "closure:C80OA-0034-2026-06-21-07:01:00": "Full/Highway Construction East PM49.000",
  "closure:C80OA-0035-2026-06-21-07:01:00": "Full/Highway Construction East PM49.000",
@@ -51,7 +49,6 @@
  "closure:C80XA-0004-2026-09-09-05:01:00": "Lane/K-rail Installation  PM35.500",
  "closure:C80XA-0005-2026-09-09-05:01:00": "Lane/K-rail Installation  PM34.500",
  "closure:C80XA-0011-2026-09-09-05:01:00": "Lane/K-rail Installation  PM37.150",
- "closure:M80EC-0001-2026-09-09-07:01:00": "Lane/Tree Work  PM37.782",
  "closure:M80TB-0002-2026-09-09-06:01:00": "Full/Tree Work West PM14.970",
  "closure:M80TB-0007-2026-09-09-08:01:00": "Moving/Drainage Inspection  PM21.808",
  "closure:P80TA-0002-2026-09-09-07:01:00": "Lane/Utility Work  PM9.290"
