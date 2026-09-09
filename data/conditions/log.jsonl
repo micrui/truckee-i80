@@ -1733,3 +1733,5 @@
 {"t": "2026-09-09T16:19:50+00:00", "key": "closure:C80WB-0076-2026-09-08-21:01:00", "was": "Lane/Bridge Work  PM66.333", "now": null}
 {"t": "2026-09-09T16:19:50+00:00", "key": "closure:C80WB-0079-2026-09-08-21:01:00", "was": "Lane/Bridge Work  PM64.212", "now": null}
 {"t": "2026-09-09T16:19:50+00:00", "key": "closure:C80WB-0085-2026-09-08-21:01:00", "was": "Lane/Bridge Work  PM68.547", "now": null}
+{"t": "2026-09-09T20:46:37+00:00", "key": "closure:M80TB-0007-2026-09-09-08:01:00", "was": null, "now": "Moving/Drainage Inspection  PM21.808"}
+{"t": "2026-09-09T20:46:37+00:00", "key": "closure:C80XA-0017-2026-09-09-08:01:00", "was": "Full/K-rail Installation West PM38.347", "now": null}
