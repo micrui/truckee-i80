@@ -1839,3 +1839,5 @@
 {"t": "2026-09-11T04:03:03+00:00", "key": "closure:M80TB-0003-2026-09-10-06:01:00", "was": "Full/Tree Work West PM14.970", "now": null}
 {"t": "2026-09-11T04:03:03+00:00", "key": "closure:P80TA-0003-2026-09-10-07:01:00", "was": "Lane/Utility Work  PM9.290", "now": null}
 {"t": "2026-09-11T04:03:03+00:00", "key": "closure:T80JB-0001-2026-09-10-08:30:00", "was": "Full/Drilling East PM41.873", "now": null}
+{"t": "2026-09-11T10:58:13+00:00", "key": "closure:C80OB-0029-2026-09-10-23:01:00", "was": null, "now": "Full/Bridge Work  PM53.356"}
+{"t": "2026-09-11T10:58:13+00:00", "key": "closure:C80QB-0013-2026-09-10-21:01:00", "was": "Lane/Fiber optic installation  PM34.992", "now": null}
