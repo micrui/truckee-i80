@@ -2173,3 +2173,4 @@
 {"t": "2026-09-17T16:40:11+00:00", "key": "closure:C80WB-0033-2026-09-16-18:01:00", "was": "Lane/Bridge Work  PM66.333", "now": null}
 {"t": "2026-09-17T16:40:11+00:00", "key": "closure:C80WB-0038-2026-09-16-18:01:00", "was": "Lane/Bridge Work  PM62.747", "now": null}
 {"t": "2026-09-17T16:40:11+00:00", "key": "closure:C80XA-0008-2026-09-16-18:01:00", "was": "Lane/Paving Operation  PM42.300", "now": null}
+{"t": "2026-09-17T21:10:06+00:00", "key": "closure:C80XA-0024-2026-09-17-11:01:00", "was": null, "now": "Full/Guardrail Work  PM38.347"}
