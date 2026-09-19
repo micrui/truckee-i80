@@ -2246,3 +2246,9 @@
 {"t": "2026-09-18T20:42:26+00:00", "key": "closure:C80OB-0043-2026-09-18-05:01:00", "was": "Full/Concrete Pour  PM53.356", "now": null}
 {"t": "2026-09-18T20:42:26+00:00", "key": "closure:M80EC-0005-2026-09-18-07:01:00", "was": "Lane/Tree Work  PM38.975", "now": null}
 {"t": "2026-09-18T20:42:26+00:00", "key": "closure:P80TA-0009-2026-09-18-07:01:00", "was": "Lane/Utility Work  PM9.480", "now": null}
+{"t": "2026-09-19T04:05:31+00:00", "key": "closure:C80OB-0016-2026-09-18-20:01:00", "was": null, "now": "Lane/Concrete Pour  PM54.812"}
+{"t": "2026-09-19T04:05:31+00:00", "key": "closure:C80QB-0006-2026-09-18-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM16.846"}
+{"t": "2026-09-19T04:05:31+00:00", "key": "closure:C80QB-0007-2026-09-18-21:01:00", "was": null, "now": "Lane/Fiber optic installation  PM11.392"}
+{"t": "2026-09-19T04:05:31+00:00", "key": "closure:C80QB-0008-2026-09-18-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.350"}
+{"t": "2026-09-19T04:05:31+00:00", "key": "closure:C80QB-0009-2026-09-18-21:01:00", "was": null, "now": "Full/Fiber optic installation West PM10.350"}
+{"t": "2026-09-19T04:05:31+00:00", "key": "closure:C80OA-0010-2026-09-18-06:01:00", "was": "Alternating Lanes/Striping Operation  PM49.000", "now": null}
