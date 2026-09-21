@@ -2277,3 +2277,5 @@
 {"t": "2026-09-21T04:22:41+00:00", "key": "closure:C80WB-0051-2026-09-20-21:01:00", "was": null, "now": "One-Way Traffic/Bridge Work  PM23.429"}
 {"t": "2026-09-21T04:22:41+00:00", "key": "closure:C80XA-0011-2026-09-20-20:01:00", "was": null, "now": "Lane/Paving Operation  PM41.500"}
 {"t": "2026-09-21T04:22:41+00:00", "key": "closure:C80XA-0022-2026-09-20-20:01:00", "was": null, "now": "Full/Drainage Work West PM41.705"}
+{"t": "2026-09-21T12:29:41+00:00", "key": "closure:C80XA-0027-2026-09-21-05:01:00", "was": null, "now": "Lane/Guardrail Work  PM41.750"}
+{"t": "2026-09-21T12:29:41+00:00", "key": "closure:C80WB-0041-2026-09-20-21:01:00", "was": "One-Way Traffic/Bridge Work  PM3.661", "now": null}
