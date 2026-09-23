@@ -2487,3 +2487,7 @@
 {"t": "2026-09-23T16:34:32+00:00", "key": "closure:C80XA-0021-2026-09-22-18:01:00", "was": "Full/Paving Operation West PM38.347", "now": null}
 {"t": "2026-09-23T16:34:32+00:00", "key": "closure:C80XA-0024-2026-09-22-18:01:00", "was": "Full/Drainage Work West PM41.705", "now": null}
 {"t": "2026-09-23T16:34:32+00:00", "key": "closure:P80TA-0002-2026-09-22-21:01:00", "was": "Full/Drainage Cleaning West PM59.545", "now": null}
+{"t": "2026-09-23T21:20:33+00:00", "key": "closure:C80XA-0031-2026-09-23-05:01:00", "was": null, "now": "Lane/Guardrail Work  PM44.500"}
+{"t": "2026-09-23T21:20:33+00:00", "key": "closure:C80XA-0032-2026-09-23-05:01:00", "was": null, "now": "Lane/Guardrail Work  PM41.800"}
+{"t": "2026-09-23T21:20:33+00:00", "key": "closure:C80XA-0035-2026-09-23-13:01:00", "was": null, "now": "Lane/Tree Work  PM38.975"}
+{"t": "2026-09-23T21:20:33+00:00", "key": "closure:T80TB-0001-2026-09-16-10:45:00", "was": "Lane/Fire Emergency West PM29.489", "now": null}
