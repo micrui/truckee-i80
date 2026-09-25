@@ -33,8 +33,6 @@
  "chain:Whitmore:East": "R-0",
  "chain:Yuba Gap:East": "R-0",
  "closure:C80BA-0001-2026-09-25-06:30:00": "Full/Emergency Work East PM29.489",
- "closure:C80MA-0005-2026-09-25-06:01:00": "Alternating Lanes/Pavement Work  PM68.600",
- "closure:C80OA-0006-2026-09-25-06:01:00": "Alternating Lanes/Grinding Operation  PM43.167",
  "closure:C80OA-0011-2026-09-25-06:01:00": "Alternating Lanes/Grinding Operation  PM49.000",
  "closure:C80OA-0013-2026-09-25-08:01:00": "Full/Sign Work West PM44.752",
  "closure:C80OA-0034-2026-06-21-07:01:00": "Full/Highway Construction East PM49.000",
@@ -42,8 +40,6 @@
  "closure:C80OA-0036-2026-06-21-07:01:00": "Full/Highway Construction East PM46.310",
  "closure:C80OA-0037-2026-06-21-07:01:00": "Full/Highway Construction East PM46.310",
  "closure:C80OA-0111-2026-04-07-07:01:00": "Full/Highway Construction East PM46.310",
- "closure:C80OB-0018-2026-09-21-06:01:00": "One-Way Traffic/Concrete Pour  PM53.356",
- "closure:C80OB-0042-2026-09-22-05:01:00": "Full/Falsework Installation  PM53.356",
  "closure:C80XB-0002-2026-09-25-06:01:00": "Lane/K-rail Removal  PM50.780",
  "closure:T80JB-0001-2026-09-24-20:30:00": "Full/Emergency Work East PM41.873"
 }

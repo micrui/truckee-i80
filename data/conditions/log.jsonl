@@ -2669,3 +2669,7 @@
 {"t": "2026-09-25T16:57:03+00:00", "key": "closure:C80WB-0040-2026-09-24-21:01:00", "was": "Lane/Bridge Work East PM3.661", "now": null}
 {"t": "2026-09-25T16:57:03+00:00", "key": "closure:C80XA-0026-2026-09-24-18:01:00", "was": "Full/Drainage Work West PM41.705", "now": null}
 {"t": "2026-09-25T16:57:03+00:00", "key": "closure:P80TA-0004-2026-09-24-21:01:00", "was": "Full/Drainage Cleaning West PM59.545", "now": null}
+{"t": "2026-09-25T21:21:48+00:00", "key": "closure:C80MA-0005-2026-09-25-06:01:00", "was": "Alternating Lanes/Pavement Work  PM68.600", "now": null}
+{"t": "2026-09-25T21:21:48+00:00", "key": "closure:C80OA-0006-2026-09-25-06:01:00", "was": "Alternating Lanes/Grinding Operation  PM43.167", "now": null}
+{"t": "2026-09-25T21:21:48+00:00", "key": "closure:C80OB-0018-2026-09-21-06:01:00", "was": "One-Way Traffic/Concrete Pour  PM53.356", "now": null}
+{"t": "2026-09-25T21:21:48+00:00", "key": "closure:C80OB-0042-2026-09-22-05:01:00", "was": "Full/Falsework Installation  PM53.356", "now": null}
