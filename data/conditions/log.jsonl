@@ -2679,3 +2679,6 @@
 {"t": "2026-09-26T04:28:20+00:00", "key": "closure:C80OA-0013-2026-09-25-08:01:00", "was": "Full/Sign Work West PM44.752", "now": null}
 {"t": "2026-09-26T04:28:20+00:00", "key": "closure:C80XB-0002-2026-09-25-06:01:00", "was": "Lane/K-rail Removal  PM50.780", "now": null}
 {"t": "2026-09-26T04:28:20+00:00", "key": "closure:T80JB-0001-2026-09-24-20:30:00", "was": "Full/Emergency Work East PM41.873", "now": null}
+{"t": "2026-09-26T11:08:15+00:00", "key": "closure:C80OB-0001-2026-09-25-22:01:00", "was": null, "now": "Lane/Concrete Pour  PM50.736"}
+{"t": "2026-09-26T11:08:15+00:00", "key": "closure:C80OB-0002-2026-09-25-22:01:00", "was": null, "now": "Lane/Concrete Cure  PM54.812"}
+{"t": "2026-09-26T11:08:15+00:00", "key": "closure:M80JA-0002-2026-09-26-04:01:00", "was": null, "now": "Moving/Sweeping Operation  PM14.301"}
