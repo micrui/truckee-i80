@@ -2682,3 +2682,7 @@
 {"t": "2026-09-26T11:08:15+00:00", "key": "closure:C80OB-0001-2026-09-25-22:01:00", "was": null, "now": "Lane/Concrete Pour  PM50.736"}
 {"t": "2026-09-26T11:08:15+00:00", "key": "closure:C80OB-0002-2026-09-25-22:01:00", "was": null, "now": "Lane/Concrete Cure  PM54.812"}
 {"t": "2026-09-26T11:08:15+00:00", "key": "closure:M80JA-0002-2026-09-26-04:01:00", "was": null, "now": "Moving/Sweeping Operation  PM14.301"}
+{"t": "2026-09-26T16:09:15+00:00", "key": "closure:C80OB-0053-2026-09-26-06:01:00", "was": null, "now": "Alternating Lanes/Bridge Work  PM53.356"}
+{"t": "2026-09-26T16:09:15+00:00", "key": "closure:C80OB-0001-2026-09-25-22:01:00", "was": "Lane/Concrete Pour  PM50.736", "now": null}
+{"t": "2026-09-26T16:09:15+00:00", "key": "closure:C80OB-0002-2026-09-25-22:01:00", "was": "Lane/Concrete Cure  PM54.812", "now": null}
+{"t": "2026-09-26T16:09:15+00:00", "key": "closure:C80QB-0007-2026-09-25-21:01:00", "was": "Lane/Fiber optic installation  PM16.846", "now": null}
