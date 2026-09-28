@@ -2698,3 +2698,10 @@
 {"t": "2026-09-28T13:28:05+00:00", "key": "closure:C80XA-0064-2026-09-28-05:01:00", "was": null, "now": "Alternating Lanes/Drainage Work  PM41.250"}
 {"t": "2026-09-28T13:28:05+00:00", "key": "closure:P80UA-0001-2026-09-27-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
 {"t": "2026-09-28T13:28:05+00:00", "key": "closure:P80UA-0005-2026-09-27-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
+{"t": "2026-09-28T21:09:12+00:00", "key": "closure:C80BA-0001-2026-09-28-07:30:00", "was": null, "now": "Lane/Emergency Work  PM27.115"}
+{"t": "2026-09-28T21:09:12+00:00", "key": "closure:C80BB-0001-2026-09-28-07:01:00", "was": null, "now": "Lane/Drainage Work  PM51.250"}
+{"t": "2026-09-28T21:09:12+00:00", "key": "closure:C80BB-0004-2026-09-28-07:01:00", "was": null, "now": "Lane/Drainage Work  PM66.660"}
+{"t": "2026-09-28T21:09:12+00:00", "key": "closure:C80BB-0007-2026-09-28-07:01:00", "was": null, "now": "Lane/Drainage Work  PM67.990"}
+{"t": "2026-09-28T21:09:12+00:00", "key": "closure:M80VA-0001-2026-09-28-08:01:00", "was": null, "now": "Lane/Guardrail Repair  PM21.128"}
+{"t": "2026-09-28T21:09:12+00:00", "key": "closure:T80GB-0001-2026-09-28-14:01:00", "was": null, "now": "Lane/Emergency Work  PM5.923"}
+{"t": "2026-09-28T21:09:12+00:00", "key": "closure:T80VA-0001-2026-09-28-11:01:00", "was": null, "now": "Full/Emergency Work West PM29.489"}
