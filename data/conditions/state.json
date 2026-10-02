@@ -35,7 +35,6 @@
  "closure:C80BA-0005-2026-10-02-07:30:00": "Lane/Emergency Work  PM27.115",
  "closure:C80BB-0015-2026-10-02-07:01:00": "Lane/Drainage Work  PM66.660",
  "closure:C80BB-0016-2026-10-02-07:01:00": "Lane/Drainage Work  PM67.990",
- "closure:C80OA-0005-2026-10-02-06:01:00": "Alternating Lanes/Grinding Operation  PM43.167",
  "closure:C80OA-0010-2026-10-02-06:01:00": "Alternating Lanes/Grinding Operation  PM49.000",
  "closure:C80OA-0034-2026-06-21-07:01:00": "Full/Highway Construction East PM49.000",
  "closure:C80OA-0035-2026-06-21-07:01:00": "Full/Highway Construction East PM49.000",
@@ -43,6 +42,5 @@
  "closure:C80OA-0037-2026-06-21-07:01:00": "Full/Highway Construction East PM46.310",
  "closure:C80OA-0111-2026-04-07-07:01:00": "Full/Highway Construction East PM46.310",
  "closure:C80OB-0017-2026-10-02-06:01:00": "Lane/Electrical Work  PM50.736",
- "closure:C80OB-0032-2026-09-28-20:01:00": "Full/Falsework Installation  PM53.356",
- "closure:M80WA-0002-2026-10-02-08:30:00": "Lane/Fence Work  PM4.160"
+ "closure:T80JB-0004-2026-10-02-11:15:00": "Full/Emergency Work East PM41.873"
 }
