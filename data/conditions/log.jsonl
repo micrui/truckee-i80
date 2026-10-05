@@ -3090,3 +3090,7 @@
 {"t": "2026-10-05T14:11:25+00:00", "key": "closure:C80XA-0045-2026-10-04-20:01:00", "was": "Lane/Guardrail Work  PM34.500", "now": null}
 {"t": "2026-10-05T14:11:25+00:00", "key": "closure:P80UA-0006-2026-10-04-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
 {"t": "2026-10-05T14:11:25+00:00", "key": "closure:P80UA-0011-2026-10-04-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
+{"t": "2026-10-05T21:54:58+00:00", "key": "closure:C80BA-0001-2026-10-05-07:30:00", "was": null, "now": "Lane/Emergency Work  PM27.115"}
+{"t": "2026-10-05T21:54:58+00:00", "key": "closure:P80UA-0001-2026-10-05-08:01:00", "was": null, "now": "Lane/Tree Work  PM18.964"}
+{"t": "2026-10-05T21:54:58+00:00", "key": "closure:P80UA-0016-2026-10-05-08:01:00", "was": null, "now": "Lane/Utility Work  PM52.758"}
+{"t": "2026-10-05T21:54:58+00:00", "key": "closure:C80XA-0019-2026-10-04-20:01:00", "was": "Lane/Drainage Work  PM41.250", "now": null}
