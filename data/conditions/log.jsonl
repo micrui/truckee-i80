@@ -3129,3 +3129,30 @@
 {"t": "2026-10-06T05:49:58+00:00", "key": "closure:M80GB-0004-2026-10-05-06:01:00", "was": "Lane/Guardrail Repair  PM5.469", "now": null}
 {"t": "2026-10-06T05:49:58+00:00", "key": "closure:P80UA-0001-2026-10-05-08:01:00", "was": "Lane/Tree Work  PM18.964", "now": null}
 {"t": "2026-10-06T05:49:58+00:00", "key": "closure:P80UA-0016-2026-10-05-08:01:00", "was": "Lane/Utility Work  PM52.758", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80OA-0002-2026-10-06-06:01:00", "was": null, "now": "Alternating Lanes/Concrete Pour  PM43.167"}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80OA-0007-2026-10-06-06:01:00", "was": null, "now": "Alternating Lanes/Grinding Operation  PM49.000"}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80OB-0033-2026-10-06-06:01:00", "was": null, "now": "Lane/Electrical Work  PM50.736"}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0037-2026-10-06-04:01:00", "was": null, "now": "Lane/Guardrail Work  PM38.347"}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0038-2026-10-06-04:01:00", "was": null, "now": "Lane/Guardrail Work  PM39.250"}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0039-2026-10-06-04:01:00", "was": null, "now": "Lane/Guardrail Work  PM41.750"}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0040-2026-10-06-04:01:00", "was": null, "now": "Lane/Guardrail Work  PM43.500"}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0041-2026-10-06-04:01:00", "was": null, "now": "Lane/Guardrail Work  PM34.500"}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0015-2026-10-05-21:01:00", "was": "Lane/Fiber optic installation  PM34.992", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0033-2026-10-05-21:01:00", "was": "Lane/Fiber optic installation  PM24.000", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0037-2026-10-05-21:01:00", "was": "Full/Fiber optic installation West PM23.429", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0041-2026-10-05-21:01:00", "was": "Full/Fiber optic installation West PM23.429", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0045-2026-10-05-21:01:00", "was": "Lane/Fiber optic installation  PM16.846", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0049-2026-10-05-21:01:00", "was": "Full/Fiber optic installation West PM16.846", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0053-2026-10-05-21:01:00", "was": "Lane/Fiber optic installation  PM11.392", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0057-2026-10-05-21:01:00", "was": "Full/Fiber optic installation West PM10.350", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0061-2026-10-05-21:01:00", "was": "Full/Fiber optic installation West PM10.350", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80QB-0069-2026-10-05-21:01:00", "was": "Full/Fiber optic installation West PM16.846", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0046-2026-10-05-17:01:00", "was": "Lane/Guardrail Work  PM38.300", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0047-2026-10-05-17:01:00", "was": "Lane/Guardrail Work  PM34.500", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0048-2026-10-05-17:01:00", "was": "Lane/Guardrail Work  PM39.250", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0049-2026-10-05-18:01:00", "was": "Full/Drainage Work  PM41.372", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:C80XA-0050-2026-10-05-18:01:00", "was": "Full/Drainage Work East PM41.873", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:P80TA-0001-2026-10-05-20:01:00", "was": "Lane/Utility Work  PM9.646", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:P80TA-0005-2026-10-05-20:01:00", "was": "Lane/Utility Work  PM9.300", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:P80UA-0007-2026-10-05-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
+{"t": "2026-10-06T13:07:37+00:00", "key": "closure:P80UA-0012-2026-10-05-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
