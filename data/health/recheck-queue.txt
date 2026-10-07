@@ -3,4 +3,8 @@
 # never auto-pass there). Recheck from a local session with
 # .claude/skills/browser-linkcheck/probe.js, record the outcome as a dated
 # addendum in the current data/health report, and remove cleared lines.
+# 2026-10-07 local run: this page returned HTTP 403 (empty body) from a
+# residential connection too, in the probe, curl, and an interactive browser,
+# while the chp.ca.gov homepage served normally. Not a cloud artifact; see the
+# addendum in data/health/2026-10.md. Kept here until the citation is settled.
 https://www.chp.ca.gov/programs-services/services-information/switrs-internet-statewide-integrated-traffic-records-system
