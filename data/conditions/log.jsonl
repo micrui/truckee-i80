@@ -3671,3 +3671,5 @@
 {"t": "2026-10-15T16:42:15+00:00", "key": "closure:C80XA-0020-2026-10-14-21:01:00", "was": "Lane/Guardrail Work  PM43.500", "now": null}
 {"t": "2026-10-15T16:42:15+00:00", "key": "closure:P80UA-0010-2026-10-14-19:01:00", "was": "Lane/AC Paving  PM7.524", "now": null}
 {"t": "2026-10-15T16:42:15+00:00", "key": "closure:P80UA-0015-2026-10-14-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
+{"t": "2026-10-15T21:09:31+00:00", "key": "closure:C80MA-0003-2026-10-15-07:01:00", "was": "Lane/Shoulder Work  PM2.545", "now": null}
+{"t": "2026-10-15T21:09:31+00:00", "key": "closure:M80EB-0001-2026-10-15-09:01:00", "was": "Full/Tree Work East PM3.067", "now": null}
