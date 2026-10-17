@@ -3749,3 +3749,7 @@
 {"t": "2026-10-16T23:22:39+00:00", "key": "closure:C80OB-0045-2026-10-16-06:01:00", "was": "Lane/Electrical Work East PM54.812", "now": null}
 {"t": "2026-10-16T23:22:39+00:00", "key": "closure:C80OB-0050-2026-10-16-06:01:00", "was": "Lane/Electrical Work  PM54.812", "now": null}
 {"t": "2026-10-16T23:22:39+00:00", "key": "closure:C80QB-0086-2026-10-16-07:01:00", "was": "Lane/Fiber optic installation  PM42.200", "now": null}
+{"t": "2026-10-17T03:52:47+00:00", "key": "closure:C80OB-0038-2026-10-16-20:01:00", "was": null, "now": "Alternating Lanes/Bridge Work  PM29.323"}
+{"t": "2026-10-17T03:52:47+00:00", "key": "closure:C80OB-0067-2026-10-16-20:01:00", "was": null, "now": "One-Way Traffic/Tree Work East / West PM38.975"}
+{"t": "2026-10-17T03:52:47+00:00", "key": "closure:C80OA-0010-2026-10-16-06:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM49.000", "now": null}
+{"t": "2026-10-17T03:52:47+00:00", "key": "closure:P80UA-0006-2026-10-16-07:01:00", "was": "One-Way Traffic/Utility Work  PM44.752", "now": null}
