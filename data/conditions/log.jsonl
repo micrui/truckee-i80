@@ -3883,3 +3883,5 @@
 {"t": "2026-10-20T14:12:42+00:00", "key": "closure:M80PB-0002-2026-10-19-20:30:00", "was": "Moving/Sweeping Operation  PM14.301", "now": null}
 {"t": "2026-10-20T14:12:42+00:00", "key": "closure:P80UA-0012-2026-10-19-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
 {"t": "2026-10-20T14:12:42+00:00", "key": "closure:P80UA-0017-2026-10-19-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
+{"t": "2026-10-20T19:05:20+00:00", "key": "closure:C80XA-0005-2026-10-19-18:01:00", "was": "Lane/K-rail Removal  PM35.100", "now": null}
+{"t": "2026-10-20T19:05:20+00:00", "key": "closure:C80XA-0011-2026-10-19-18:01:00", "was": "Lane/Guardrail Work  PM39.250", "now": null}
