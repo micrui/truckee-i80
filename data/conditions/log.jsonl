@@ -3885,3 +3885,5 @@
 {"t": "2026-10-20T14:12:42+00:00", "key": "closure:P80UA-0017-2026-10-19-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
 {"t": "2026-10-20T19:05:20+00:00", "key": "closure:C80XA-0005-2026-10-19-18:01:00", "was": "Lane/K-rail Removal  PM35.100", "now": null}
 {"t": "2026-10-20T19:05:20+00:00", "key": "closure:C80XA-0011-2026-10-19-18:01:00", "was": "Lane/Guardrail Work  PM39.250", "now": null}
+{"t": "2026-10-20T23:42:48+00:00", "key": "closure:C80OB-0034-2026-10-20-06:01:00", "was": "Alternating Lanes/Electrical Work  PM50.736", "now": null}
+{"t": "2026-10-20T23:42:48+00:00", "key": "closure:C80QB-0098-2026-10-20-07:01:00", "was": "Lane/Fiber optic installation  PM41.100", "now": null}
