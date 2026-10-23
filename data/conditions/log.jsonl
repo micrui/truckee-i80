@@ -4014,3 +4014,6 @@
 {"t": "2026-10-23T16:49:20+00:00", "key": "closure:P80UA-0015-2026-10-22-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
 {"t": "2026-10-23T16:49:20+00:00", "key": "closure:P80UA-0020-2026-10-22-19:01:00", "was": "Lane/Utility Work  PM7.421", "now": null}
 {"t": "2026-10-23T16:49:20+00:00", "key": "closure:P80UA-0027-2026-10-22-21:01:00", "was": "Lane/Utility Work  PM6.055", "now": null}
+{"t": "2026-10-23T21:14:26+00:00", "key": "closure:C80BA-0005-2026-10-23-07:01:00", "was": "Lane/Emergency Work  PM29.489", "now": null}
+{"t": "2026-10-23T21:14:26+00:00", "key": "closure:C80OA-0005-2026-10-23-06:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM43.167", "now": null}
+{"t": "2026-10-23T21:14:26+00:00", "key": "closure:C80OB-0078-2026-10-19-06:01:00", "was": "Full/Falsework Removal  PM53.356", "now": null}
