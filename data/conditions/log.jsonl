@@ -4064,3 +4064,31 @@
 {"t": "2026-10-26T04:11:39+00:00", "key": "closure:M80EB-0002-2026-10-25-21:01:00", "was": null, "now": "Full/Loop Installation West PM1.975"}
 {"t": "2026-10-26T04:11:39+00:00", "key": "closure:P80RA-0017-2026-10-25-19:01:00", "was": null, "now": "Lane/Utility Work North / South PM7.421"}
 {"t": "2026-10-26T12:37:14+00:00", "key": "closure:M80EB-0002-2026-10-25-21:01:00", "was": "Full/Loop Installation West PM1.975", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OA-0001-2026-10-26-06:01:00", "was": null, "now": "Alternating Lanes/Miscellaneous Work  PM43.167"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OA-0006-2026-10-26-06:01:00", "was": null, "now": "Alternating Lanes/Miscellaneous Work  PM49.000"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80XA-0005-2026-10-26-07:01:00", "was": null, "now": "Lane/K-rail Removal  PM38.000"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:P80RA-0001-2026-10-26-08:01:00", "was": null, "now": "Lane/Utility Work West PM6.055"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:P80RA-0006-2026-10-26-08:01:00", "was": null, "now": "Lane/Utility Work North PM6.055"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:P80UA-0001-2026-10-26-07:01:00", "was": null, "now": "Lane/Utility Work  PM38.347"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:P80UA-0006-2026-10-26-07:01:00", "was": null, "now": "Lane/Utility Work  PM38.975"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:P80UA-0011-2026-10-26-08:01:00", "was": null, "now": "One-Way Traffic/Tree Work  PM69.229"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:P80UA-0016-2026-10-26-08:01:00", "was": null, "now": "Lane/Tree Work  PM55.685"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:P80UA-0021-2026-10-26-08:01:00", "was": null, "now": "Lane/Tree Work  PM69.033"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:P80UA-0026-2026-10-26-08:01:00", "was": null, "now": "Lane/Tree Work  PM21.923"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:T80VA-0001-2026-10-26-07:01:00", "was": null, "now": "Lane/Emergency Work  PM29.489"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:T80VA-0002-2026-10-26-07:15:00", "was": null, "now": "Lane/Emergency Work  PM29.323"}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80BC-0001-2026-10-25-21:01:00", "was": "Full/Striping Operation East PM14.186", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80BC-0006-2026-10-25-21:01:00", "was": "Full/Striping Operation East PM14.186", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OA-0111-2026-04-07-07:01:00", "was": "Full/Highway Construction East PM46.310", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0021-2026-10-25-20:01:00", "was": "Full/K-rail Removal  PM53.356", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0044-2026-10-25-20:01:00", "was": "Lane/Tree Work  PM26.300", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0045-2026-10-25-20:01:00", "was": "Full/Tree Work East PM27.392", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0046-2026-10-25-20:01:00", "was": "Full/Tree Work East PM27.392", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0051-2026-10-25-20:01:00", "was": "Alternating Lanes/K-rail Removal  PM50.736", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0052-2026-10-25-20:01:00", "was": "Full/K-rail Removal East PM53.356", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0055-2026-10-25-20:01:00", "was": "Full/K-rail Removal East PM54.812", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0056-2026-10-25-20:01:00", "was": "Lane/Tree Work  PM38.975", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0057-2026-10-25-20:01:00", "was": "Full/Tree Work East PM41.372", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:C80OB-0060-2026-10-25-20:01:00", "was": "One-Way Traffic/Tree Work East / West PM38.975", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:P80RA-0017-2026-10-25-19:01:00", "was": "Lane/Utility Work North / South PM7.421", "now": null}
+{"t": "2026-10-26T20:22:33+00:00", "key": "closure:T80JB-0001-2026-10-25-13:15:00", "was": "Full/Emergency Work West PM41.705", "now": null}
