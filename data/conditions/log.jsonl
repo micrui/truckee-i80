@@ -4063,3 +4063,4 @@
 {"t": "2026-10-26T04:11:39+00:00", "key": "closure:C80OB-0060-2026-10-25-20:01:00", "was": null, "now": "One-Way Traffic/Tree Work East / West PM38.975"}
 {"t": "2026-10-26T04:11:39+00:00", "key": "closure:M80EB-0002-2026-10-25-21:01:00", "was": null, "now": "Full/Loop Installation West PM1.975"}
 {"t": "2026-10-26T04:11:39+00:00", "key": "closure:P80RA-0017-2026-10-25-19:01:00", "was": null, "now": "Lane/Utility Work North / South PM7.421"}
+{"t": "2026-10-26T12:37:14+00:00", "key": "closure:M80EB-0002-2026-10-25-21:01:00", "was": "Full/Loop Installation West PM1.975", "now": null}
