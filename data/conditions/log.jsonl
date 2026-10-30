@@ -4402,3 +4402,5 @@
 {"t": "2026-10-30T17:53:27+00:00", "key": "closure:M80PB-0007-2026-10-29-20:30:00", "was": "Moving/Sweeping Operation  PM0.268", "now": null}
 {"t": "2026-10-30T17:53:27+00:00", "key": "closure:M80PB-0008-2026-10-29-20:30:00", "was": "Moving/Sweeping Operation  PM14.301", "now": null}
 {"t": "2026-10-30T17:53:27+00:00", "key": "closure:P80RA-0021-2026-10-29-19:01:00", "was": "Lane/Utility Work North / South PM7.421", "now": null}
+{"t": "2026-10-30T22:07:26+00:00", "key": "closure:C80BA-0004-2026-10-30-07:30:00", "was": "Lane/Emergency Work  PM29.489", "now": null}
+{"t": "2026-10-30T22:07:26+00:00", "key": "closure:C80OA-0005-2026-10-30-06:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM43.167", "now": null}
