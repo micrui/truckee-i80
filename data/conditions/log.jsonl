@@ -4425,3 +4425,15 @@
 {"t": "2026-10-31T04:58:08+00:00", "key": "closure:P80UA-0030-2026-10-30-08:01:00", "was": "Lane/Tree Work  PM21.923", "now": null}
 {"t": "2026-10-31T11:58:48+00:00", "key": "closure:T80GB-0001-2026-10-31-03:30:00", "was": null, "now": "Lane/Emergency Work  PM68.600"}
 {"t": "2026-10-31T11:58:48+00:00", "key": "closure:T80GB-0001-2026-10-30-08:45:00", "was": "Full/Emergency Work  PM13.210", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:P80UA-0011-2026-10-31-07:01:00", "was": null, "now": "Lane/Utility Work  PM38.347"}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:P80UA-0012-2026-10-31-07:01:00", "was": null, "now": "Lane/Utility Work  PM38.975"}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0004-2026-10-30-21:01:00", "was": "Lane/Fiber optic installation  PM6.055", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0005-2026-10-30-21:01:00", "was": "Lane/Fiber optic installation  PM11.392", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0006-2026-10-30-21:01:00", "was": "Full/Fiber optic installation West PM10.350", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0007-2026-10-30-21:01:00", "was": "Full/Fiber optic installation West PM10.350", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0008-2026-10-30-21:01:00", "was": "Lane/Fiber optic installation  PM16.846", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0009-2026-10-30-21:01:00", "was": "Full/Fiber optic installation West PM16.846", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0010-2026-10-30-21:01:00", "was": "Full/Fiber optic installation West PM17.289", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0066-2026-10-30-21:01:00", "was": "Lane/Fiber optic installation  PM34.992", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0079-2026-10-30-21:01:00", "was": "Lane/Fiber optic installation  PM41.000", "now": null}
+{"t": "2026-10-31T17:12:39+00:00", "key": "closure:T80GB-0001-2026-10-31-03:30:00", "was": "Lane/Emergency Work  PM68.600", "now": null}
