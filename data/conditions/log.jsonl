@@ -4460,3 +4460,12 @@
 {"t": "2026-11-01T17:45:05+00:00", "key": "closure:C80OA-0020-2026-11-01-07:01:00", "was": null, "now": "Full/Miscellaneous Work East PM46.310"}
 {"t": "2026-11-01T17:45:05+00:00", "key": "closure:C80OA-0036-2026-06-21-07:01:00", "was": "Full/Highway Construction East PM46.310", "now": null}
 {"t": "2026-11-01T17:45:05+00:00", "key": "closure:C80OA-0037-2026-06-21-07:01:00", "was": "Full/Highway Construction East PM46.310", "now": null}
+{"t": "2026-11-01T21:45:41+00:00", "key": "chain:Truckee:East", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-01T21:45:41+00:00", "key": "chain:DLI (Donner Lake Interchange):West", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-01T21:45:41+00:00", "key": "chain:DLI (Donner Lake Interchange):East", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-01T21:45:41+00:00", "key": "chain:Eagle Lakes:West", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-01T21:45:41+00:00", "key": "chain:Kingvale:West", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-01T21:45:41+00:00", "key": "chain:Kingvale:East", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-01T21:45:41+00:00", "key": "chain:Cisco Grove:West", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-01T21:45:41+00:00", "key": "chain:Rainbow:East", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-01T21:45:41+00:00", "key": "chain:Rainbow:West", "was": "MIN", "now": "R-0"}
