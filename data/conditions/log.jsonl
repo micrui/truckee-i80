@@ -4437,3 +4437,6 @@
 {"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0066-2026-10-30-21:01:00", "was": "Lane/Fiber optic installation  PM34.992", "now": null}
 {"t": "2026-10-31T17:12:39+00:00", "key": "closure:C80QB-0079-2026-10-30-21:01:00", "was": "Lane/Fiber optic installation  PM41.000", "now": null}
 {"t": "2026-10-31T17:12:39+00:00", "key": "closure:T80GB-0001-2026-10-31-03:30:00", "was": "Lane/Emergency Work  PM68.600", "now": null}
+{"t": "2026-11-01T04:45:44+00:00", "key": "closure:T80TB-0001-2026-10-31-14:15:00", "was": null, "now": "Full/Emergency Work  PM22.453"}
+{"t": "2026-11-01T04:45:44+00:00", "key": "closure:P80UA-0011-2026-10-31-07:01:00", "was": "Lane/Utility Work  PM38.347", "now": null}
+{"t": "2026-11-01T04:45:44+00:00", "key": "closure:P80UA-0012-2026-10-31-07:01:00", "was": "Lane/Utility Work  PM38.975", "now": null}
