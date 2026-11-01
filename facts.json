@@ -225,11 +225,11 @@
       "id": "23-usc-145-state-program",
       "claim": "Federal highway law, 23 U.S.C. section 145, describes the federal-aid highway program as \"a federally assisted State program\"; the federal role is funding, not ownership.",
       "status": "verified",
-      "sources": ["https://uscode.house.gov/view.xhtml?req=(title:23%20section:145%20edition:prelim)"],
+      "sources": ["https://uscode.house.gov/us/usc/t23/s145/"],
       "method": "primary-document",
-      "checked": "2026-08-10",
+      "checked": "2026-11-01",
       "pages": ["docs/governance.html"],
-      "notes": ""
+      "notes": "2026-11-01: the House Office of the Law Revision Counsel retired its view.xhtml search URLs (now 404); replaced with the new us/usc/t23/s145 address after confirming the page still carries the quoted phrase."
     },
     {
       "id": "caltrans-district-3-operates",
@@ -335,11 +335,11 @@
       "id": "23-usc-301-toll-prohibition",
       "claim": "Federal law, 23 U.S.C. sections 301 and 129, requires federal-aid highways to be \"free from tolls of all kinds\" with narrow exceptions.",
       "status": "verified",
-      "sources": ["https://uscode.house.gov/view.xhtml?req=%28title%3A23+section%3A129+edition%3Aprelim%29", "https://uscode.house.gov/view.xhtml?req=(title:23%20section:301%20edition:prelim)"],
+      "sources": ["https://uscode.house.gov/us/usc/t23/s129/", "https://uscode.house.gov/us/usc/t23/s301/"],
       "method": "primary-document",
-      "checked": "2026-08-10",
+      "checked": "2026-11-01",
       "pages": ["docs/governance.html", "docs/funding.html"],
-      "notes": ""
+      "notes": "2026-11-01: the House Office of the Law Revision Counsel retired its view.xhtml search URLs (now 404); replaced with the new us/usc/t23/s129 and s301 addresses after confirming section 301 still carries \"free from tolls of all kinds\" and the section titles match."
     },
     {
       "id": "interstate-tolling-pilot",
