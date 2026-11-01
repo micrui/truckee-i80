@@ -4440,3 +4440,17 @@
 {"t": "2026-11-01T04:45:44+00:00", "key": "closure:T80TB-0001-2026-10-31-14:15:00", "was": null, "now": "Full/Emergency Work  PM22.453"}
 {"t": "2026-11-01T04:45:44+00:00", "key": "closure:P80UA-0011-2026-10-31-07:01:00", "was": "Lane/Utility Work  PM38.347", "now": null}
 {"t": "2026-11-01T04:45:44+00:00", "key": "closure:P80UA-0012-2026-10-31-07:01:00", "was": "Lane/Utility Work  PM38.975", "now": null}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:Truckee:East", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:Truckee:West", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:Boca:East", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:DLI (Donner Lake Interchange):West", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:DLI (Donner Lake Interchange):East", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:Eagle Lakes:West", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:Kingvale:West", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:Kingvale:East", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:Cisco Grove:West", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:Rainbow:East", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "chain:Rainbow:West", "was": "R-0", "now": "MIN"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "closure:T80GB-0002-2026-11-01-02:01:00", "was": null, "now": "Full/Snow Removal East PM5.469"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "closure:T80GB-0003-2026-11-01-02:01:00", "was": null, "now": "Full/Snow Removal West PM5.923"}
+{"t": "2026-11-01T11:42:04+00:00", "key": "closure:T80TB-0001-2026-10-31-14:15:00", "was": "Full/Emergency Work  PM22.453", "now": null}
