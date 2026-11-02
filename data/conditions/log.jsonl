@@ -4469,3 +4469,11 @@
 {"t": "2026-11-01T21:45:41+00:00", "key": "chain:Cisco Grove:West", "was": "MIN", "now": "R-0"}
 {"t": "2026-11-01T21:45:41+00:00", "key": "chain:Rainbow:East", "was": "MIN", "now": "R-0"}
 {"t": "2026-11-01T21:45:41+00:00", "key": "chain:Rainbow:West", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-02T07:58:48+00:00", "key": "closure:C80OB-0001-2026-11-01-20:01:00", "was": null, "now": "Alternating Lanes/Falsework Removal  PM26.300"}
+{"t": "2026-11-02T07:58:48+00:00", "key": "closure:C80OB-0010-2026-11-01-21:01:00", "was": null, "now": "Alternating Lanes/Falsework Removal  PM29.323"}
+{"t": "2026-11-02T07:58:48+00:00", "key": "closure:C80OB-0018-2026-11-01-20:01:00", "was": null, "now": "Full/Tree Work East PM27.392"}
+{"t": "2026-11-02T07:58:48+00:00", "key": "closure:C80OB-0023-2026-11-01-20:01:00", "was": null, "now": "Full/Tree Work East PM27.392"}
+{"t": "2026-11-02T07:58:48+00:00", "key": "closure:C80OB-0028-2026-11-01-20:01:00", "was": null, "now": "Lane/Erosion Control  PM50.736"}
+{"t": "2026-11-02T07:58:48+00:00", "key": "closure:C80XA-0001-2026-11-01-20:01:00", "was": null, "now": "Lane/Striping Operation  PM35.100"}
+{"t": "2026-11-02T07:58:48+00:00", "key": "closure:C80XA-0002-2026-11-01-20:01:00", "was": null, "now": "Lane/Striping Operation  PM44.700"}
+{"t": "2026-11-02T07:58:48+00:00", "key": "closure:C80XA-0003-2026-11-01-20:01:00", "was": null, "now": "Lane/Striping Operation  PM43.300"}
