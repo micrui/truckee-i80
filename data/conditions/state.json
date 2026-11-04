@@ -32,7 +32,6 @@
  "chain:Truckee:West": "R-0",
  "chain:Whitmore:East": "R-0",
  "chain:Yuba Gap:East": "R-0",
- "closure:C80BA-0002-2026-11-03-07:30:00": "Lane/Emergency Work  PM29.489",
  "closure:C80BB-0002-2026-11-03-07:01:00": "Lane/Drainage Work  PM66.660",
  "closure:C80BB-0008-2026-11-03-07:01:00": "Lane/Drainage Work  PM68.250",
  "closure:C80BB-0012-2026-11-03-07:01:00": "Lane/Drainage Work  PM51.250",
@@ -45,11 +44,6 @@
  "closure:C80OA-0022-2026-10-14-07:01:00": "Full/Miscellaneous Work East PM49.000",
  "closure:C80OA-0022-2026-11-03-06:01:00": "Alternating Lanes/Miscellaneous Work  PM43.167",
  "closure:C80OA-0027-2026-11-03-06:01:00": "Alternating Lanes/Miscellaneous Work  PM49.000",
- "closure:C80OB-0037-2026-11-03-06:01:00": "Lane/Electrical Work  PM53.356",
  "closure:M80GB-0001-2026-11-03-07:01:00": "Lane/Guardrail Repair  PM58.712",
- "closure:M80GB-0002-2026-11-03-10:01:00": "Lane/Guardrail Repair  PM5.166",
- "closure:P80UA-0002-2026-11-03-08:01:00": "Lane/Tree Work  PM21.923",
- "closure:P80UA-0007-2026-11-03-08:01:00": "Lane/Tree Work  PM31.413",
- "closure:P80UA-0014-2026-11-03-07:01:00": "Lane/Utility Work  PM38.975",
- "closure:P80UA-0019-2026-11-03-07:01:00": "Lane/Utility Work  PM38.347"
+ "closure:M80GB-0002-2026-11-03-10:01:00": "Lane/Guardrail Repair  PM5.166"
 }
