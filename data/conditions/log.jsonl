@@ -4814,3 +4814,5 @@
 {"t": "2026-11-07T18:11:03+00:00", "key": "closure:P80UA-0002-2026-11-07-07:01:00", "was": null, "now": "Lane/Utility Work  PM38.347"}
 {"t": "2026-11-07T18:11:03+00:00", "key": "closure:C80OB-0052-2026-11-06-22:01:00", "was": "Alternating Lanes/Striping Operation  PM50.736", "now": null}
 {"t": "2026-11-07T18:11:03+00:00", "key": "closure:C80OB-0057-2026-11-06-22:01:00", "was": "Full/Striping Operation East PM53.356", "now": null}
+{"t": "2026-11-08T01:42:38+00:00", "key": "closure:P80UA-0001-2026-11-07-07:01:00", "was": "Lane/Utility Work  PM38.975", "now": null}
+{"t": "2026-11-08T01:42:38+00:00", "key": "closure:P80UA-0002-2026-11-07-07:01:00", "was": "Lane/Utility Work  PM38.347", "now": null}
