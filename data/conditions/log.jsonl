@@ -4838,3 +4838,7 @@
 {"t": "2026-11-09T04:57:43+00:00", "key": "closure:C80XA-0054-2026-11-08-20:01:00", "was": null, "now": "Full/Striping Operation West PM38.347"}
 {"t": "2026-11-09T04:57:43+00:00", "key": "closure:P80RA-0004-2026-11-08-19:01:00", "was": null, "now": "Lane/Utility Work East PM7.421"}
 {"t": "2026-11-09T04:57:43+00:00", "key": "closure:P80RA-0009-2026-11-08-19:01:00", "was": null, "now": "Lane/Utility Work South PM7.421"}
+{"t": "2026-11-09T13:44:49+00:00", "key": "closure:C80OB-0064-2026-11-08-21:01:00", "was": null, "now": "Alternating Lanes/K-rail Removal  PM29.323"}
+{"t": "2026-11-09T13:44:49+00:00", "key": "closure:C80OB-0069-2026-11-08-21:01:00", "was": null, "now": "Alternating Lanes/K-rail Removal  PM54.812"}
+{"t": "2026-11-09T13:44:49+00:00", "key": "closure:C80OB-0078-2026-11-08-20:01:00", "was": "Full/K-rail Removal East PM28.587", "now": null}
+{"t": "2026-11-09T13:44:49+00:00", "key": "closure:C80OB-0079-2026-11-08-20:01:00", "was": "Full/K-rail Removal East PM28.587", "now": null}
