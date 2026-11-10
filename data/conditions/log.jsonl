@@ -4912,3 +4912,11 @@
 {"t": "2026-11-10T04:43:39+00:00", "key": "closure:C80OB-0047-2026-11-09-06:01:00", "was": "Alternating Lanes/Electrical Work  PM53.356", "now": null}
 {"t": "2026-11-10T04:43:39+00:00", "key": "closure:T80JB-0002-2026-11-09-08:01:00", "was": "Full/Striping Operation East PM41.873", "now": null}
 {"t": "2026-11-10T04:43:39+00:00", "key": "closure:T80JB-0003-2026-11-09-07:15:00", "was": "Full/Striping Operation East PM41.873", "now": null}
+{"t": "2026-11-10T13:16:51+00:00", "key": "closure:M80BC-0003-2026-11-09-22:01:00", "was": null, "now": "Lane/Guardrail Repair  PM6.415"}
+{"t": "2026-11-10T13:16:51+00:00", "key": "closure:C80OB-0035-2026-11-09-20:01:00", "was": "Full/K-rail Removal  PM29.323", "now": null}
+{"t": "2026-11-10T13:16:51+00:00", "key": "closure:C80OB-0039-2026-11-09-20:01:00", "was": "Full/K-rail Removal  PM29.323", "now": null}
+{"t": "2026-11-10T13:16:51+00:00", "key": "closure:C80OB-0043-2026-11-09-20:01:00", "was": "Full/K-rail Removal East PM29.323", "now": null}
+{"t": "2026-11-10T13:16:51+00:00", "key": "closure:C80OB-0048-2026-11-09-20:01:00", "was": "Full/K-rail Removal East PM28.587", "now": null}
+{"t": "2026-11-10T13:16:51+00:00", "key": "closure:C80OB-0052-2026-11-09-20:01:00", "was": "Full/K-rail Removal East PM28.587", "now": null}
+{"t": "2026-11-10T13:16:51+00:00", "key": "closure:C80OB-0066-2026-11-09-20:01:00", "was": "Alternating Lanes/K-rail Removal  PM29.323", "now": null}
+{"t": "2026-11-10T13:16:51+00:00", "key": "closure:C80OB-0070-2026-11-09-20:01:00", "was": "Alternating Lanes/K-rail Removal  PM54.812", "now": null}
