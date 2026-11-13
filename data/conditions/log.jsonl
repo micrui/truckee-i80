@@ -5068,3 +5068,9 @@
 {"t": "2026-11-12T20:16:01+00:00", "key": "closure:C80XA-0033-2026-11-11-21:01:00", "was": "Full/Striping Operation East PM41.873", "now": null}
 {"t": "2026-11-12T20:16:01+00:00", "key": "closure:P80RA-0007-2026-11-11-21:01:00", "was": "Lane/Utility Work East PM7.421", "now": null}
 {"t": "2026-11-12T20:16:01+00:00", "key": "closure:P80RA-0012-2026-11-11-21:01:00", "was": "Lane/Utility Work South PM7.421", "now": null}
+{"t": "2026-11-13T01:20:42+00:00", "key": "closure:C80BA-0004-2026-11-12-07:30:00", "was": "Lane/Emergency Work  PM27.115", "now": null}
+{"t": "2026-11-13T01:20:42+00:00", "key": "closure:C80BB-0005-2026-11-12-07:01:00", "was": "Lane/Drainage Work  PM66.333", "now": null}
+{"t": "2026-11-13T01:20:42+00:00", "key": "closure:C80BB-0012-2026-11-12-07:01:00", "was": "Lane/Drainage Work  PM68.250", "now": null}
+{"t": "2026-11-13T01:20:42+00:00", "key": "closure:C80BB-0016-2026-11-12-07:01:00", "was": "Lane/Drainage Work  PM57.900", "now": null}
+{"t": "2026-11-13T01:20:42+00:00", "key": "closure:C80NA-0004-2026-11-12-07:01:00", "was": "Lane/Erosion Control  PM62.147", "now": null}
+{"t": "2026-11-13T01:20:42+00:00", "key": "closure:C80OB-0050-2026-11-12-06:01:00", "was": "Alternating Lanes/Electrical Work  PM53.356", "now": null}
