@@ -5149,3 +5149,28 @@
 {"t": "2026-11-13T22:28:31+00:00", "key": "closure:C80OA-0020-2026-11-01-07:01:00", "was": "Full/Miscellaneous Work East PM46.310", "now": null}
 {"t": "2026-11-13T22:28:31+00:00", "key": "closure:C80OA-0021-2026-10-14-07:01:00", "was": "Full/Miscellaneous Work East PM49.000", "now": null}
 {"t": "2026-11-13T22:28:31+00:00", "key": "closure:C80OA-0022-2026-10-14-07:01:00", "was": "Full/Miscellaneous Work East PM49.000", "now": null}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Truckee:East", "was": "MIN", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Truckee:West", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Boca:East", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Boca:West", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Floriston On-ramp:East", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Floriston On-ramp:West", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:DLI (Donner Lake Interchange):West", "was": "MIN", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:DLI (Donner Lake Interchange):East", "was": "MIN", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Yuba Gap:East", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Eagle Lakes:West", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Nyack:East", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Nyack:West", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Kingvale:West", "was": "MIN", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Kingvale:East", "was": "MIN", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Cisco Grove:East", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Cisco Grove:West", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Rainbow:East", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "chain:Rainbow:West", "was": "MIN", "now": "MAX"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "closure:T80GB-0001-2026-11-13-17:15:00", "was": null, "now": "Full/Snow Removal East PM5.469"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "closure:T80GB-0002-2026-11-13-15:15:00", "was": null, "now": "Full/Snow Removal West PM5.923"}
+{"t": "2026-11-14T02:38:19+00:00", "key": "closure:C80BB-0006-2026-11-13-07:01:00", "was": "Lane/Drainage Work  PM66.333", "now": null}
+{"t": "2026-11-14T02:38:19+00:00", "key": "closure:C80BB-0007-2026-11-13-07:01:00", "was": "Lane/Drainage Work  PM68.250", "now": null}
+{"t": "2026-11-14T02:38:19+00:00", "key": "closure:C80BB-0008-2026-11-13-07:01:00", "was": "Lane/Drainage Work  PM68.250", "now": null}
+{"t": "2026-11-14T02:38:19+00:00", "key": "closure:C80OA-0010-2026-11-13-06:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM49.000", "now": null}
+{"t": "2026-11-14T02:38:19+00:00", "key": "closure:T80GB-0001-2026-11-13-11:45:00", "was": "Lane/Equipment move  PM62.147", "now": null}
