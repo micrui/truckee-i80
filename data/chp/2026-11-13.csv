@@ -1,0 +1,28 @@
+datetime,description,location,direction,lat,lon
+11/13/2026 03:17:00,1182-Trfc Collision-No Inj,0 I80 E,E,39.318488,-120.610601
+11/13/2026 05:11:00,SNOW Information,I80 E / Kingvale Ofr,E,39.313691,-120.448574
+11/13/2026 07:31:00,1182-Trfc Collision-No Inj,Sr20 Onr / I80 E,E,39.325993,-120.595783
+11/13/2026 12:32:00,1183-Trfc Collision-Unkn Inj,I80 W / Drum Forebay Rd Ofr,W,39.239548,-120.752531
+11/13/2026 13:25:00,1182-Trfc Collision-No Inj,I80 E Donner Rest Area / Donner Rest Area Ofr,E,39.340757,-120.34205
+11/13/2026 13:55:00,1179-Trfc Collision-1141 Enrt,I80 E / Donner Rest Area Ofr,E,39.3404,-120.34381
+11/13/2026 15:27:00,1179-Trfc Collision-1141 Enrt,I80 E / Floriston Way Onr,E,39.396289,-120.023579
+11/13/2026 15:25:00,DOT-Request CalTrans Notify,I80 E / Kingvale Onr,E,39.314926,-120.441638
+11/13/2026 15:32:00,1125-Traffic Hazard,I80 E / Soda Springs Ofr,E,39.32409,-120.395365
+11/13/2026 15:34:00,1125-Traffic Hazard,I80 W / Donner Lake Ofr,W,39.33112,-120.286115
+11/13/2026 15:50:00,1125-Traffic Hazard,Sr20 Ofr / I80 W,W,39.325944,-120.600658
+11/13/2026 15:45:00,SPINOUT,0 I80 E,E,39.323561,-120.415875
+11/13/2026 15:44:00,1183-Trfc Collision-Unkn Inj,I80 E / Sr20 Ofr,E,39.325188,-120.601347
+11/13/2026 16:18:00,1183-Trfc Collision-Unkn Inj,I80 E / Central Truckee Ofr,E,39.323946,-120.19714
+11/13/2026 16:35:00,DOT-Request CalTrans Notify,I80 E / Nyack Rd Onr,E,39.294273,-120.676771
+11/13/2026 16:43:00,20002-Hit and Run No Injuries,I80 E / Rainbow Rd Ofr,E,39.311775,-120.504405
+11/13/2026 17:20:00,1125-Traffic Hazard,I80 W / I80 W Vista Point,W,39.329382,-120.280909
+11/13/2026 17:53:00,1125-Traffic Hazard,I80 W / Central Truckee Ofr,W,39.328123,-120.189828
+11/13/2026 17:38:00,1125-Traffic Hazard,I80 W / Sr20 Ofr,W,39.325944,-120.600658
+11/13/2026 18:40:00,MZP-Assist CT with Maintenance,I80 W / Donner Pass Rd Ofr,W,39.323961,-120.221726
+11/13/2026 19:09:00,1184-Provide Traffic Control,I80 E / Blue Canyon Rd Ofr,E,39.282385,-120.706475
+11/13/2026 20:58:00,1125-Traffic Hazard,0 I80 W,W,39.315437,-120.463364
+11/13/2026 21:35:00,1125-Traffic Hazard,I80 E / Soda Springs Ofr,E,39.32409,-120.395365
+11/13/2026 21:27:00,1179-Trfc Collision-1141 Enrt,I80 E / Blue Canyon Rd Onr,E,39.285024,-120.700769
+11/13/2026 21:22:00,1184-Provide Traffic Control,I80 E / Blue Canyon Rd Ofr,E,39.279194,-120.71252
+11/13/2026 22:29:00,1125-Traffic Hazard,I80 E / Donner Pass Rd Ofr,E,39.323717,-120.221912
+11/13/2026 23:19:00,1125-Traffic Hazard,I80 E / Eagle Lakes Rd Ofr,E,39.322186,-120.567698
