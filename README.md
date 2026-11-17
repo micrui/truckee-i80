@@ -6,7 +6,7 @@ traceable to its source. Sibling of
 [truckee-flights](https://github.com/micrui/truckee-flights) (the airport) and
 [truckee-trains](https://github.com/micrui/truckee-trains) (the railroad).
 
-**Site: https://micrui.github.io/truckee-i80**
+**Site: https://micrui.net/truckee/i80**
 
 - How the road got here: a sourced timeline from the 1864 wagon road to the
   current rehabilitation projects.

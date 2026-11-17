@@ -1,8 +1,8 @@
 # CLAUDE.md: truckee-i80
 
 Public record of Interstate 80 over Donner Pass at Truckee: traffic volumes, chain control and
-closures, incidents, governance, funding, history. Site: https://micrui.github.io/truckee-i80
-(GitHub Pages from `/docs`).
+closures, incidents, governance, funding, history. Site: https://micrui.net/truckee/i80
+(GitHub Pages publishes `/docs`; micrui.net serves the pages from there, so GitHub Pages stays on).
 
 ## Voice and editorial rules (non-negotiable)
 
