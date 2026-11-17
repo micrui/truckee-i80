@@ -5299,3 +5299,18 @@
 {"t": "2026-11-16T17:17:32+00:00", "key": "closure:C80WB-0053-2026-11-15-21:01:00", "was": "One-Way Traffic/Bridge Work  PM23.429", "now": null}
 {"t": "2026-11-16T17:17:32+00:00", "key": "closure:C80WB-0058-2026-11-15-20:01:00", "was": "Lane/Bridge Work  PM64.212", "now": null}
 {"t": "2026-11-16T17:17:32+00:00", "key": "closure:P80RA-0004-2026-11-15-19:01:00", "was": "Lane/Utility Work East PM7.421", "now": null}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Truckee:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Truckee:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Castle Peak, (@ DRA Holding only):East", "was": "R-2", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:DLI (Donner Lake Interchange):West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:DLI (Donner Lake Interchange):East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Yuba Gap:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Eagle Lakes:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Nyack:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Nyack:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Kingvale:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Kingvale:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Cisco Grove:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Cisco Grove:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Rainbow:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-17T00:57:43+00:00", "key": "chain:Rainbow:West", "was": "MAX", "now": "R-0"}
