@@ -5365,3 +5365,13 @@
 {"t": "2026-11-17T18:24:14+00:00", "key": "closure:C80QB-0075-2026-11-16-21:01:00", "was": "Full/Fiber optic installation West PM23.429", "now": null}
 {"t": "2026-11-17T18:24:14+00:00", "key": "closure:C80QB-0079-2026-11-16-21:01:00", "was": "Full/Fiber optic installation West PM23.429", "now": null}
 {"t": "2026-11-17T18:24:14+00:00", "key": "closure:P80RA-0005-2026-11-16-19:01:00", "was": "Lane/Utility Work East PM7.421", "now": null}
+{"t": "2026-11-18T01:09:40+00:00", "key": "chain:Truckee:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-18T01:09:40+00:00", "key": "chain:Truckee:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-18T01:09:40+00:00", "key": "chain:Boca:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-18T01:09:40+00:00", "key": "chain:DLI (Donner Lake Interchange):West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-18T01:09:40+00:00", "key": "chain:DLI (Donner Lake Interchange):East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-18T01:09:40+00:00", "key": "chain:Kingvale:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-18T01:09:40+00:00", "key": "chain:Kingvale:East", "was": "R-2", "now": "R-0"}
+{"t": "2026-11-18T01:09:40+00:00", "key": "chain:Rainbow:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-18T01:09:40+00:00", "key": "closure:C80OB-0011-2026-11-17-07:01:00", "was": "Lane/Guardrail Work  PM53.356", "now": null}
+{"t": "2026-11-18T01:09:40+00:00", "key": "closure:C80OB-0012-2026-11-17-07:01:00", "was": "Lane/Shoulder Work  PM54.812", "now": null}
