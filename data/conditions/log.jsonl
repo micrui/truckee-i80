@@ -5460,3 +5460,12 @@
 {"t": "2026-11-19T16:23:40+00:00", "key": "closure:C80QB-0077-2026-11-18-21:01:00", "was": "Full/Fiber optic installation West PM23.429", "now": null}
 {"t": "2026-11-19T16:23:40+00:00", "key": "closure:C80QB-0081-2026-11-18-21:01:00", "was": "Full/Fiber optic installation West PM23.429", "now": null}
 {"t": "2026-11-19T16:23:40+00:00", "key": "closure:P80RA-0007-2026-11-18-19:01:00", "was": "Lane/Utility Work East PM7.421", "now": null}
+{"t": "2026-11-19T23:09:30+00:00", "key": "chain:Boca:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-19T23:09:30+00:00", "key": "chain:Floriston On-ramp:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-19T23:09:30+00:00", "key": "chain:Alta:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-19T23:09:30+00:00", "key": "chain:Alta:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-19T23:09:30+00:00", "key": "chain:Baxter:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-19T23:09:30+00:00", "key": "chain:Baxter:West", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-19T23:09:30+00:00", "key": "chain:Drum:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-19T23:09:30+00:00", "key": "chain:Whitmore:East", "was": "MAX", "now": "R-0"}
+{"t": "2026-11-19T23:09:30+00:00", "key": "chain:Drum (Whitmore):West", "was": "MAX", "now": "R-0"}
