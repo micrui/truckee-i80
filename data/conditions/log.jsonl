@@ -5476,3 +5476,12 @@
 {"t": "2026-11-20T04:09:54+00:00", "key": "closure:C80OA-0009-2026-11-19-06:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM49.000", "now": null}
 {"t": "2026-11-20T04:09:54+00:00", "key": "closure:C80OA-0014-2026-11-19-06:01:00", "was": "Full/Miscellaneous Work East PM46.935", "now": null}
 {"t": "2026-11-20T04:09:54+00:00", "key": "closure:C80OA-0019-2026-11-19-06:01:00", "was": "Full/Miscellaneous Work East PM46.935", "now": null}
+{"t": "2026-11-20T13:26:15+00:00", "key": "chain:Boca:East", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-20T13:26:15+00:00", "key": "chain:Alta:West", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-20T13:26:15+00:00", "key": "chain:Alta:East", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-20T13:26:15+00:00", "key": "chain:Baxter:East", "was": "R-0", "now": "R-2"}
+{"t": "2026-11-20T13:26:15+00:00", "key": "chain:Baxter:West", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-20T13:26:15+00:00", "key": "chain:Drum:East", "was": "R-0", "now": "MAX"}
+{"t": "2026-11-20T13:26:15+00:00", "key": "chain:Whitmore:East", "was": "R-0", "now": "R-2"}
+{"t": "2026-11-20T13:26:15+00:00", "key": "chain:Drum (Whitmore):West", "was": "R-0", "now": "R-2"}
+{"t": "2026-11-20T13:26:15+00:00", "key": "closure:P80RA-0008-2026-11-19-19:01:00", "was": "Lane/Utility Work East PM7.421", "now": null}
