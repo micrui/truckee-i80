@@ -5543,3 +5543,10 @@
 {"t": "2026-11-22T10:47:22+00:00", "key": "chain:Rainbow:West", "was": "R-0", "now": "MIN"}
 {"t": "2026-11-22T10:47:22+00:00", "key": "closure:T80EB-0001-2026-11-21-03:45:00", "was": "Lane/Emergency Work  PM10.350", "now": null}
 {"t": "2026-11-22T10:47:22+00:00", "key": "closure:T80EB-0002-2026-11-21-03:45:00", "was": "Lane/Emergency Work West PM10.350", "now": null}
+{"t": "2026-11-22T18:15:08+00:00", "key": "chain:Truckee:East", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-22T18:15:08+00:00", "key": "chain:Castle Peak, (@ DRA Holding only):East", "was": "R-2", "now": "R-0"}
+{"t": "2026-11-22T18:15:08+00:00", "key": "chain:DLI (Donner Lake Interchange):West", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-22T18:15:08+00:00", "key": "chain:DLI (Donner Lake Interchange):East", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-22T18:15:08+00:00", "key": "chain:Kingvale:West", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-22T18:15:08+00:00", "key": "chain:Kingvale:East", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-22T18:15:08+00:00", "key": "chain:Rainbow:West", "was": "MIN", "now": "R-0"}
