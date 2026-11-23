@@ -5550,3 +5550,7 @@
 {"t": "2026-11-22T18:15:08+00:00", "key": "chain:Kingvale:West", "was": "MIN", "now": "R-0"}
 {"t": "2026-11-22T18:15:08+00:00", "key": "chain:Kingvale:East", "was": "MIN", "now": "R-0"}
 {"t": "2026-11-22T18:15:08+00:00", "key": "chain:Rainbow:West", "was": "MIN", "now": "R-0"}
+{"t": "2026-11-23T18:37:05+00:00", "key": "closure:C80OA-0001-2026-11-23-06:01:00", "was": null, "now": "Alternating Lanes/Miscellaneous Work  PM43.167"}
+{"t": "2026-11-23T18:37:05+00:00", "key": "closure:C80OA-0004-2026-11-23-06:01:00", "was": null, "now": "Alternating Lanes/Miscellaneous Work  PM49.000"}
+{"t": "2026-11-23T18:37:05+00:00", "key": "closure:C80OB-0002-2026-11-23-06:01:00", "was": null, "now": "Full/Falsework Removal  PM53.356"}
+{"t": "2026-11-23T18:37:05+00:00", "key": "closure:C80XA-0002-2026-11-23-06:01:00", "was": null, "now": "Lane/Drainage Work  PM41.705"}
