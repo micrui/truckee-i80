@@ -5557,3 +5557,5 @@
 {"t": "2026-11-24T04:11:47+00:00", "key": "closure:C80OA-0001-2026-11-23-06:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM43.167", "now": null}
 {"t": "2026-11-24T04:11:47+00:00", "key": "closure:C80OA-0004-2026-11-23-06:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM49.000", "now": null}
 {"t": "2026-11-24T04:11:47+00:00", "key": "closure:C80XA-0002-2026-11-23-06:01:00", "was": "Lane/Drainage Work  PM41.705", "now": null}
+{"t": "2026-11-24T15:07:36+00:00", "key": "closure:C80OA-0002-2026-11-24-06:01:00", "was": null, "now": "Alternating Lanes/Miscellaneous Work  PM43.167"}
+{"t": "2026-11-24T15:07:36+00:00", "key": "closure:C80OA-0005-2026-11-24-06:01:00", "was": null, "now": "Alternating Lanes/Miscellaneous Work  PM49.000"}
