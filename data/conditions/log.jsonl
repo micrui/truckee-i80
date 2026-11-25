@@ -5570,3 +5570,15 @@
 {"t": "2026-11-25T08:15:00+00:00", "key": "closure:C80OA-0002-2026-11-24-06:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM43.167", "now": null}
 {"t": "2026-11-25T08:15:00+00:00", "key": "closure:C80OA-0005-2026-11-24-06:01:00", "was": "Alternating Lanes/Miscellaneous Work  PM49.000", "now": null}
 {"t": "2026-11-25T08:15:00+00:00", "key": "closure:C80OB-0002-2026-11-23-06:01:00", "was": "Full/Falsework Removal  PM53.356", "now": null}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80NA-0003-2026-11-25-06:01:00", "was": null, "now": "Alternating Lanes/Maintenance Operation  PM62.147"}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80NA-0004-2026-11-25-06:01:00", "was": null, "now": "Lane/Emergency Work  PM58.835"}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80OB-0003-2026-11-25-08:01:00", "was": null, "now": "Alternating Lanes/Striping Operation  PM53.356"}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:M80VA-0001-2026-11-25-09:30:00", "was": null, "now": "Lane/Tree Work  PM23.429"}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80QB-0014-2026-11-24-21:01:00", "was": "Lane/Fiber optic installation  PM17.117", "now": null}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80QB-0023-2026-11-24-21:01:00", "was": "Lane/Fiber optic installation  PM34.992", "now": null}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80QB-0068-2026-11-24-21:01:00", "was": "Full/Fiber optic installation West PM16.846", "now": null}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80QB-0071-2026-11-24-21:01:00", "was": "Lane/Fiber optic installation  PM23.429", "now": null}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80QB-0073-2026-11-24-21:01:00", "was": "Full/Fiber optic installation West PM23.429", "now": null}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80QB-0075-2026-11-24-21:01:00", "was": "Full/Fiber optic installation  PM23.429", "now": null}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80QB-0085-2026-11-24-21:01:00", "was": "Full/Utility Work West PM33.131", "now": null}
+{"t": "2026-11-25T18:45:38+00:00", "key": "closure:C80QB-0087-2026-11-24-21:01:00", "was": "Full/Utility Work West PM34.992", "now": null}
